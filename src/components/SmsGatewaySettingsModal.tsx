@@ -285,10 +285,27 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
 
           {selectedProvider === 'twilio' && (
             <div className="bg-surface-container-low p-4 rounded-xl border border-border-subtle space-y-3">
-              <span className="font-bold text-primary text-xs flex items-center gap-1.5">
-                <span className="material-symbols-outlined text-secondary text-[18px]">key</span>
-                Twilio Account Credentials
-              </span>
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-primary text-xs flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-secondary text-[18px]">cloud</span>
+                  Twilio Cloud Sandbox Setup
+                </span>
+                <span className="bg-primary/10 text-primary font-bold text-[10px] px-2 py-0.5 rounded-full border border-primary/20">
+                  Vercel Serverless Ready
+                </span>
+              </div>
+
+              <div className="p-3 bg-surface-card rounded-lg border border-border-subtle text-[11px] text-on-surface-variant leading-relaxed">
+                <strong>Two Ways to Connect Twilio:</strong>
+                <ul className="list-disc pl-4 mt-1 space-y-1">
+                  <li>
+                    <strong>Vercel Backend (Production):</strong> Add <code className="bg-surface-container px-1 py-0.2 rounded font-mono">TWILIO_ACCOUNT_SID</code>, <code className="bg-surface-container px-1 py-0.2 rounded font-mono">TWILIO_AUTH_TOKEN</code>, and <code className="bg-surface-container px-1 py-0.2 rounded font-mono">TWILIO_FROM_NUMBER</code> to your Vercel Project Settings &gt; Environment Variables. DBT-GUARD automatically dispatches via <code className="bg-surface-container px-1 py-0.2 rounded font-mono">/api/send-sms</code>.
+                  </li>
+                  <li>
+                    <strong>Direct Local Testing:</strong> Or enter your sandbox credentials below to test immediately without re-deploying.
+                  </li>
+                </ul>
+              </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 <div>

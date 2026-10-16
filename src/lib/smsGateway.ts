@@ -215,13 +215,52 @@ class SMSGatewayService {
   }
 
   /**
-   * Twilio REST API Dispatch
+   * Twilio REST API Dispatch (Serverless Endpoint + Direct Fallback)
    */
   private async sendViaTwilio(
     recipient: string,
     message: string,
     timestamp: string
   ): Promise<SMSDispatchResult> {
+    // 1. First, attempt dispatch via secure Vercel Serverless Function (/api/send-sms)
+    try {
+      const serverlessRes = await fetch('/api/send-sms', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ to: recipient, message, provider: 'twilio' }),
+      });
+
+      if (serverlessRes.ok) {
+        const data = await serverlessRes.json();
+        return {
+          success: true,
+          provider: 'twilio',
+          messageId: data.messageId || `SM_${Date.now()}`,
+          recipient: data.recipient || recipient,
+          timestamp,
+          deliveryStatus: 'Queued',
+          details: `Dispatched via Vercel Backend Twilio API. SID: ${data.messageId}`,
+        };
+      } else if (serverlessRes.status === 503) {
+        const errJson = await serverlessRes.json().catch(() => ({}));
+        if (!this.config.twilioAccountSid) {
+          return {
+            success: false,
+            provider: 'twilio',
+            messageId: '',
+            recipient,
+            timestamp,
+            deliveryStatus: 'Failed',
+            error: errJson.error || 'Twilio environment variables not configured on Vercel.',
+            details: errJson.instructions || 'Add TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, and TWILIO_FROM_NUMBER to Vercel Environment Variables, or enter credentials in the SMS Gateway modal.',
+          };
+        }
+      }
+    } catch {
+      // Serverless endpoint not reachable in local Vite dev mode without Vercel CLI
+    }
+
+    // 2. Direct client-side dispatch if credentials are provided in UI
     const { twilioAccountSid, twilioAuthToken, twilioFromNumber } = this.config;
 
     if (!twilioAccountSid || !twilioAuthToken || !twilioFromNumber) {
@@ -233,7 +272,7 @@ class SMSGatewayService {
         timestamp,
         deliveryStatus: 'Failed',
         error: 'Twilio Account SID, Auth Token, and From Number are required.',
-        details: 'Missing Twilio credentials',
+        details: 'Configure Vercel Environment Variables or enter credentials in SMS Gateway Settings.',
       };
     }
 
@@ -283,13 +322,38 @@ class SMSGatewayService {
   }
 
   /**
-   * Vonage (Nexmo) Messaging API
+   * Vonage (Nexmo) Messaging API (Serverless Endpoint + Direct Fallback)
    */
   private async sendViaVonage(
     recipient: string,
     message: string,
     timestamp: string
   ): Promise<SMSDispatchResult> {
+    // 1. Attempt Vercel Serverless Function (/api/send-sms)
+    try {
+      const serverlessRes = await fetch('/api/send-sms', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ to: recipient, message, provider: 'vonage' }),
+      });
+
+      if (serverlessRes.ok) {
+        const data = await serverlessRes.json();
+        return {
+          success: true,
+          provider: 'vonage',
+          messageId: data.messageId,
+          recipient,
+          timestamp,
+          deliveryStatus: 'Delivered',
+          details: `Dispatched via Vercel Backend Vonage API. ID: ${data.messageId}`,
+        };
+      }
+    } catch {
+      // Serverless not available
+    }
+
+    // 2. Direct client-side dispatch
     const { vonageApiKey, vonageApiSecret, vonageFromNumber } = this.config;
 
     if (!vonageApiKey || !vonageApiSecret) {
