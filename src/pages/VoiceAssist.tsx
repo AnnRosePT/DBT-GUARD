@@ -96,10 +96,16 @@ export const VoiceAssist: React.FC = () => {
       setIsPlaying(false);
     } else {
       setIsPlaying(true);
-      playMalayalamSpeech(activeMlScript, playbackSpeed, () => {
-        setIsPlaying(false);
-        setCurrentSeconds(0);
-      });
+      playMalayalamSpeech(
+        activeMlScript,
+        playbackSpeed,
+        () => {
+          setIsPlaying(false);
+          setCurrentSeconds(0);
+        },
+        undefined,
+        farmer?.farmer_id || caseCode || 'K135'
+      );
     }
   };
 

@@ -86,6 +86,7 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
 
     setIsPlayingAudio(true);
     MalayalamVoicePlayer.play(voiceScriptMalayalam, caseItem.rule_code, {
+      caseId: caseItem.case_id,
       onEnd: () => setIsPlayingAudio(false),
       onError: () => setIsPlayingAudio(false),
     });
