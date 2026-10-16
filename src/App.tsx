@@ -15,6 +15,7 @@ import { Revalidate } from './pages/Revalidate';
 import { ImportSync } from './pages/ImportSync';
 import { Reports } from './pages/Reports';
 import { QABenchmark } from './pages/QABenchmark';
+import { Presentation } from './pages/Presentation';
 import { useAuthStore } from './store/useAuthStore';
 
 // Role-aware intelligent root redirection
@@ -45,6 +46,9 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Public Presentation & Pitch Deck Mode */}
+        <Route path="/presentation" element={<Presentation />} />
+
         {/* Public Gateway Login Route (First Landing Page) */}
         <Route path="/login" element={<Login />} />
 

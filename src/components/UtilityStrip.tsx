@@ -134,6 +134,15 @@ export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
             {currentUser.badge}
           </span>
 
+          <a
+            href="/presentation"
+            className="bg-emerald-400 text-slate-950 hover:bg-emerald-300 px-2 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider shadow-xs"
+            title="Launch 12-Slide Pitch Deck & PPT Presentation Mode"
+          >
+            <span className="material-symbols-outlined text-[13px]">slideshow</span>
+            <span className="hidden sm:inline">Pitch Deck / PPT</span>
+          </a>
+
           {currentUser.role !== 'farmer' && (
             <>
               <button
