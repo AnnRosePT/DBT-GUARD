@@ -1,0 +1,1001 @@
+farmer_id,name_en,name_ml,aadhaar_token,aadhaar_masked,mobile_masked,mobile_raw,local_body,ward,krishi_bhavan,category,land_seeding_status,ekyc_status,consent_call,issue_injected
+KL-TSR-0001,Ravi K,രവി കെ,7001,XXXX-XXXX-7001,+91 98460XXXXX,9846010001,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NOT_MAPPED
+KL-TSR-0002,Joseph M,ജോസഫ് M,7002,XXXX-XXXX-7002,+91 98460XXXXX,9846010002,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0003,Devaki P,ദേവകി P,7003,XXXX-XXXX-7003,+91 98460XXXXX,9846010003,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0004,Lakshmi R,ലക്ഷ്മി R,7004,XXXX-XXXX-7004,+91 98460XXXXX,9846010004,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0005,Muhammed S,മുഹമ്മദ് S,7005,XXXX-XXXX-7005,+91 98460XXXXX,9846010005,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0006,Fathima V,ഫാത്തിമ V,7006,XXXX-XXXX-7006,+91 98460XXXXX,9846010006,Aloor,Ward 06,KB Aloor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0007,Sreedharan N,ശ്രീധരൻ N,7007,XXXX-XXXX-7007,+91 98460XXXXX,9846010007,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0008,Thomas G,തോമസ് G,7008,XXXX-XXXX-7008,+91 98460XXXXX,9846010008,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0009,Kunjumon T,കുഞ്ഞുമോൻ T,7009,XXXX-XXXX-7009,+91 98460XXXXX,9846010009,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0010,Valsala B,വത്സല B,7010,XXXX-XXXX-7010,+91 98460XXXXX,9846010010,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0011,Gopalan K,ഗോപാലൻ K,7011,XXXX-XXXX-7011,+91 98460XXXXX,9846010011,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0012,Sankaran M,ശങ്കരൻ M,7012,XXXX-XXXX-7012,+91 98460XXXXX,9846010012,Karalam,Ward 12,KB Karalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0013,Radhamani P,രാധാമണി P,7013,XXXX-XXXX-7013,+91 98460XXXXX,9846010013,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0014,Sujatha R,സുജാത R,7014,XXXX-XXXX-7014,+91 98460XXXXX,9846010014,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0015,Balan S,ബാലൻ S,7015,XXXX-XXXX-7015,+91 98460XXXXX,9846010015,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0016,Leela V,ലീല V,7016,XXXX-XXXX-7016,+91 98460XXXXX,9846010016,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0017,Chandran N,ചന്ദ്രൻ N,7017,XXXX-XXXX-7017,+91 98460XXXXX,9846010017,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0018,Mariamma G,മറിയാമ്മ G,7018,XXXX-XXXX-7018,+91 98460XXXXX,9846010018,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0019,Prabhakaran T,പ്രഭാകരൻ T,7019,XXXX-XXXX-7019,+91 98460XXXXX,9846010019,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0020,Antony B,ആന്റണി B,7020,XXXX-XXXX-7020,+91 98460XXXXX,9846010020,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0021,Ravi K,രവി K,7021,XXXX-XXXX-7021,+91 98460XXXXX,9846010021,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0022,Joseph M,ജോസഫ് M,7022,XXXX-XXXX-7022,+91 98460XXXXX,9846010022,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0023,Devaki P,ദേവകി P,7023,XXXX-XXXX-7023,+91 98460XXXXX,9846010023,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0024,Lakshmi R,ലക്ഷ്മി R,7024,XXXX-XXXX-7024,+91 98460XXXXX,9846010024,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0025,Muhammed S,മുഹമ്മദ് S,7025,XXXX-XXXX-7025,+91 98460XXXXX,9846010025,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0026,Fathima V,ഫാത്തിമ V,7026,XXXX-XXXX-7026,+91 98460XXXXX,9846010026,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0027,Sreedharan N,ശ്രീധരൻ N,7027,XXXX-XXXX-7027,+91 98460XXXXX,9846010027,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0028,Thomas G,തോമസ് G,7028,XXXX-XXXX-7028,+91 98460XXXXX,9846010028,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0029,Kunjumon T,കുഞ്ഞുമോൻ T,7029,XXXX-XXXX-7029,+91 98460XXXXX,9846010029,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0030,Valsala B,വത്സല B,7030,XXXX-XXXX-7030,+91 98460XXXXX,9846010030,Aloor,Ward 12,KB Aloor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0031,Gopalan K,ഗോപാലൻ K,7031,XXXX-XXXX-7031,+91 98460XXXXX,9846010031,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0032,Sankaran M,ശങ്കരൻ M,7032,XXXX-XXXX-7032,+91 98460XXXXX,9846010032,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0033,Radhamani P,രാധാമണി P,7033,XXXX-XXXX-7033,+91 98460XXXXX,9846010033,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0034,Sujatha R,സുജാത R,7034,XXXX-XXXX-7034,+91 98460XXXXX,9846010034,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0035,Balan S,ബാലൻ S,7035,XXXX-XXXX-7035,+91 98460XXXXX,9846010035,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0036,Leela V,ലീല V,7036,XXXX-XXXX-7036,+91 98460XXXXX,9846010036,Karalam,Ward 18,KB Karalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0037,Chandran N,ചന്ദ്രൻ N,7037,XXXX-XXXX-7037,+91 98460XXXXX,9846010037,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0038,Mariamma G,മറിയാമ്മ G,7038,XXXX-XXXX-7038,+91 98460XXXXX,9846010038,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0039,Prabhakaran T,പ്രഭാകരൻ T,7039,XXXX-XXXX-7039,+91 98460XXXXX,9846010039,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0040,Antony B,ആന്റണി B,7040,XXXX-XXXX-7040,+91 98460XXXXX,9846010040,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0041,Ravi K,രവി K,7041,XXXX-XXXX-7041,+91 98460XXXXX,9846010041,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0042,Joseph M,ജോസഫ് M,7042,XXXX-XXXX-7042,+91 98460XXXXX,9846010042,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0043,Devaki P,ദേവകി P,7043,XXXX-XXXX-7043,+91 98460XXXXX,9846010043,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0044,Lakshmi R,ലക്ഷ്മി R,7044,XXXX-XXXX-7044,+91 98460XXXXX,9846010044,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0045,Muhammed S,മുഹമ്മദ് S,7045,XXXX-XXXX-7045,+91 98460XXXXX,9846010045,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0046,Fathima V,ഫാത്തിമ V,7046,XXXX-XXXX-7046,+91 98460XXXXX,9846010046,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0047,Sreedharan N,ശ്രീധരൻ N,7047,XXXX-XXXX-7047,+91 98460XXXXX,9846010047,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0048,Thomas G,തോമസ് G,7048,XXXX-XXXX-7048,+91 98460XXXXX,9846010048,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0049,Kunjumon T,കുഞ്ഞുമോൻ T,7049,XXXX-XXXX-7049,+91 98460XXXXX,9846010049,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0050,Valsala B,വത്സല B,7050,XXXX-XXXX-7050,+91 98460XXXXX,9846010050,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0051,Gopalan K,ഗോപാലൻ K,7051,XXXX-XXXX-7051,+91 98460XXXXX,9846010051,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0052,Sankaran M,ശങ്കരൻ M,7052,XXXX-XXXX-7052,+91 98460XXXXX,9846010052,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0053,Radhamani P,രാധാമണി P,7053,XXXX-XXXX-7053,+91 98460XXXXX,9846010053,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0054,Sujatha R,സുജാത R,7054,XXXX-XXXX-7054,+91 98460XXXXX,9846010054,Aloor,Ward 18,KB Aloor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0055,Balan S,ബാലൻ S,7055,XXXX-XXXX-7055,+91 98460XXXXX,9846010055,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0056,Leela V,ലീല V,7056,XXXX-XXXX-7056,+91 98460XXXXX,9846010056,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0057,Chandran N,ചന്ദ്രൻ N,7057,XXXX-XXXX-7057,+91 98460XXXXX,9846010057,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0058,Mariamma G,മറിയാമ്മ G,7058,XXXX-XXXX-7058,+91 98460XXXXX,9846010058,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0059,Prabhakaran T,പ്രഭാകരൻ T,7059,XXXX-XXXX-7059,+91 98460XXXXX,9846010059,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0060,Antony B,ആന്റണി B,7060,XXXX-XXXX-7060,+91 98460XXXXX,9846010060,Karalam,Ward 06,KB Karalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0061,Ravi K,രവി K,7061,XXXX-XXXX-7061,+91 98460XXXXX,9846010061,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0062,Joseph M,ജോസഫ് M,7062,XXXX-XXXX-7062,+91 98460XXXXX,9846010062,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0063,Devaki P,ദേവകി P,7063,XXXX-XXXX-7063,+91 98460XXXXX,9846010063,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0064,Lakshmi R,ലക്ഷ്മി R,7064,XXXX-XXXX-7064,+91 98460XXXXX,9846010064,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0065,Muhammed S,മുഹമ്മദ് S,7065,XXXX-XXXX-7065,+91 98460XXXXX,9846010065,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0066,Fathima V,ഫാത്തിമ V,7066,XXXX-XXXX-7066,+91 98460XXXXX,9846010066,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0067,Sreedharan N,ശ്രീധരൻ N,7067,XXXX-XXXX-7067,+91 98460XXXXX,9846010067,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0068,Thomas G,തോമസ് G,7068,XXXX-XXXX-7068,+91 98460XXXXX,9846010068,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0069,Kunjumon T,കുഞ്ഞുമോൻ T,7069,XXXX-XXXX-7069,+91 98460XXXXX,9846010069,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0070,Valsala B,വത്സല B,7070,XXXX-XXXX-7070,+91 98460XXXXX,9846010070,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0071,Gopalan K,ഗോപാലൻ K,7071,XXXX-XXXX-7071,+91 98460XXXXX,9846010071,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0072,Sankaran M,ശങ്കരൻ M,7072,XXXX-XXXX-7072,+91 98460XXXXX,9846010072,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0073,Radhamani P,രാധാമണി P,7073,XXXX-XXXX-7073,+91 98460XXXXX,9846010073,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0074,Sujatha R,സുജാത R,7074,XXXX-XXXX-7074,+91 98460XXXXX,9846010074,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0075,Balan S,ബാലൻ S,7075,XXXX-XXXX-7075,+91 98460XXXXX,9846010075,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0076,Leela V,ലീല V,7076,XXXX-XXXX-7076,+91 98460XXXXX,9846010076,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0077,Chandran N,ചന്ദ്രൻ N,7077,XXXX-XXXX-7077,+91 98460XXXXX,9846010077,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0078,Mariamma G,മറിയാമ്മ G,7078,XXXX-XXXX-7078,+91 98460XXXXX,9846010078,Aloor,Ward 06,KB Aloor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0079,Prabhakaran T,പ്രഭാകരൻ T,7079,XXXX-XXXX-7079,+91 98460XXXXX,9846010079,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0080,Antony B,ആന്റണി B,7080,XXXX-XXXX-7080,+91 98460XXXXX,9846010080,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0081,Ravi K,രവി K,7081,XXXX-XXXX-7081,+91 98460XXXXX,9846010081,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0082,Joseph M,ജോസഫ് M,7082,XXXX-XXXX-7082,+91 98460XXXXX,9846010082,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0083,Devaki P,ദേവകി P,7083,XXXX-XXXX-7083,+91 98460XXXXX,9846010083,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0084,Lakshmi R,ലക്ഷ്മി R,7084,XXXX-XXXX-7084,+91 98460XXXXX,9846010084,Karalam,Ward 12,KB Karalam,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0085,Muhammed S,മുഹമ്മദ് S,7085,XXXX-XXXX-7085,+91 98460XXXXX,9846010085,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0086,Fathima V,ഫാത്തിമ V,7086,XXXX-XXXX-7086,+91 98460XXXXX,9846010086,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0087,Sreedharan N,ശ്രീധരൻ N,7087,XXXX-XXXX-7087,+91 98460XXXXX,9846010087,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0088,Thomas G,തോമസ് G,7088,XXXX-XXXX-7088,+91 98460XXXXX,9846010088,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0089,Kunjumon T,കുഞ്ഞുമോൻ T,7089,XXXX-XXXX-7089,+91 98460XXXXX,9846010089,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0090,Valsala B,വത്സല B,7090,XXXX-XXXX-7090,+91 98460XXXXX,9846010090,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Pending,Y,EKYC_PENDING
+KL-TSR-0091,Gopalan K,ഗോപാലൻ K,7091,XXXX-XXXX-7091,+91 98460XXXXX,9846010091,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Pending,N,EKYC_PENDING
+KL-TSR-0092,Sankaran M,ശങ്കരൻ M,7092,XXXX-XXXX-7092,+91 98460XXXXX,9846010092,Karalam,Ward 02,KB Karalam,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0093,Radhamani P,രാധാമണി P,7093,XXXX-XXXX-7093,+91 98460XXXXX,9846010093,Padiyur,Ward 03,KB Padiyur,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0094,Sujatha R,സുജാത R,7094,XXXX-XXXX-7094,+91 98460XXXXX,9846010094,Aloor,Ward 04,KB Aloor,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0095,Balan S,ബാലൻ S,7095,XXXX-XXXX-7095,+91 98460XXXXX,9846010095,Vellookkara,Ward 05,KB Vellookkara,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0096,Leela V,ലീല V,7096,XXXX-XXXX-7096,+91 98460XXXXX,9846010096,Poomangalam,Ward 06,KB Poomangalam,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0097,Chandran N,ചന്ദ്രൻ N,7097,XXXX-XXXX-7097,+91 98460XXXXX,9846010097,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0098,Mariamma G,മറിയാമ്മ G,7098,XXXX-XXXX-7098,+91 98460XXXXX,9846010098,Kattoor,Ward 08,KB Kattoor,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0099,Prabhakaran T,പ്രഭാകരൻ T,7099,XXXX-XXXX-7099,+91 98460XXXXX,9846010099,Muriyad,Ward 09,KB Muriyad,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0100,Antony B,ആന്റണി B,7100,XXXX-XXXX-7100,+91 98460XXXXX,9846010100,Karalam,Ward 10,KB Karalam,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0101,Ravi K,രവി K,7101,XXXX-XXXX-7101,+91 98460XXXXX,9846010101,Padiyur,Ward 11,KB Padiyur,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0102,Joseph M,ജോസഫ് M,7102,XXXX-XXXX-7102,+91 98460XXXXX,9846010102,Aloor,Ward 12,KB Aloor,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0103,Devaki P,ദേവകി P,7103,XXXX-XXXX-7103,+91 98460XXXXX,9846010103,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0104,Lakshmi R,ലക്ഷ്മി R,7104,XXXX-XXXX-7104,+91 98460XXXXX,9846010104,Poomangalam,Ward 14,KB Poomangalam,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0105,Muhammed S,മുഹമ്മദ് S,7105,XXXX-XXXX-7105,+91 98460XXXXX,9846010105,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0106,Fathima V,ഫാത്തിമ V,7106,XXXX-XXXX-7106,+91 98460XXXXX,9846010106,Kattoor,Ward 16,KB Kattoor,Small Holder,Pending,Completed,N,LAND_PENDING
+KL-TSR-0107,Sreedharan N,ശ്രീധരൻ N,7107,XXXX-XXXX-7107,+91 98460XXXXX,9846010107,Muriyad,Ward 17,KB Muriyad,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0108,Thomas G,തോമസ് G,7108,XXXX-XXXX-7108,+91 98460XXXXX,9846010108,Karalam,Ward 18,KB Karalam,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0109,Kunjumon T,കുഞ്ഞുമോൻ T,7109,XXXX-XXXX-7109,+91 98460XXXXX,9846010109,Padiyur,Ward 01,KB Padiyur,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0110,Valsala B,വത്സല B,7110,XXXX-XXXX-7110,+91 98460XXXXX,9846010110,Aloor,Ward 02,KB Aloor,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0111,Gopalan K,ഗോപാലൻ K,7111,XXXX-XXXX-7111,+91 98460XXXXX,9846010111,Vellookkara,Ward 03,KB Vellookkara,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0112,Sankaran M,ശങ്കരൻ M,7112,XXXX-XXXX-7112,+91 98460XXXXX,9846010112,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0113,Radhamani P,രാധാമണി P,7113,XXXX-XXXX-7113,+91 98460XXXXX,9846010113,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0114,Sujatha R,സുജാത R,7114,XXXX-XXXX-7114,+91 98460XXXXX,9846010114,Kattoor,Ward 06,KB Kattoor,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0115,Balan S,ബാലൻ S,7115,XXXX-XXXX-7115,+91 98460XXXXX,9846010115,Muriyad,Ward 07,KB Muriyad,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0116,Leela V,ലീല V,7116,XXXX-XXXX-7116,+91 98460XXXXX,9846010116,Karalam,Ward 08,KB Karalam,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0117,Chandran N,ചന്ദ്രൻ N,7117,XXXX-XXXX-7117,+91 98460XXXXX,9846010117,Padiyur,Ward 09,KB Padiyur,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0118,Mariamma G,മറിയാമ്മ G,7118,XXXX-XXXX-7118,+91 98460XXXXX,9846010118,Aloor,Ward 10,KB Aloor,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0119,Prabhakaran T,പ്രഭാകരൻ T,7119,XXXX-XXXX-7119,+91 98460XXXXX,9846010119,Vellookkara,Ward 11,KB Vellookkara,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0120,Antony B,ആന്റണി B,7120,XXXX-XXXX-7120,+91 98460XXXXX,9846010120,Poomangalam,Ward 12,KB Poomangalam,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0121,Ravi K,രവി K,7121,XXXX-XXXX-7121,+91 98460XXXXX,9846010121,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Pending,Completed,N,LAND_PENDING
+KL-TSR-0122,Joseph M,ജോസഫ് M,7122,XXXX-XXXX-7122,+91 98460XXXXX,9846010122,Kattoor,Ward 14,KB Kattoor,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0123,Devaki P,ദേവകി P,7123,XXXX-XXXX-7123,+91 98460XXXXX,9846010123,Muriyad,Ward 15,KB Muriyad,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0124,Lakshmi R,ലക്ഷ്മി R,7124,XXXX-XXXX-7124,+91 98460XXXXX,9846010124,Karalam,Ward 16,KB Karalam,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0125,Muhammed S,മുഹമ്മദ് S,7125,XXXX-XXXX-7125,+91 98460XXXXX,9846010125,Padiyur,Ward 17,KB Padiyur,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0126,Fathima V,ഫാത്തിമ V,7126,XXXX-XXXX-7126,+91 98460XXXXX,9846010126,Aloor,Ward 18,KB Aloor,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0127,Sreedharan N,ശ്രീധരൻ N,7127,XXXX-XXXX-7127,+91 98460XXXXX,9846010127,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0128,Thomas G,തോമസ് G,7128,XXXX-XXXX-7128,+91 98460XXXXX,9846010128,Poomangalam,Ward 02,KB Poomangalam,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0129,Kunjumon T,കുഞ്ഞുമോൻ T,7129,XXXX-XXXX-7129,+91 98460XXXXX,9846010129,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0130,Valsala B,വത്സല B,7130,XXXX-XXXX-7130,+91 98460XXXXX,9846010130,Kattoor,Ward 04,KB Kattoor,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0131,Gopalan K,ഗോപാലൻ K,7131,XXXX-XXXX-7131,+91 98460XXXXX,9846010131,Muriyad,Ward 05,KB Muriyad,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0132,Sankaran M,ശങ്കരൻ M,7132,XXXX-XXXX-7132,+91 98460XXXXX,9846010132,Karalam,Ward 06,KB Karalam,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0133,Radhamani P,രാധാമണി P,7133,XXXX-XXXX-7133,+91 98460XXXXX,9846010133,Padiyur,Ward 07,KB Padiyur,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0134,Sujatha R,സുജാത R,7134,XXXX-XXXX-7134,+91 98460XXXXX,9846010134,Aloor,Ward 08,KB Aloor,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0135,Balan S,ബാലൻ S,7135,XXXX-XXXX-7135,+91 98460XXXXX,9846010135,Vellookkara,Ward 09,KB Vellookkara,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0136,Leela V,ലീല V,7136,XXXX-XXXX-7136,+91 98460XXXXX,9846010136,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Pending,Completed,N,LAND_PENDING
+KL-TSR-0137,Chandran N,ചന്ദ്രൻ N,7137,XXXX-XXXX-7137,+91 98460XXXXX,9846010137,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0138,Mariamma G,മറിയാമ്മ G,7138,XXXX-XXXX-7138,+91 98460XXXXX,9846010138,Kattoor,Ward 12,KB Kattoor,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0139,Prabhakaran T,പ്രഭാകരൻ T,7139,XXXX-XXXX-7139,+91 98460XXXXX,9846010139,Muriyad,Ward 13,KB Muriyad,Small Holder,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0140,Antony B,ആന്റണി B,7140,XXXX-XXXX-7140,+91 98460XXXXX,9846010140,Karalam,Ward 14,KB Karalam,Marginal,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0141,Ravi K,രവി K,7141,XXXX-XXXX-7141,+91 98460XXXXX,9846010141,Padiyur,Ward 15,KB Padiyur,Large,Pending,Completed,Y,LAND_PENDING
+KL-TSR-0142,Joseph M,ജോസഫ് M,7142,XXXX-XXXX-7142,+91 98460XXXXX,9846010142,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0143,Devaki P,ദേവകി P,7143,XXXX-XXXX-7143,+91 98460XXXXX,9846010143,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0144,Lakshmi R,ലക്ഷ്മി R,7144,XXXX-XXXX-7144,+91 98460XXXXX,9846010144,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0145,Muhammed S,മുഹമ്മദ് S,7145,XXXX-XXXX-7145,+91 98460XXXXX,9846010145,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0146,Fathima V,ഫാത്തിമ V,7146,XXXX-XXXX-7146,+91 98460XXXXX,9846010146,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0147,Sreedharan N,ശ്രീധരൻ N,7147,XXXX-XXXX-7147,+91 98460XXXXX,9846010147,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0148,Thomas G,തോമസ് G,7148,XXXX-XXXX-7148,+91 98460XXXXX,9846010148,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0149,Kunjumon T,കുഞ്ഞുമോൻ T,7149,XXXX-XXXX-7149,+91 98460XXXXX,9846010149,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0150,Valsala B,വത്സല B,7150,XXXX-XXXX-7150,+91 98460XXXXX,9846010150,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0151,Gopalan K,ഗോപാലൻ K,7151,XXXX-XXXX-7151,+91 98460XXXXX,9846010151,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,N,NOT_MAPPED
+KL-TSR-0152,Sankaran M,ശങ്കരൻ M,7152,XXXX-XXXX-7152,+91 98460XXXXX,9846010152,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0153,Radhamani P,രാധാമണി P,7153,XXXX-XXXX-7153,+91 98460XXXXX,9846010153,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0154,Sujatha R,സുജാത R,7154,XXXX-XXXX-7154,+91 98460XXXXX,9846010154,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0155,Balan S,ബാലൻ S,7155,XXXX-XXXX-7155,+91 98460XXXXX,9846010155,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0156,Leela V,ലീല V,7156,XXXX-XXXX-7156,+91 98460XXXXX,9846010156,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0157,Chandran N,ചന്ദ്രൻ N,7157,XXXX-XXXX-7157,+91 98460XXXXX,9846010157,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0158,Mariamma G,മറിയാമ്മ G,7158,XXXX-XXXX-7158,+91 98460XXXXX,9846010158,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0159,Prabhakaran T,പ്രഭാകരൻ T,7159,XXXX-XXXX-7159,+91 98460XXXXX,9846010159,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0160,Antony B,ആന്റണി B,7160,XXXX-XXXX-7160,+91 98460XXXXX,9846010160,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0161,Ravi K,രവി K,7161,XXXX-XXXX-7161,+91 98460XXXXX,9846010161,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0162,Joseph M,ജോസഫ് M,7162,XXXX-XXXX-7162,+91 98460XXXXX,9846010162,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0163,Devaki P,ദേവകി P,7163,XXXX-XXXX-7163,+91 98460XXXXX,9846010163,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0164,Lakshmi R,ലക്ഷ്മി R,7164,XXXX-XXXX-7164,+91 98460XXXXX,9846010164,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0165,Muhammed S,മുഹമ്മദ് S,7165,XXXX-XXXX-7165,+91 98460XXXXX,9846010165,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0166,Fathima V,ഫാത്തിമ V,7166,XXXX-XXXX-7166,+91 98460XXXXX,9846010166,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,N,NOT_MAPPED
+KL-TSR-0167,Sreedharan N,ശ്രീധരൻ N,7167,XXXX-XXXX-7167,+91 98460XXXXX,9846010167,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0168,Thomas G,തോമസ് G,7168,XXXX-XXXX-7168,+91 98460XXXXX,9846010168,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0169,Kunjumon T,കുഞ്ഞുമോൻ T,7169,XXXX-XXXX-7169,+91 98460XXXXX,9846010169,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0170,Valsala B,വത്സല B,7170,XXXX-XXXX-7170,+91 98460XXXXX,9846010170,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0171,Gopalan K,ഗോപാലൻ K,7171,XXXX-XXXX-7171,+91 98460XXXXX,9846010171,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0172,Sankaran M,ശങ്കരൻ M,7172,XXXX-XXXX-7172,+91 98460XXXXX,9846010172,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0173,Radhamani P,രാധാമണി P,7173,XXXX-XXXX-7173,+91 98460XXXXX,9846010173,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0174,Sujatha R,സുജാത R,7174,XXXX-XXXX-7174,+91 98460XXXXX,9846010174,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0175,Balan S,ബാലൻ S,7175,XXXX-XXXX-7175,+91 98460XXXXX,9846010175,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0176,Leela V,ലീല V,7176,XXXX-XXXX-7176,+91 98460XXXXX,9846010176,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0177,Chandran N,ചന്ദ്രൻ N,7177,XXXX-XXXX-7177,+91 98460XXXXX,9846010177,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0178,Mariamma G,മറിയാമ്മ G,7178,XXXX-XXXX-7178,+91 98460XXXXX,9846010178,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0179,Prabhakaran T,പ്രഭാകരൻ T,7179,XXXX-XXXX-7179,+91 98460XXXXX,9846010179,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0180,Antony B,ആന്റണി B,7180,XXXX-XXXX-7180,+91 98460XXXXX,9846010180,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NOT_MAPPED
+KL-TSR-0181,Ravi K,രവി K,7181,XXXX-XXXX-7181,+91 98460XXXXX,9846010181,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,N,NOT_MAPPED
+KL-TSR-0182,Joseph M,ജോസഫ് M,7182,XXXX-XXXX-7182,+91 98460XXXXX,9846010182,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0183,Devaki P,ദേവകി P,7183,XXXX-XXXX-7183,+91 98460XXXXX,9846010183,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0184,Lakshmi R,ലക്ഷ്മി R,7184,XXXX-XXXX-7184,+91 98460XXXXX,9846010184,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0185,Muhammed S,മുഹമ്മദ് S,7185,XXXX-XXXX-7185,+91 98460XXXXX,9846010185,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0186,Fathima V,ഫാത്തിമ V,7186,XXXX-XXXX-7186,+91 98460XXXXX,9846010186,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0187,Sreedharan N,ശ്രീധരൻ N,7187,XXXX-XXXX-7187,+91 98460XXXXX,9846010187,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0188,Thomas G,തോമസ് G,7188,XXXX-XXXX-7188,+91 98460XXXXX,9846010188,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0189,Kunjumon T,കുഞ്ഞുമോൻ T,7189,XXXX-XXXX-7189,+91 98460XXXXX,9846010189,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0190,Valsala B,വത്സല B,7190,XXXX-XXXX-7190,+91 98460XXXXX,9846010190,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0191,Gopalan K,ഗോപാലൻ K,7191,XXXX-XXXX-7191,+91 98460XXXXX,9846010191,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0192,Sankaran M,ശങ്കരൻ M,7192,XXXX-XXXX-7192,+91 98460XXXXX,9846010192,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0193,Radhamani P,രാധാമണി P,7193,XXXX-XXXX-7193,+91 98460XXXXX,9846010193,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0194,Sujatha R,സുജാത R,7194,XXXX-XXXX-7194,+91 98460XXXXX,9846010194,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0195,Balan S,ബാലൻ S,7195,XXXX-XXXX-7195,+91 98460XXXXX,9846010195,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0196,Leela V,ലീല V,7196,XXXX-XXXX-7196,+91 98460XXXXX,9846010196,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,N,DESEEDED
+KL-TSR-0197,Chandran N,ചന്ദ്രൻ N,7197,XXXX-XXXX-7197,+91 98460XXXXX,9846010197,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0198,Mariamma G,മറിയാമ്മ G,7198,XXXX-XXXX-7198,+91 98460XXXXX,9846010198,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0199,Prabhakaran T,പ്രഭാകരൻ T,7199,XXXX-XXXX-7199,+91 98460XXXXX,9846010199,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0200,Antony B,ആന്റണി B,7200,XXXX-XXXX-7200,+91 98460XXXXX,9846010200,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0201,Ravi K,രവി K,7201,XXXX-XXXX-7201,+91 98460XXXXX,9846010201,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0202,Joseph M,ജോസഫ് M,7202,XXXX-XXXX-7202,+91 98460XXXXX,9846010202,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0203,Devaki P,ദേവകി P,7203,XXXX-XXXX-7203,+91 98460XXXXX,9846010203,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0204,Lakshmi R,ലക്ഷ്മി R,7204,XXXX-XXXX-7204,+91 98460XXXXX,9846010204,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0205,Muhammed S,മുഹമ്മദ് S,7205,XXXX-XXXX-7205,+91 98460XXXXX,9846010205,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0206,Fathima V,ഫാത്തിമ V,7206,XXXX-XXXX-7206,+91 98460XXXXX,9846010206,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0207,Sreedharan N,ശ്രീധരൻ N,7207,XXXX-XXXX-7207,+91 98460XXXXX,9846010207,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0208,Thomas G,തോമസ് G,7208,XXXX-XXXX-7208,+91 98460XXXXX,9846010208,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,DESEEDED
+KL-TSR-0209,Kunjumon T,കുഞ്ഞുമോൻ T,7209,XXXX-XXXX-7209,+91 98460XXXXX,9846010209,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,DESEEDED
+KL-TSR-0210,Valsala B,വത്സല B,7210,XXXX-XXXX-7210,+91 98460XXXXX,9846010210,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,DESEEDED
+KL-TSR-0211,Gopalan K,ഗോപാലൻ K,7211,XXXX-XXXX-7211,+91 98460XXXXX,9846010211,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,N,DESEEDED
+KL-TSR-0212,Sankaran M,ശങ്കരൻ M,7212,XXXX-XXXX-7212,+91 98460XXXXX,9846010212,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0213,Radhamani P,രാധാമണി P,7213,XXXX-XXXX-7213,+91 98460XXXXX,9846010213,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0214,Sujatha R,സുജാത R,7214,XXXX-XXXX-7214,+91 98460XXXXX,9846010214,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0215,Balan S,ബാലൻ S,7215,XXXX-XXXX-7215,+91 98460XXXXX,9846010215,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0216,Leela V,ലീല V,7216,XXXX-XXXX-7216,+91 98460XXXXX,9846010216,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0217,Chandran N,ചന്ദ്രൻ N,7217,XXXX-XXXX-7217,+91 98460XXXXX,9846010217,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0218,Mariamma G,മറിയാമ്മ G,7218,XXXX-XXXX-7218,+91 98460XXXXX,9846010218,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0219,Prabhakaran T,പ്രഭാകരൻ T,7219,XXXX-XXXX-7219,+91 98460XXXXX,9846010219,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0220,Antony B,ആന്റണി B,7220,XXXX-XXXX-7220,+91 98460XXXXX,9846010220,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0221,Ravi K,രവി K,7221,XXXX-XXXX-7221,+91 98460XXXXX,9846010221,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0222,Joseph M,ജോസഫ് M,7222,XXXX-XXXX-7222,+91 98460XXXXX,9846010222,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0223,Devaki P,ദേവകി P,7223,XXXX-XXXX-7223,+91 98460XXXXX,9846010223,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0224,Lakshmi R,ലക്ഷ്മി R,7224,XXXX-XXXX-7224,+91 98460XXXXX,9846010224,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0225,Muhammed S,മുഹമ്മദ് S,7225,XXXX-XXXX-7225,+91 98460XXXXX,9846010225,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0226,Fathima V,ഫാത്തിമ V,7226,XXXX-XXXX-7226,+91 98460XXXXX,9846010226,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,N,ACC_CLOSED
+KL-TSR-0227,Sreedharan N,ശ്രീധരൻ N,7227,XXXX-XXXX-7227,+91 98460XXXXX,9846010227,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0228,Thomas G,തോമസ് G,7228,XXXX-XXXX-7228,+91 98460XXXXX,9846010228,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0229,Kunjumon T,കുഞ്ഞുമോൻ T,7229,XXXX-XXXX-7229,+91 98460XXXXX,9846010229,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,ACC_CLOSED
+KL-TSR-0230,Valsala B,വത്സല B,7230,XXXX-XXXX-7230,+91 98460XXXXX,9846010230,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0231,Gopalan K,ഗോപാലൻ K,7231,XXXX-XXXX-7231,+91 98460XXXXX,9846010231,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0232,Sankaran M,ശങ്കരൻ M,7232,XXXX-XXXX-7232,+91 98460XXXXX,9846010232,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0233,Radhamani P,രാധാമണി P,7233,XXXX-XXXX-7233,+91 98460XXXXX,9846010233,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0234,Sujatha R,സുജാത R,7234,XXXX-XXXX-7234,+91 98460XXXXX,9846010234,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0235,Balan S,ബാലൻ S,7235,XXXX-XXXX-7235,+91 98460XXXXX,9846010235,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0236,Leela V,ലീല V,7236,XXXX-XXXX-7236,+91 98460XXXXX,9846010236,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0237,Chandran N,ചന്ദ്രൻ N,7237,XXXX-XXXX-7237,+91 98460XXXXX,9846010237,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0238,Mariamma G,മറിയാമ്മ G,7238,XXXX-XXXX-7238,+91 98460XXXXX,9846010238,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0239,Prabhakaran T,പ്രഭാകരൻ T,7239,XXXX-XXXX-7239,+91 98460XXXXX,9846010239,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0240,Antony B,ആന്റണി B,7240,XXXX-XXXX-7240,+91 98460XXXXX,9846010240,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,WRONG_BANK
+KL-TSR-0241,Ravi K,രവി K,7241,XXXX-XXXX-7241,+91 98460XXXXX,9846010241,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,N,KYC_PENDING
+KL-TSR-0242,Joseph M,ജോസഫ് M,7242,XXXX-XXXX-7242,+91 98460XXXXX,9846010242,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0243,Devaki P,ദേവകി P,7243,XXXX-XXXX-7243,+91 98460XXXXX,9846010243,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0244,Lakshmi R,ലക്ഷ്മി R,7244,XXXX-XXXX-7244,+91 98460XXXXX,9846010244,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0245,Muhammed S,മുഹമ്മദ് S,7245,XXXX-XXXX-7245,+91 98460XXXXX,9846010245,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0246,Fathima V,ഫാത്തിമ V,7246,XXXX-XXXX-7246,+91 98460XXXXX,9846010246,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0247,Sreedharan N,ശ്രീധരൻ N,7247,XXXX-XXXX-7247,+91 98460XXXXX,9846010247,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0248,Thomas G,തോമസ് G,7248,XXXX-XXXX-7248,+91 98460XXXXX,9846010248,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0249,Kunjumon T,കുഞ്ഞുമോൻ T,7249,XXXX-XXXX-7249,+91 98460XXXXX,9846010249,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0250,Valsala B,വത്സല B,7250,XXXX-XXXX-7250,+91 98460XXXXX,9846010250,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,KYC_PENDING
+KL-TSR-0251,Gopalan K,ഗോപാലൻ K,7251,XXXX-XXXX-7251,+91 98460XXXXX,9846010251,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NAME_MISMATCH
+KL-TSR-0252,Sankaran M,ശങ്കരൻ M,7252,XXXX-XXXX-7252,+91 98460XXXXX,9846010252,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NAME_MISMATCH
+KL-TSR-0253,Radhamani P,രാധാമണി P,7253,XXXX-XXXX-7253,+91 98460XXXXX,9846010253,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NAME_MISMATCH
+KL-TSR-0254,Sujatha R,സുജാത R,7254,XXXX-XXXX-7254,+91 98460XXXXX,9846010254,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NAME_MISMATCH
+KL-TSR-0255,Balan S,ബാലൻ S,7255,XXXX-XXXX-7255,+91 98460XXXXX,9846010255,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NAME_MISMATCH
+KL-TSR-0256,Leela V,ലീല V,7256,XXXX-XXXX-7256,+91 98460XXXXX,9846010256,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,N,INACTIVE
+KL-TSR-0257,Chandran N,ചന്ദ്രൻ N,7257,XXXX-XXXX-7257,+91 98460XXXXX,9846010257,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,INACTIVE
+KL-TSR-0258,Mariamma G,മറിയാമ്മ G,7258,XXXX-XXXX-7258,+91 98460XXXXX,9846010258,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,INACTIVE
+KL-TSR-0259,Prabhakaran T,പ്രഭാകരൻ T,7259,XXXX-XXXX-7259,+91 98460XXXXX,9846010259,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,INACTIVE
+KL-TSR-0260,Antony B,ആന്റണി B,7260,XXXX-XXXX-7260,+91 98460XXXXX,9846010260,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,INACTIVE
+KL-TSR-0261,Ravi K,രവി K,7261,XXXX-XXXX-7261,+91 98460XXXXX,9846010261,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,DATA_STALE
+KL-TSR-0262,Joseph M,ജോസഫ് M,7262,XXXX-XXXX-7262,+91 98460XXXXX,9846010262,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,DATA_STALE
+KL-TSR-0263,Devaki P,ദേവകി P,7263,XXXX-XXXX-7263,+91 98460XXXXX,9846010263,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,DATA_STALE
+KL-TSR-0264,Lakshmi R,ലക്ഷ്മി R,7264,XXXX-XXXX-7264,+91 98460XXXXX,9846010264,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,DATA_STALE
+KL-TSR-0265,Muhammed S,മുഹമ്മദ് S,7265,XXXX-XXXX-7265,+91 98460XXXXX,9846010265,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,DATA_STALE
+KL-TSR-0266,Fathima V,ഫാത്തിമ V,7266,XXXX-XXXX-7266,+91 98460XXXXX,9846010266,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,CREDITED_BANK_MISMATCH
+KL-TSR-0267,Sreedharan N,ശ്രീധരൻ N,7267,XXXX-XXXX-7267,+91 98460XXXXX,9846010267,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,CREDITED_BANK_MISMATCH
+KL-TSR-0268,Thomas G,തോമസ് G,7268,XXXX-XXXX-7268,+91 98460XXXXX,9846010268,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,CREDITED_BANK_MISMATCH
+KL-TSR-0269,Kunjumon T,കുഞ്ഞുമോൻ T,7269,XXXX-XXXX-7269,+91 98460XXXXX,9846010269,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,CREDITED_BANK_MISMATCH
+KL-TSR-0270,Valsala B,വത്സല B,7270,XXXX-XXXX-7270,+91 98460XXXXX,9846010270,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,CREDITED_BANK_MISMATCH
+KL-TSR-0271,Gopalan K,ഗോപാലൻ K,7271,XXXX-XXXX-7271,+91 98460XXXXX,9846010271,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,N,PENDING
+KL-TSR-0272,Sankaran M,ശങ്കരൻ M,7272,XXXX-XXXX-7272,+91 98460XXXXX,9846010272,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,PENDING
+KL-TSR-0273,Radhamani P,രാധാമണി P,7273,XXXX-XXXX-7273,+91 98460XXXXX,9846010273,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,PENDING
+KL-TSR-0274,Sujatha R,സുജാത R,7274,XXXX-XXXX-7274,+91 98460XXXXX,9846010274,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,PENDING
+KL-TSR-0275,Balan S,ബാലൻ S,7275,XXXX-XXXX-7275,+91 98460XXXXX,9846010275,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,PENDING
+KL-TSR-0276,Leela V,ലീല V,7276,XXXX-XXXX-7276,+91 98460XXXXX,9846010276,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,PENDING
+KL-TSR-0277,Chandran N,ചന്ദ്രൻ N,7277,XXXX-XXXX-7277,+91 98460XXXXX,9846010277,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,PENDING
+KL-TSR-0278,Mariamma G,മറിയാമ്മ G,7278,XXXX-XXXX-7278,+91 98460XXXXX,9846010278,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,PENDING
+KL-TSR-0279,Prabhakaran T,പ്രഭാകരൻ T,7279,XXXX-XXXX-7279,+91 98460XXXXX,9846010279,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,PENDING
+KL-TSR-0280,Antony B,ആന്റണി B,7280,XXXX-XXXX-7280,+91 98460XXXXX,9846010280,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,PENDING
+KL-TSR-0281,Ravi K,രവി K,7281,XXXX-XXXX-7281,+91 98460XXXXX,9846010281,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0282,Joseph M,ജോസഫ് M,7282,XXXX-XXXX-7282,+91 98460XXXXX,9846010282,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0283,Devaki P,ദേവകി P,7283,XXXX-XXXX-7283,+91 98460XXXXX,9846010283,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0284,Lakshmi R,ലക്ഷ്മി R,7284,XXXX-XXXX-7284,+91 98460XXXXX,9846010284,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0285,Muhammed S,മുഹമ്മദ് S,7285,XXXX-XXXX-7285,+91 98460XXXXX,9846010285,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0286,Fathima V,ഫാത്തിമ V,7286,XXXX-XXXX-7286,+91 98460XXXXX,9846010286,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0287,Sreedharan N,ശ്രീധരൻ N,7287,XXXX-XXXX-7287,+91 98460XXXXX,9846010287,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0288,Thomas G,തോമസ് G,7288,XXXX-XXXX-7288,+91 98460XXXXX,9846010288,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0289,Kunjumon T,കുഞ്ഞുമോൻ T,7289,XXXX-XXXX-7289,+91 98460XXXXX,9846010289,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0290,Valsala B,വത്സല B,7290,XXXX-XXXX-7290,+91 98460XXXXX,9846010290,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0291,Gopalan K,ഗോപാലൻ K,7291,XXXX-XXXX-7291,+91 98460XXXXX,9846010291,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0292,Sankaran M,ശങ്കരൻ M,7292,XXXX-XXXX-7292,+91 98460XXXXX,9846010292,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0293,Radhamani P,രാധാമണി P,7293,XXXX-XXXX-7293,+91 98460XXXXX,9846010293,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0294,Sujatha R,സുജാത R,7294,XXXX-XXXX-7294,+91 98460XXXXX,9846010294,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0295,Balan S,ബാലൻ S,7295,XXXX-XXXX-7295,+91 98460XXXXX,9846010295,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0296,Leela V,ലീല V,7296,XXXX-XXXX-7296,+91 98460XXXXX,9846010296,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0297,Chandran N,ചന്ദ്രൻ N,7297,XXXX-XXXX-7297,+91 98460XXXXX,9846010297,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0298,Mariamma G,മറിയാമ്മ G,7298,XXXX-XXXX-7298,+91 98460XXXXX,9846010298,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0299,Prabhakaran T,പ്രഭാകരൻ T,7299,XXXX-XXXX-7299,+91 98460XXXXX,9846010299,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0300,Antony B,ആന്റണി B,7300,XXXX-XXXX-7300,+91 98460XXXXX,9846010300,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0301,Ravi K,രവി K,7301,XXXX-XXXX-7301,+91 98460XXXXX,9846010301,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0302,Joseph M,ജോസഫ് M,7302,XXXX-XXXX-7302,+91 98460XXXXX,9846010302,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0303,Devaki P,ദേവകി P,7303,XXXX-XXXX-7303,+91 98460XXXXX,9846010303,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0304,Lakshmi R,ലക്ഷ്മി R,7304,XXXX-XXXX-7304,+91 98460XXXXX,9846010304,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0305,Muhammed S,മുഹമ്മദ് S,7305,XXXX-XXXX-7305,+91 98460XXXXX,9846010305,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0306,Fathima V,ഫാത്തിമ V,7306,XXXX-XXXX-7306,+91 98460XXXXX,9846010306,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0307,Sreedharan N,ശ്രീധരൻ N,7307,XXXX-XXXX-7307,+91 98460XXXXX,9846010307,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0308,Thomas G,തോമസ് G,7308,XXXX-XXXX-7308,+91 98460XXXXX,9846010308,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0309,Kunjumon T,കുഞ്ഞുമോൻ T,7309,XXXX-XXXX-7309,+91 98460XXXXX,9846010309,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0310,Valsala B,വത്സല B,7310,XXXX-XXXX-7310,+91 98460XXXXX,9846010310,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0311,Gopalan K,ഗോപാലൻ K,7311,XXXX-XXXX-7311,+91 98460XXXXX,9846010311,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0312,Sankaran M,ശങ്കരൻ M,7312,XXXX-XXXX-7312,+91 98460XXXXX,9846010312,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0313,Radhamani P,രാധാമണി P,7313,XXXX-XXXX-7313,+91 98460XXXXX,9846010313,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0314,Sujatha R,സുജാത R,7314,XXXX-XXXX-7314,+91 98460XXXXX,9846010314,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0315,Balan S,ബാലൻ S,7315,XXXX-XXXX-7315,+91 98460XXXXX,9846010315,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0316,Leela V,ലീല V,7316,XXXX-XXXX-7316,+91 98460XXXXX,9846010316,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0317,Chandran N,ചന്ദ്രൻ N,7317,XXXX-XXXX-7317,+91 98460XXXXX,9846010317,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0318,Mariamma G,മറിയാമ്മ G,7318,XXXX-XXXX-7318,+91 98460XXXXX,9846010318,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0319,Prabhakaran T,പ്രഭാകരൻ T,7319,XXXX-XXXX-7319,+91 98460XXXXX,9846010319,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0320,Antony B,ആന്റണി B,7320,XXXX-XXXX-7320,+91 98460XXXXX,9846010320,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0321,Ravi K,രവി K,7321,XXXX-XXXX-7321,+91 98460XXXXX,9846010321,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0322,Joseph M,ജോസഫ് M,7322,XXXX-XXXX-7322,+91 98460XXXXX,9846010322,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0323,Devaki P,ദേവകി P,7323,XXXX-XXXX-7323,+91 98460XXXXX,9846010323,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0324,Lakshmi R,ലക്ഷ്മി R,7324,XXXX-XXXX-7324,+91 98460XXXXX,9846010324,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0325,Muhammed S,മുഹമ്മദ് S,7325,XXXX-XXXX-7325,+91 98460XXXXX,9846010325,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0326,Fathima V,ഫാത്തിമ V,7326,XXXX-XXXX-7326,+91 98460XXXXX,9846010326,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0327,Sreedharan N,ശ്രീധരൻ N,7327,XXXX-XXXX-7327,+91 98460XXXXX,9846010327,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0328,Thomas G,തോമസ് G,7328,XXXX-XXXX-7328,+91 98460XXXXX,9846010328,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0329,Kunjumon T,കുഞ്ഞുമോൻ T,7329,XXXX-XXXX-7329,+91 98460XXXXX,9846010329,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0330,Valsala B,വത്സല B,7330,XXXX-XXXX-7330,+91 98460XXXXX,9846010330,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0331,Gopalan K,ഗോപാലൻ K,7331,XXXX-XXXX-7331,+91 98460XXXXX,9846010331,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0332,Sankaran M,ശങ്കരൻ M,7332,XXXX-XXXX-7332,+91 98460XXXXX,9846010332,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0333,Radhamani P,രാധാമണി P,7333,XXXX-XXXX-7333,+91 98460XXXXX,9846010333,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0334,Sujatha R,സുജാത R,7334,XXXX-XXXX-7334,+91 98460XXXXX,9846010334,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0335,Balan S,ബാലൻ S,7335,XXXX-XXXX-7335,+91 98460XXXXX,9846010335,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0336,Leela V,ലീല V,7336,XXXX-XXXX-7336,+91 98460XXXXX,9846010336,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0337,Chandran N,ചന്ദ്രൻ N,7337,XXXX-XXXX-7337,+91 98460XXXXX,9846010337,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0338,Mariamma G,മറിയാമ്മ G,7338,XXXX-XXXX-7338,+91 98460XXXXX,9846010338,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0339,Prabhakaran T,പ്രഭാകരൻ T,7339,XXXX-XXXX-7339,+91 98460XXXXX,9846010339,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0340,Antony B,ആന്റണി B,7340,XXXX-XXXX-7340,+91 98460XXXXX,9846010340,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0341,Ravi K,രവി K,7341,XXXX-XXXX-7341,+91 98460XXXXX,9846010341,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0342,Joseph M,ജോസഫ് M,7342,XXXX-XXXX-7342,+91 98460XXXXX,9846010342,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0343,Devaki P,ദേവകി P,7343,XXXX-XXXX-7343,+91 98460XXXXX,9846010343,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0344,Lakshmi R,ലക്ഷ്മി R,7344,XXXX-XXXX-7344,+91 98460XXXXX,9846010344,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0345,Muhammed S,മുഹമ്മദ് S,7345,XXXX-XXXX-7345,+91 98460XXXXX,9846010345,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0346,Fathima V,ഫാത്തിമ V,7346,XXXX-XXXX-7346,+91 98460XXXXX,9846010346,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0347,Sreedharan N,ശ്രീധരൻ N,7347,XXXX-XXXX-7347,+91 98460XXXXX,9846010347,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0348,Thomas G,തോമസ് G,7348,XXXX-XXXX-7348,+91 98460XXXXX,9846010348,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0349,Kunjumon T,കുഞ്ഞുമോൻ T,7349,XXXX-XXXX-7349,+91 98460XXXXX,9846010349,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0350,Valsala B,വത്സല B,7350,XXXX-XXXX-7350,+91 98460XXXXX,9846010350,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0351,Gopalan K,ഗോപാലൻ K,7351,XXXX-XXXX-7351,+91 98460XXXXX,9846010351,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0352,Sankaran M,ശങ്കരൻ M,7352,XXXX-XXXX-7352,+91 98460XXXXX,9846010352,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0353,Radhamani P,രാധാമണി P,7353,XXXX-XXXX-7353,+91 98460XXXXX,9846010353,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0354,Sujatha R,സുജാത R,7354,XXXX-XXXX-7354,+91 98460XXXXX,9846010354,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0355,Balan S,ബാലൻ S,7355,XXXX-XXXX-7355,+91 98460XXXXX,9846010355,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0356,Leela V,ലീല V,7356,XXXX-XXXX-7356,+91 98460XXXXX,9846010356,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0357,Chandran N,ചന്ദ്രൻ N,7357,XXXX-XXXX-7357,+91 98460XXXXX,9846010357,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0358,Mariamma G,മറിയാമ്മ G,7358,XXXX-XXXX-7358,+91 98460XXXXX,9846010358,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0359,Prabhakaran T,പ്രഭാകരൻ T,7359,XXXX-XXXX-7359,+91 98460XXXXX,9846010359,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0360,Antony B,ആന്റണി B,7360,XXXX-XXXX-7360,+91 98460XXXXX,9846010360,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0361,Ravi K,രവി K,7361,XXXX-XXXX-7361,+91 98460XXXXX,9846010361,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0362,Joseph M,ജോസഫ് M,7362,XXXX-XXXX-7362,+91 98460XXXXX,9846010362,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0363,Devaki P,ദേവകി P,7363,XXXX-XXXX-7363,+91 98460XXXXX,9846010363,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0364,Lakshmi R,ലക്ഷ്മി R,7364,XXXX-XXXX-7364,+91 98460XXXXX,9846010364,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0365,Muhammed S,മുഹമ്മദ് S,7365,XXXX-XXXX-7365,+91 98460XXXXX,9846010365,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0366,Fathima V,ഫാത്തിമ V,7366,XXXX-XXXX-7366,+91 98460XXXXX,9846010366,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0367,Sreedharan N,ശ്രീധരൻ N,7367,XXXX-XXXX-7367,+91 98460XXXXX,9846010367,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0368,Thomas G,തോമസ് G,7368,XXXX-XXXX-7368,+91 98460XXXXX,9846010368,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0369,Kunjumon T,കുഞ്ഞുമോൻ T,7369,XXXX-XXXX-7369,+91 98460XXXXX,9846010369,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0370,Valsala B,വത്സല B,7370,XXXX-XXXX-7370,+91 98460XXXXX,9846010370,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0371,Gopalan K,ഗോപാലൻ K,7371,XXXX-XXXX-7371,+91 98460XXXXX,9846010371,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0372,Sankaran M,ശങ്കരൻ M,7372,XXXX-XXXX-7372,+91 98460XXXXX,9846010372,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0373,Radhamani P,രാധാമണി P,7373,XXXX-XXXX-7373,+91 98460XXXXX,9846010373,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0374,Sujatha R,സുജാത R,7374,XXXX-XXXX-7374,+91 98460XXXXX,9846010374,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0375,Balan S,ബാലൻ S,7375,XXXX-XXXX-7375,+91 98460XXXXX,9846010375,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0376,Leela V,ലീല V,7376,XXXX-XXXX-7376,+91 98460XXXXX,9846010376,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0377,Chandran N,ചന്ദ്രൻ N,7377,XXXX-XXXX-7377,+91 98460XXXXX,9846010377,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0378,Mariamma G,മറിയാമ്മ G,7378,XXXX-XXXX-7378,+91 98460XXXXX,9846010378,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0379,Prabhakaran T,പ്രഭാകരൻ T,7379,XXXX-XXXX-7379,+91 98460XXXXX,9846010379,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0380,Antony B,ആന്റണി B,7380,XXXX-XXXX-7380,+91 98460XXXXX,9846010380,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0381,Ravi K,രവി K,7381,XXXX-XXXX-7381,+91 98460XXXXX,9846010381,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0382,Joseph M,ജോസഫ് M,7382,XXXX-XXXX-7382,+91 98460XXXXX,9846010382,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0383,Devaki P,ദേവകി P,7383,XXXX-XXXX-7383,+91 98460XXXXX,9846010383,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0384,Lakshmi R,ലക്ഷ്മി R,7384,XXXX-XXXX-7384,+91 98460XXXXX,9846010384,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0385,Muhammed S,മുഹമ്മദ് S,7385,XXXX-XXXX-7385,+91 98460XXXXX,9846010385,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0386,Fathima V,ഫാത്തിമ V,7386,XXXX-XXXX-7386,+91 98460XXXXX,9846010386,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0387,Sreedharan N,ശ്രീധരൻ N,7387,XXXX-XXXX-7387,+91 98460XXXXX,9846010387,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0388,Thomas G,തോമസ് G,7388,XXXX-XXXX-7388,+91 98460XXXXX,9846010388,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0389,Kunjumon T,കുഞ്ഞുമോൻ T,7389,XXXX-XXXX-7389,+91 98460XXXXX,9846010389,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0390,Valsala B,വത്സല B,7390,XXXX-XXXX-7390,+91 98460XXXXX,9846010390,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0391,Gopalan K,ഗോപാലൻ K,7391,XXXX-XXXX-7391,+91 98460XXXXX,9846010391,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0392,Sankaran M,ശങ്കരൻ M,7392,XXXX-XXXX-7392,+91 98460XXXXX,9846010392,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0393,Radhamani P,രാധാമണി P,7393,XXXX-XXXX-7393,+91 98460XXXXX,9846010393,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0394,Sujatha R,സുജാത R,7394,XXXX-XXXX-7394,+91 98460XXXXX,9846010394,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0395,Balan S,ബാലൻ S,7395,XXXX-XXXX-7395,+91 98460XXXXX,9846010395,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0396,Leela V,ലീല V,7396,XXXX-XXXX-7396,+91 98460XXXXX,9846010396,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0397,Chandran N,ചന്ദ്രൻ N,7397,XXXX-XXXX-7397,+91 98460XXXXX,9846010397,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0398,Mariamma G,മറിയാമ്മ G,7398,XXXX-XXXX-7398,+91 98460XXXXX,9846010398,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0399,Prabhakaran T,പ്രഭാകരൻ T,7399,XXXX-XXXX-7399,+91 98460XXXXX,9846010399,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0400,Antony B,ആന്റണി B,7400,XXXX-XXXX-7400,+91 98460XXXXX,9846010400,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0401,Ravi K,രവി K,7401,XXXX-XXXX-7401,+91 98460XXXXX,9846010401,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0402,Joseph M,ജോസഫ് M,7402,XXXX-XXXX-7402,+91 98460XXXXX,9846010402,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0403,Devaki P,ദേവകി P,7403,XXXX-XXXX-7403,+91 98460XXXXX,9846010403,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0404,Lakshmi R,ലക്ഷ്മി R,7404,XXXX-XXXX-7404,+91 98460XXXXX,9846010404,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0405,Muhammed S,മുഹമ്മദ് S,7405,XXXX-XXXX-7405,+91 98460XXXXX,9846010405,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0406,Fathima V,ഫാത്തിമ V,7406,XXXX-XXXX-7406,+91 98460XXXXX,9846010406,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0407,Sreedharan N,ശ്രീധരൻ N,7407,XXXX-XXXX-7407,+91 98460XXXXX,9846010407,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0408,Thomas G,തോമസ് G,7408,XXXX-XXXX-7408,+91 98460XXXXX,9846010408,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0409,Kunjumon T,കുഞ്ഞുമോൻ T,7409,XXXX-XXXX-7409,+91 98460XXXXX,9846010409,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0410,Valsala B,വത്സല B,7410,XXXX-XXXX-7410,+91 98460XXXXX,9846010410,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0411,Gopalan K,ഗോപാലൻ K,7411,XXXX-XXXX-7411,+91 98460XXXXX,9846010411,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0412,Sankaran M,ശങ്കരൻ M,7412,XXXX-XXXX-7412,+91 98460XXXXX,9846010412,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0413,Radhamani P,രാധാമണി P,7413,XXXX-XXXX-7413,+91 98460XXXXX,9846010413,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0414,Sujatha R,സുജാത R,7414,XXXX-XXXX-7414,+91 98460XXXXX,9846010414,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0415,Balan S,ബാലൻ S,7415,XXXX-XXXX-7415,+91 98460XXXXX,9846010415,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0416,Leela V,ലീല V,7416,XXXX-XXXX-7416,+91 98460XXXXX,9846010416,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0417,Chandran N,ചന്ദ്രൻ N,7417,XXXX-XXXX-7417,+91 98460XXXXX,9846010417,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0418,Mariamma G,മറിയാമ്മ G,7418,XXXX-XXXX-7418,+91 98460XXXXX,9846010418,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0419,Prabhakaran T,പ്രഭാകരൻ T,7419,XXXX-XXXX-7419,+91 98460XXXXX,9846010419,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0420,Antony B,ആന്റണി B,7420,XXXX-XXXX-7420,+91 98460XXXXX,9846010420,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0421,Ravi K,രവി K,7421,XXXX-XXXX-7421,+91 98460XXXXX,9846010421,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0422,Joseph M,ജോസഫ് M,7422,XXXX-XXXX-7422,+91 98460XXXXX,9846010422,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0423,Devaki P,ദേവകി P,7423,XXXX-XXXX-7423,+91 98460XXXXX,9846010423,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0424,Lakshmi R,ലക്ഷ്മി R,7424,XXXX-XXXX-7424,+91 98460XXXXX,9846010424,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0425,Muhammed S,മുഹമ്മദ് S,7425,XXXX-XXXX-7425,+91 98460XXXXX,9846010425,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0426,Fathima V,ഫാത്തിമ V,7426,XXXX-XXXX-7426,+91 98460XXXXX,9846010426,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0427,Sreedharan N,ശ്രീധരൻ N,7427,XXXX-XXXX-7427,+91 98460XXXXX,9846010427,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0428,Thomas G,തോമസ് G,7428,XXXX-XXXX-7428,+91 98460XXXXX,9846010428,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0429,Kunjumon T,കുഞ്ഞുമോൻ T,7429,XXXX-XXXX-7429,+91 98460XXXXX,9846010429,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0430,Valsala B,വത്സല B,7430,XXXX-XXXX-7430,+91 98460XXXXX,9846010430,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0431,Gopalan K,ഗോപാലൻ K,7431,XXXX-XXXX-7431,+91 98460XXXXX,9846010431,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0432,Sankaran M,ശങ്കരൻ M,7432,XXXX-XXXX-7432,+91 98460XXXXX,9846010432,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0433,Radhamani P,രാധാമണി P,7433,XXXX-XXXX-7433,+91 98460XXXXX,9846010433,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0434,Sujatha R,സുജാത R,7434,XXXX-XXXX-7434,+91 98460XXXXX,9846010434,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0435,Balan S,ബാലൻ S,7435,XXXX-XXXX-7435,+91 98460XXXXX,9846010435,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0436,Leela V,ലീല V,7436,XXXX-XXXX-7436,+91 98460XXXXX,9846010436,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0437,Chandran N,ചന്ദ്രൻ N,7437,XXXX-XXXX-7437,+91 98460XXXXX,9846010437,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0438,Mariamma G,മറിയാമ്മ G,7438,XXXX-XXXX-7438,+91 98460XXXXX,9846010438,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0439,Prabhakaran T,പ്രഭാകരൻ T,7439,XXXX-XXXX-7439,+91 98460XXXXX,9846010439,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0440,Antony B,ആന്റണി B,7440,XXXX-XXXX-7440,+91 98460XXXXX,9846010440,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0441,Ravi K,രവി K,7441,XXXX-XXXX-7441,+91 98460XXXXX,9846010441,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0442,Joseph M,ജോസഫ് M,7442,XXXX-XXXX-7442,+91 98460XXXXX,9846010442,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0443,Devaki P,ദേവകി P,7443,XXXX-XXXX-7443,+91 98460XXXXX,9846010443,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0444,Lakshmi R,ലക്ഷ്മി R,7444,XXXX-XXXX-7444,+91 98460XXXXX,9846010444,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0445,Muhammed S,മുഹമ്മദ് S,7445,XXXX-XXXX-7445,+91 98460XXXXX,9846010445,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0446,Fathima V,ഫാത്തിമ V,7446,XXXX-XXXX-7446,+91 98460XXXXX,9846010446,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0447,Sreedharan N,ശ്രീധരൻ N,7447,XXXX-XXXX-7447,+91 98460XXXXX,9846010447,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0448,Thomas G,തോമസ് G,7448,XXXX-XXXX-7448,+91 98460XXXXX,9846010448,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0449,Kunjumon T,കുഞ്ഞുമോൻ T,7449,XXXX-XXXX-7449,+91 98460XXXXX,9846010449,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0450,Valsala B,വത്സല B,7450,XXXX-XXXX-7450,+91 98460XXXXX,9846010450,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0451,Gopalan K,ഗോപാലൻ K,7451,XXXX-XXXX-7451,+91 98460XXXXX,9846010451,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0452,Sankaran M,ശങ്കരൻ M,7452,XXXX-XXXX-7452,+91 98460XXXXX,9846010452,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0453,Radhamani P,രാധാമണി P,7453,XXXX-XXXX-7453,+91 98460XXXXX,9846010453,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0454,Sujatha R,സുജാത R,7454,XXXX-XXXX-7454,+91 98460XXXXX,9846010454,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0455,Balan S,ബാലൻ S,7455,XXXX-XXXX-7455,+91 98460XXXXX,9846010455,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0456,Leela V,ലീല V,7456,XXXX-XXXX-7456,+91 98460XXXXX,9846010456,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0457,Chandran N,ചന്ദ്രൻ N,7457,XXXX-XXXX-7457,+91 98460XXXXX,9846010457,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0458,Mariamma G,മറിയാമ്മ G,7458,XXXX-XXXX-7458,+91 98460XXXXX,9846010458,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0459,Prabhakaran T,പ്രഭാകരൻ T,7459,XXXX-XXXX-7459,+91 98460XXXXX,9846010459,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0460,Antony B,ആന്റണി B,7460,XXXX-XXXX-7460,+91 98460XXXXX,9846010460,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0461,Ravi K,രവി K,7461,XXXX-XXXX-7461,+91 98460XXXXX,9846010461,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0462,Joseph M,ജോസഫ് M,7462,XXXX-XXXX-7462,+91 98460XXXXX,9846010462,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0463,Devaki P,ദേവകി P,7463,XXXX-XXXX-7463,+91 98460XXXXX,9846010463,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0464,Lakshmi R,ലക്ഷ്മി R,7464,XXXX-XXXX-7464,+91 98460XXXXX,9846010464,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0465,Muhammed S,മുഹമ്മദ് S,7465,XXXX-XXXX-7465,+91 98460XXXXX,9846010465,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0466,Fathima V,ഫാത്തിമ V,7466,XXXX-XXXX-7466,+91 98460XXXXX,9846010466,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0467,Sreedharan N,ശ്രീധരൻ N,7467,XXXX-XXXX-7467,+91 98460XXXXX,9846010467,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0468,Thomas G,തോമസ് G,7468,XXXX-XXXX-7468,+91 98460XXXXX,9846010468,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0469,Kunjumon T,കുഞ്ഞുമോൻ T,7469,XXXX-XXXX-7469,+91 98460XXXXX,9846010469,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0470,Valsala B,വത്സല B,7470,XXXX-XXXX-7470,+91 98460XXXXX,9846010470,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0471,Gopalan K,ഗോപാലൻ K,7471,XXXX-XXXX-7471,+91 98460XXXXX,9846010471,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0472,Sankaran M,ശങ്കരൻ M,7472,XXXX-XXXX-7472,+91 98460XXXXX,9846010472,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0473,Radhamani P,രാധാമണി P,7473,XXXX-XXXX-7473,+91 98460XXXXX,9846010473,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0474,Sujatha R,സുജാത R,7474,XXXX-XXXX-7474,+91 98460XXXXX,9846010474,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0475,Balan S,ബാലൻ S,7475,XXXX-XXXX-7475,+91 98460XXXXX,9846010475,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0476,Leela V,ലീല V,7476,XXXX-XXXX-7476,+91 98460XXXXX,9846010476,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0477,Chandran N,ചന്ദ്രൻ N,7477,XXXX-XXXX-7477,+91 98460XXXXX,9846010477,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0478,Mariamma G,മറിയാമ്മ G,7478,XXXX-XXXX-7478,+91 98460XXXXX,9846010478,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0479,Prabhakaran T,പ്രഭാകരൻ T,7479,XXXX-XXXX-7479,+91 98460XXXXX,9846010479,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0480,Antony B,ആന്റണി B,7480,XXXX-XXXX-7480,+91 98460XXXXX,9846010480,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0481,Ravi K,രവി K,7481,XXXX-XXXX-7481,+91 98460XXXXX,9846010481,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0482,Joseph M,ജോസഫ് M,7482,XXXX-XXXX-7482,+91 98460XXXXX,9846010482,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0483,Devaki P,ദേവകി P,7483,XXXX-XXXX-7483,+91 98460XXXXX,9846010483,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0484,Lakshmi R,ലക്ഷ്മി R,7484,XXXX-XXXX-7484,+91 98460XXXXX,9846010484,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0485,Muhammed S,മുഹമ്മദ് S,7485,XXXX-XXXX-7485,+91 98460XXXXX,9846010485,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0486,Fathima V,ഫാത്തിമ V,7486,XXXX-XXXX-7486,+91 98460XXXXX,9846010486,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0487,Sreedharan N,ശ്രീധരൻ N,7487,XXXX-XXXX-7487,+91 98460XXXXX,9846010487,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0488,Thomas G,തോമസ് G,7488,XXXX-XXXX-7488,+91 98460XXXXX,9846010488,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0489,Kunjumon T,കുഞ്ഞുമോൻ T,7489,XXXX-XXXX-7489,+91 98460XXXXX,9846010489,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0490,Valsala B,വത്സല B,7490,XXXX-XXXX-7490,+91 98460XXXXX,9846010490,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0491,Gopalan K,ഗോപാലൻ K,7491,XXXX-XXXX-7491,+91 98460XXXXX,9846010491,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0492,Sankaran M,ശങ്കരൻ M,7492,XXXX-XXXX-7492,+91 98460XXXXX,9846010492,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0493,Radhamani P,രാധാമണി P,7493,XXXX-XXXX-7493,+91 98460XXXXX,9846010493,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0494,Sujatha R,സുജാത R,7494,XXXX-XXXX-7494,+91 98460XXXXX,9846010494,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0495,Balan S,ബാലൻ S,7495,XXXX-XXXX-7495,+91 98460XXXXX,9846010495,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0496,Leela V,ലീല V,7496,XXXX-XXXX-7496,+91 98460XXXXX,9846010496,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0497,Chandran N,ചന്ദ്രൻ N,7497,XXXX-XXXX-7497,+91 98460XXXXX,9846010497,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0498,Mariamma G,മറിയാമ്മ G,7498,XXXX-XXXX-7498,+91 98460XXXXX,9846010498,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0499,Prabhakaran T,പ്രഭാകരൻ T,7499,XXXX-XXXX-7499,+91 98460XXXXX,9846010499,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0500,Antony B,ആന്റണി B,7500,XXXX-XXXX-7500,+91 98460XXXXX,9846010500,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0501,Ravi K,രവി K,7501,XXXX-XXXX-7501,+91 98460XXXXX,9846010501,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0502,Joseph M,ജോസഫ് M,7502,XXXX-XXXX-7502,+91 98460XXXXX,9846010502,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0503,Devaki P,ദേവകി P,7503,XXXX-XXXX-7503,+91 98460XXXXX,9846010503,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0504,Lakshmi R,ലക്ഷ്മി R,7504,XXXX-XXXX-7504,+91 98460XXXXX,9846010504,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0505,Muhammed S,മുഹമ്മദ് S,7505,XXXX-XXXX-7505,+91 98460XXXXX,9846010505,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0506,Fathima V,ഫാത്തിമ V,7506,XXXX-XXXX-7506,+91 98460XXXXX,9846010506,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0507,Sreedharan N,ശ്രീധരൻ N,7507,XXXX-XXXX-7507,+91 98460XXXXX,9846010507,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0508,Thomas G,തോമസ് G,7508,XXXX-XXXX-7508,+91 98460XXXXX,9846010508,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0509,Kunjumon T,കുഞ്ഞുമോൻ T,7509,XXXX-XXXX-7509,+91 98460XXXXX,9846010509,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0510,Valsala B,വത്സല B,7510,XXXX-XXXX-7510,+91 98460XXXXX,9846010510,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0511,Gopalan K,ഗോപാലൻ K,7511,XXXX-XXXX-7511,+91 98460XXXXX,9846010511,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0512,Sankaran M,ശങ്കരൻ M,7512,XXXX-XXXX-7512,+91 98460XXXXX,9846010512,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0513,Radhamani P,രാധാമണി P,7513,XXXX-XXXX-7513,+91 98460XXXXX,9846010513,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0514,Sujatha R,സുജാത R,7514,XXXX-XXXX-7514,+91 98460XXXXX,9846010514,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0515,Balan S,ബാലൻ S,7515,XXXX-XXXX-7515,+91 98460XXXXX,9846010515,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0516,Leela V,ലീല V,7516,XXXX-XXXX-7516,+91 98460XXXXX,9846010516,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0517,Chandran N,ചന്ദ്രൻ N,7517,XXXX-XXXX-7517,+91 98460XXXXX,9846010517,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0518,Mariamma G,മറിയാമ്മ G,7518,XXXX-XXXX-7518,+91 98460XXXXX,9846010518,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0519,Prabhakaran T,പ്രഭാകരൻ T,7519,XXXX-XXXX-7519,+91 98460XXXXX,9846010519,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0520,Antony B,ആന്റണി B,7520,XXXX-XXXX-7520,+91 98460XXXXX,9846010520,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0521,Ravi K,രവി K,7521,XXXX-XXXX-7521,+91 98460XXXXX,9846010521,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0522,Joseph M,ജോസഫ് M,7522,XXXX-XXXX-7522,+91 98460XXXXX,9846010522,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0523,Devaki P,ദേവകി P,7523,XXXX-XXXX-7523,+91 98460XXXXX,9846010523,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0524,Lakshmi R,ലക്ഷ്മി R,7524,XXXX-XXXX-7524,+91 98460XXXXX,9846010524,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0525,Muhammed S,മുഹമ്മദ് S,7525,XXXX-XXXX-7525,+91 98460XXXXX,9846010525,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0526,Fathima V,ഫാത്തിമ V,7526,XXXX-XXXX-7526,+91 98460XXXXX,9846010526,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0527,Sreedharan N,ശ്രീധരൻ N,7527,XXXX-XXXX-7527,+91 98460XXXXX,9846010527,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0528,Thomas G,തോമസ് G,7528,XXXX-XXXX-7528,+91 98460XXXXX,9846010528,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0529,Kunjumon T,കുഞ്ഞുമോൻ T,7529,XXXX-XXXX-7529,+91 98460XXXXX,9846010529,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0530,Valsala B,വത്സല B,7530,XXXX-XXXX-7530,+91 98460XXXXX,9846010530,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0531,Gopalan K,ഗോപാലൻ K,7531,XXXX-XXXX-7531,+91 98460XXXXX,9846010531,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0532,Sankaran M,ശങ്കരൻ M,7532,XXXX-XXXX-7532,+91 98460XXXXX,9846010532,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0533,Radhamani P,രാധാമണി P,7533,XXXX-XXXX-7533,+91 98460XXXXX,9846010533,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0534,Sujatha R,സുജാത R,7534,XXXX-XXXX-7534,+91 98460XXXXX,9846010534,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0535,Balan S,ബാലൻ S,7535,XXXX-XXXX-7535,+91 98460XXXXX,9846010535,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0536,Leela V,ലീല V,7536,XXXX-XXXX-7536,+91 98460XXXXX,9846010536,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0537,Chandran N,ചന്ദ്രൻ N,7537,XXXX-XXXX-7537,+91 98460XXXXX,9846010537,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0538,Mariamma G,മറിയാമ്മ G,7538,XXXX-XXXX-7538,+91 98460XXXXX,9846010538,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0539,Prabhakaran T,പ്രഭാകരൻ T,7539,XXXX-XXXX-7539,+91 98460XXXXX,9846010539,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0540,Antony B,ആന്റണി B,7540,XXXX-XXXX-7540,+91 98460XXXXX,9846010540,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0541,Ravi K,രവി K,7541,XXXX-XXXX-7541,+91 98460XXXXX,9846010541,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0542,Joseph M,ജോസഫ് M,7542,XXXX-XXXX-7542,+91 98460XXXXX,9846010542,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0543,Devaki P,ദേവകി P,7543,XXXX-XXXX-7543,+91 98460XXXXX,9846010543,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0544,Lakshmi R,ലക്ഷ്മി R,7544,XXXX-XXXX-7544,+91 98460XXXXX,9846010544,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0545,Muhammed S,മുഹമ്മദ് S,7545,XXXX-XXXX-7545,+91 98460XXXXX,9846010545,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0546,Fathima V,ഫാത്തിമ V,7546,XXXX-XXXX-7546,+91 98460XXXXX,9846010546,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0547,Sreedharan N,ശ്രീധരൻ N,7547,XXXX-XXXX-7547,+91 98460XXXXX,9846010547,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0548,Thomas G,തോമസ് G,7548,XXXX-XXXX-7548,+91 98460XXXXX,9846010548,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0549,Kunjumon T,കുഞ്ഞുമോൻ T,7549,XXXX-XXXX-7549,+91 98460XXXXX,9846010549,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0550,Valsala B,വത്സല B,7550,XXXX-XXXX-7550,+91 98460XXXXX,9846010550,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0551,Gopalan K,ഗോപാലൻ K,7551,XXXX-XXXX-7551,+91 98460XXXXX,9846010551,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0552,Sankaran M,ശങ്കരൻ M,7552,XXXX-XXXX-7552,+91 98460XXXXX,9846010552,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0553,Radhamani P,രാധാമണി P,7553,XXXX-XXXX-7553,+91 98460XXXXX,9846010553,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0554,Sujatha R,സുജാത R,7554,XXXX-XXXX-7554,+91 98460XXXXX,9846010554,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0555,Balan S,ബാലൻ S,7555,XXXX-XXXX-7555,+91 98460XXXXX,9846010555,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0556,Leela V,ലീല V,7556,XXXX-XXXX-7556,+91 98460XXXXX,9846010556,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0557,Chandran N,ചന്ദ്രൻ N,7557,XXXX-XXXX-7557,+91 98460XXXXX,9846010557,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0558,Mariamma G,മറിയാമ്മ G,7558,XXXX-XXXX-7558,+91 98460XXXXX,9846010558,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0559,Prabhakaran T,പ്രഭാകരൻ T,7559,XXXX-XXXX-7559,+91 98460XXXXX,9846010559,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0560,Antony B,ആന്റണി B,7560,XXXX-XXXX-7560,+91 98460XXXXX,9846010560,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0561,Ravi K,രവി K,7561,XXXX-XXXX-7561,+91 98460XXXXX,9846010561,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0562,Joseph M,ജോസഫ് M,7562,XXXX-XXXX-7562,+91 98460XXXXX,9846010562,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0563,Devaki P,ദേവകി P,7563,XXXX-XXXX-7563,+91 98460XXXXX,9846010563,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0564,Lakshmi R,ലക്ഷ്മി R,7564,XXXX-XXXX-7564,+91 98460XXXXX,9846010564,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0565,Muhammed S,മുഹമ്മദ് S,7565,XXXX-XXXX-7565,+91 98460XXXXX,9846010565,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0566,Fathima V,ഫാത്തിമ V,7566,XXXX-XXXX-7566,+91 98460XXXXX,9846010566,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0567,Sreedharan N,ശ്രീധരൻ N,7567,XXXX-XXXX-7567,+91 98460XXXXX,9846010567,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0568,Thomas G,തോമസ് G,7568,XXXX-XXXX-7568,+91 98460XXXXX,9846010568,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0569,Kunjumon T,കുഞ്ഞുമോൻ T,7569,XXXX-XXXX-7569,+91 98460XXXXX,9846010569,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0570,Valsala B,വത്സല B,7570,XXXX-XXXX-7570,+91 98460XXXXX,9846010570,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0571,Gopalan K,ഗോപാലൻ K,7571,XXXX-XXXX-7571,+91 98460XXXXX,9846010571,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0572,Sankaran M,ശങ്കരൻ M,7572,XXXX-XXXX-7572,+91 98460XXXXX,9846010572,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0573,Radhamani P,രാധാമണി P,7573,XXXX-XXXX-7573,+91 98460XXXXX,9846010573,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0574,Sujatha R,സുജാത R,7574,XXXX-XXXX-7574,+91 98460XXXXX,9846010574,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0575,Balan S,ബാലൻ S,7575,XXXX-XXXX-7575,+91 98460XXXXX,9846010575,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0576,Leela V,ലീല V,7576,XXXX-XXXX-7576,+91 98460XXXXX,9846010576,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0577,Chandran N,ചന്ദ്രൻ N,7577,XXXX-XXXX-7577,+91 98460XXXXX,9846010577,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0578,Mariamma G,മറിയാമ്മ G,7578,XXXX-XXXX-7578,+91 98460XXXXX,9846010578,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0579,Prabhakaran T,പ്രഭാകരൻ T,7579,XXXX-XXXX-7579,+91 98460XXXXX,9846010579,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0580,Antony B,ആന്റണി B,7580,XXXX-XXXX-7580,+91 98460XXXXX,9846010580,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0581,Ravi K,രവി K,7581,XXXX-XXXX-7581,+91 98460XXXXX,9846010581,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0582,Joseph M,ജോസഫ് M,7582,XXXX-XXXX-7582,+91 98460XXXXX,9846010582,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0583,Devaki P,ദേവകി P,7583,XXXX-XXXX-7583,+91 98460XXXXX,9846010583,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0584,Lakshmi R,ലക്ഷ്മി R,7584,XXXX-XXXX-7584,+91 98460XXXXX,9846010584,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0585,Muhammed S,മുഹമ്മദ് S,7585,XXXX-XXXX-7585,+91 98460XXXXX,9846010585,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0586,Fathima V,ഫാത്തിമ V,7586,XXXX-XXXX-7586,+91 98460XXXXX,9846010586,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0587,Sreedharan N,ശ്രീധരൻ N,7587,XXXX-XXXX-7587,+91 98460XXXXX,9846010587,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0588,Thomas G,തോമസ് G,7588,XXXX-XXXX-7588,+91 98460XXXXX,9846010588,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0589,Kunjumon T,കുഞ്ഞുമോൻ T,7589,XXXX-XXXX-7589,+91 98460XXXXX,9846010589,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0590,Valsala B,വത്സല B,7590,XXXX-XXXX-7590,+91 98460XXXXX,9846010590,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0591,Gopalan K,ഗോപാലൻ K,7591,XXXX-XXXX-7591,+91 98460XXXXX,9846010591,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0592,Sankaran M,ശങ്കരൻ M,7592,XXXX-XXXX-7592,+91 98460XXXXX,9846010592,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0593,Radhamani P,രാധാമണി P,7593,XXXX-XXXX-7593,+91 98460XXXXX,9846010593,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0594,Sujatha R,സുജാത R,7594,XXXX-XXXX-7594,+91 98460XXXXX,9846010594,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0595,Balan S,ബാലൻ S,7595,XXXX-XXXX-7595,+91 98460XXXXX,9846010595,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0596,Leela V,ലീല V,7596,XXXX-XXXX-7596,+91 98460XXXXX,9846010596,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0597,Chandran N,ചന്ദ്രൻ N,7597,XXXX-XXXX-7597,+91 98460XXXXX,9846010597,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0598,Mariamma G,മറിയാമ്മ G,7598,XXXX-XXXX-7598,+91 98460XXXXX,9846010598,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0599,Prabhakaran T,പ്രഭാകരൻ T,7599,XXXX-XXXX-7599,+91 98460XXXXX,9846010599,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0600,Antony B,ആന്റണി B,7600,XXXX-XXXX-7600,+91 98460XXXXX,9846010600,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0601,Ravi K,രവി K,7601,XXXX-XXXX-7601,+91 98460XXXXX,9846010601,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0602,Joseph M,ജോസഫ് M,7602,XXXX-XXXX-7602,+91 98460XXXXX,9846010602,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0603,Devaki P,ദേവകി P,7603,XXXX-XXXX-7603,+91 98460XXXXX,9846010603,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0604,Lakshmi R,ലക്ഷ്മി R,7604,XXXX-XXXX-7604,+91 98460XXXXX,9846010604,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0605,Muhammed S,മുഹമ്മദ് S,7605,XXXX-XXXX-7605,+91 98460XXXXX,9846010605,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0606,Fathima V,ഫാത്തിമ V,7606,XXXX-XXXX-7606,+91 98460XXXXX,9846010606,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0607,Sreedharan N,ശ്രീധരൻ N,7607,XXXX-XXXX-7607,+91 98460XXXXX,9846010607,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0608,Thomas G,തോമസ് G,7608,XXXX-XXXX-7608,+91 98460XXXXX,9846010608,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0609,Kunjumon T,കുഞ്ഞുമോൻ T,7609,XXXX-XXXX-7609,+91 98460XXXXX,9846010609,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0610,Valsala B,വത്സല B,7610,XXXX-XXXX-7610,+91 98460XXXXX,9846010610,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0611,Gopalan K,ഗോപാലൻ K,7611,XXXX-XXXX-7611,+91 98460XXXXX,9846010611,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0612,Sankaran M,ശങ്കരൻ M,7612,XXXX-XXXX-7612,+91 98460XXXXX,9846010612,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0613,Radhamani P,രാധാമണി P,7613,XXXX-XXXX-7613,+91 98460XXXXX,9846010613,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0614,Sujatha R,സുജാത R,7614,XXXX-XXXX-7614,+91 98460XXXXX,9846010614,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0615,Balan S,ബാലൻ S,7615,XXXX-XXXX-7615,+91 98460XXXXX,9846010615,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0616,Leela V,ലീല V,7616,XXXX-XXXX-7616,+91 98460XXXXX,9846010616,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0617,Chandran N,ചന്ദ്രൻ N,7617,XXXX-XXXX-7617,+91 98460XXXXX,9846010617,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0618,Mariamma G,മറിയാമ്മ G,7618,XXXX-XXXX-7618,+91 98460XXXXX,9846010618,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0619,Prabhakaran T,പ്രഭാകരൻ T,7619,XXXX-XXXX-7619,+91 98460XXXXX,9846010619,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0620,Antony B,ആന്റണി B,7620,XXXX-XXXX-7620,+91 98460XXXXX,9846010620,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0621,Ravi K,രവി K,7621,XXXX-XXXX-7621,+91 98460XXXXX,9846010621,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0622,Joseph M,ജോസഫ് M,7622,XXXX-XXXX-7622,+91 98460XXXXX,9846010622,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0623,Devaki P,ദേവകി P,7623,XXXX-XXXX-7623,+91 98460XXXXX,9846010623,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0624,Lakshmi R,ലക്ഷ്മി R,7624,XXXX-XXXX-7624,+91 98460XXXXX,9846010624,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0625,Muhammed S,മുഹമ്മദ് S,7625,XXXX-XXXX-7625,+91 98460XXXXX,9846010625,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0626,Fathima V,ഫാത്തിമ V,7626,XXXX-XXXX-7626,+91 98460XXXXX,9846010626,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0627,Sreedharan N,ശ്രീധരൻ N,7627,XXXX-XXXX-7627,+91 98460XXXXX,9846010627,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0628,Thomas G,തോമസ് G,7628,XXXX-XXXX-7628,+91 98460XXXXX,9846010628,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0629,Kunjumon T,കുഞ്ഞുമോൻ T,7629,XXXX-XXXX-7629,+91 98460XXXXX,9846010629,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0630,Valsala B,വത്സല B,7630,XXXX-XXXX-7630,+91 98460XXXXX,9846010630,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0631,Gopalan K,ഗോപാലൻ K,7631,XXXX-XXXX-7631,+91 98460XXXXX,9846010631,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0632,Sankaran M,ശങ്കരൻ M,7632,XXXX-XXXX-7632,+91 98460XXXXX,9846010632,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0633,Radhamani P,രാധാമണി P,7633,XXXX-XXXX-7633,+91 98460XXXXX,9846010633,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0634,Sujatha R,സുജാത R,7634,XXXX-XXXX-7634,+91 98460XXXXX,9846010634,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0635,Balan S,ബാലൻ S,7635,XXXX-XXXX-7635,+91 98460XXXXX,9846010635,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0636,Leela V,ലീല V,7636,XXXX-XXXX-7636,+91 98460XXXXX,9846010636,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0637,Chandran N,ചന്ദ്രൻ N,7637,XXXX-XXXX-7637,+91 98460XXXXX,9846010637,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0638,Mariamma G,മറിയാമ്മ G,7638,XXXX-XXXX-7638,+91 98460XXXXX,9846010638,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0639,Prabhakaran T,പ്രഭാകരൻ T,7639,XXXX-XXXX-7639,+91 98460XXXXX,9846010639,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0640,Antony B,ആന്റണി B,7640,XXXX-XXXX-7640,+91 98460XXXXX,9846010640,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0641,Ravi K,രവി K,7641,XXXX-XXXX-7641,+91 98460XXXXX,9846010641,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0642,Joseph M,ജോസഫ് M,7642,XXXX-XXXX-7642,+91 98460XXXXX,9846010642,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0643,Devaki P,ദേവകി P,7643,XXXX-XXXX-7643,+91 98460XXXXX,9846010643,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0644,Lakshmi R,ലക്ഷ്മി R,7644,XXXX-XXXX-7644,+91 98460XXXXX,9846010644,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0645,Muhammed S,മുഹമ്മദ് S,7645,XXXX-XXXX-7645,+91 98460XXXXX,9846010645,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0646,Fathima V,ഫാത്തിമ V,7646,XXXX-XXXX-7646,+91 98460XXXXX,9846010646,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0647,Sreedharan N,ശ്രീധരൻ N,7647,XXXX-XXXX-7647,+91 98460XXXXX,9846010647,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0648,Thomas G,തോമസ് G,7648,XXXX-XXXX-7648,+91 98460XXXXX,9846010648,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0649,Kunjumon T,കുഞ്ഞുമോൻ T,7649,XXXX-XXXX-7649,+91 98460XXXXX,9846010649,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0650,Valsala B,വത്സല B,7650,XXXX-XXXX-7650,+91 98460XXXXX,9846010650,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0651,Gopalan K,ഗോപാലൻ K,7651,XXXX-XXXX-7651,+91 98460XXXXX,9846010651,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0652,Sankaran M,ശങ്കരൻ M,7652,XXXX-XXXX-7652,+91 98460XXXXX,9846010652,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0653,Radhamani P,രാധാമണി P,7653,XXXX-XXXX-7653,+91 98460XXXXX,9846010653,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0654,Sujatha R,സുജാത R,7654,XXXX-XXXX-7654,+91 98460XXXXX,9846010654,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0655,Balan S,ബാലൻ S,7655,XXXX-XXXX-7655,+91 98460XXXXX,9846010655,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0656,Leela V,ലീല V,7656,XXXX-XXXX-7656,+91 98460XXXXX,9846010656,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0657,Chandran N,ചന്ദ്രൻ N,7657,XXXX-XXXX-7657,+91 98460XXXXX,9846010657,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0658,Mariamma G,മറിയാമ്മ G,7658,XXXX-XXXX-7658,+91 98460XXXXX,9846010658,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0659,Prabhakaran T,പ്രഭാകരൻ T,7659,XXXX-XXXX-7659,+91 98460XXXXX,9846010659,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0660,Antony B,ആന്റണി B,7660,XXXX-XXXX-7660,+91 98460XXXXX,9846010660,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0661,Ravi K,രവി K,7661,XXXX-XXXX-7661,+91 98460XXXXX,9846010661,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0662,Joseph M,ജോസഫ് M,7662,XXXX-XXXX-7662,+91 98460XXXXX,9846010662,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0663,Devaki P,ദേവകി P,7663,XXXX-XXXX-7663,+91 98460XXXXX,9846010663,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0664,Lakshmi R,ലക്ഷ്മി R,7664,XXXX-XXXX-7664,+91 98460XXXXX,9846010664,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0665,Muhammed S,മുഹമ്മദ് S,7665,XXXX-XXXX-7665,+91 98460XXXXX,9846010665,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0666,Fathima V,ഫാത്തിമ V,7666,XXXX-XXXX-7666,+91 98460XXXXX,9846010666,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0667,Sreedharan N,ശ്രീധരൻ N,7667,XXXX-XXXX-7667,+91 98460XXXXX,9846010667,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0668,Thomas G,തോമസ് G,7668,XXXX-XXXX-7668,+91 98460XXXXX,9846010668,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0669,Kunjumon T,കുഞ്ഞുമോൻ T,7669,XXXX-XXXX-7669,+91 98460XXXXX,9846010669,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0670,Valsala B,വത്സല B,7670,XXXX-XXXX-7670,+91 98460XXXXX,9846010670,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0671,Gopalan K,ഗോപാലൻ K,7671,XXXX-XXXX-7671,+91 98460XXXXX,9846010671,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0672,Sankaran M,ശങ്കരൻ M,7672,XXXX-XXXX-7672,+91 98460XXXXX,9846010672,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0673,Radhamani P,രാധാമണി P,7673,XXXX-XXXX-7673,+91 98460XXXXX,9846010673,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0674,Sujatha R,സുജാത R,7674,XXXX-XXXX-7674,+91 98460XXXXX,9846010674,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0675,Balan S,ബാലൻ S,7675,XXXX-XXXX-7675,+91 98460XXXXX,9846010675,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0676,Leela V,ലീല V,7676,XXXX-XXXX-7676,+91 98460XXXXX,9846010676,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0677,Chandran N,ചന്ദ്രൻ N,7677,XXXX-XXXX-7677,+91 98460XXXXX,9846010677,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0678,Mariamma G,മറിയാമ്മ G,7678,XXXX-XXXX-7678,+91 98460XXXXX,9846010678,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0679,Prabhakaran T,പ്രഭാകരൻ T,7679,XXXX-XXXX-7679,+91 98460XXXXX,9846010679,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0680,Antony B,ആന്റണി B,7680,XXXX-XXXX-7680,+91 98460XXXXX,9846010680,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0681,Ravi K,രവി K,7681,XXXX-XXXX-7681,+91 98460XXXXX,9846010681,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0682,Joseph M,ജോസഫ് M,7682,XXXX-XXXX-7682,+91 98460XXXXX,9846010682,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0683,Devaki P,ദേവകി P,7683,XXXX-XXXX-7683,+91 98460XXXXX,9846010683,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0684,Lakshmi R,ലക്ഷ്മി R,7684,XXXX-XXXX-7684,+91 98460XXXXX,9846010684,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0685,Muhammed S,മുഹമ്മദ് S,7685,XXXX-XXXX-7685,+91 98460XXXXX,9846010685,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0686,Fathima V,ഫാത്തിമ V,7686,XXXX-XXXX-7686,+91 98460XXXXX,9846010686,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0687,Sreedharan N,ശ്രീധരൻ N,7687,XXXX-XXXX-7687,+91 98460XXXXX,9846010687,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0688,Thomas G,തോമസ് G,7688,XXXX-XXXX-7688,+91 98460XXXXX,9846010688,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0689,Kunjumon T,കുഞ്ഞുമോൻ T,7689,XXXX-XXXX-7689,+91 98460XXXXX,9846010689,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0690,Valsala B,വത്സല B,7690,XXXX-XXXX-7690,+91 98460XXXXX,9846010690,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0691,Gopalan K,ഗോപാലൻ K,7691,XXXX-XXXX-7691,+91 98460XXXXX,9846010691,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0692,Sankaran M,ശങ്കരൻ M,7692,XXXX-XXXX-7692,+91 98460XXXXX,9846010692,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0693,Radhamani P,രാധാമണി P,7693,XXXX-XXXX-7693,+91 98460XXXXX,9846010693,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0694,Sujatha R,സുജാത R,7694,XXXX-XXXX-7694,+91 98460XXXXX,9846010694,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0695,Balan S,ബാലൻ S,7695,XXXX-XXXX-7695,+91 98460XXXXX,9846010695,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0696,Leela V,ലീല V,7696,XXXX-XXXX-7696,+91 98460XXXXX,9846010696,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0697,Chandran N,ചന്ദ്രൻ N,7697,XXXX-XXXX-7697,+91 98460XXXXX,9846010697,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0698,Mariamma G,മറിയാമ്മ G,7698,XXXX-XXXX-7698,+91 98460XXXXX,9846010698,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0699,Prabhakaran T,പ്രഭാകരൻ T,7699,XXXX-XXXX-7699,+91 98460XXXXX,9846010699,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0700,Antony B,ആന്റണി B,7700,XXXX-XXXX-7700,+91 98460XXXXX,9846010700,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0701,Ravi K,രവി K,7701,XXXX-XXXX-7701,+91 98460XXXXX,9846010701,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0702,Joseph M,ജോസഫ് M,7702,XXXX-XXXX-7702,+91 98460XXXXX,9846010702,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0703,Devaki P,ദേവകി P,7703,XXXX-XXXX-7703,+91 98460XXXXX,9846010703,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0704,Lakshmi R,ലക്ഷ്മി R,7704,XXXX-XXXX-7704,+91 98460XXXXX,9846010704,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0705,Muhammed S,മുഹമ്മദ് S,7705,XXXX-XXXX-7705,+91 98460XXXXX,9846010705,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0706,Fathima V,ഫാത്തിമ V,7706,XXXX-XXXX-7706,+91 98460XXXXX,9846010706,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0707,Sreedharan N,ശ്രീധരൻ N,7707,XXXX-XXXX-7707,+91 98460XXXXX,9846010707,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0708,Thomas G,തോമസ് G,7708,XXXX-XXXX-7708,+91 98460XXXXX,9846010708,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0709,Kunjumon T,കുഞ്ഞുമോൻ T,7709,XXXX-XXXX-7709,+91 98460XXXXX,9846010709,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0710,Valsala B,വത്സല B,7710,XXXX-XXXX-7710,+91 98460XXXXX,9846010710,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0711,Gopalan K,ഗോപാലൻ K,7711,XXXX-XXXX-7711,+91 98460XXXXX,9846010711,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0712,Sankaran M,ശങ്കരൻ M,7712,XXXX-XXXX-7712,+91 98460XXXXX,9846010712,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0713,Radhamani P,രാധാമണി P,7713,XXXX-XXXX-7713,+91 98460XXXXX,9846010713,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0714,Sujatha R,സുജാത R,7714,XXXX-XXXX-7714,+91 98460XXXXX,9846010714,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0715,Balan S,ബാലൻ S,7715,XXXX-XXXX-7715,+91 98460XXXXX,9846010715,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0716,Leela V,ലീല V,7716,XXXX-XXXX-7716,+91 98460XXXXX,9846010716,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0717,Chandran N,ചന്ദ്രൻ N,7717,XXXX-XXXX-7717,+91 98460XXXXX,9846010717,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0718,Mariamma G,മറിയാമ്മ G,7718,XXXX-XXXX-7718,+91 98460XXXXX,9846010718,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0719,Prabhakaran T,പ്രഭാകരൻ T,7719,XXXX-XXXX-7719,+91 98460XXXXX,9846010719,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0720,Antony B,ആന്റണി B,7720,XXXX-XXXX-7720,+91 98460XXXXX,9846010720,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0721,Ravi K,രവി K,7721,XXXX-XXXX-7721,+91 98460XXXXX,9846010721,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0722,Joseph M,ജോസഫ് M,7722,XXXX-XXXX-7722,+91 98460XXXXX,9846010722,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0723,Devaki P,ദേവകി P,7723,XXXX-XXXX-7723,+91 98460XXXXX,9846010723,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0724,Lakshmi R,ലക്ഷ്മി R,7724,XXXX-XXXX-7724,+91 98460XXXXX,9846010724,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0725,Muhammed S,മുഹമ്മദ് S,7725,XXXX-XXXX-7725,+91 98460XXXXX,9846010725,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0726,Fathima V,ഫാത്തിമ V,7726,XXXX-XXXX-7726,+91 98460XXXXX,9846010726,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0727,Sreedharan N,ശ്രീധരൻ N,7727,XXXX-XXXX-7727,+91 98460XXXXX,9846010727,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0728,Thomas G,തോമസ് G,7728,XXXX-XXXX-7728,+91 98460XXXXX,9846010728,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0729,Kunjumon T,കുഞ്ഞുമോൻ T,7729,XXXX-XXXX-7729,+91 98460XXXXX,9846010729,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0730,Valsala B,വത്സല B,7730,XXXX-XXXX-7730,+91 98460XXXXX,9846010730,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0731,Gopalan K,ഗോപാലൻ K,7731,XXXX-XXXX-7731,+91 98460XXXXX,9846010731,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0732,Sankaran M,ശങ്കരൻ M,7732,XXXX-XXXX-7732,+91 98460XXXXX,9846010732,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0733,Radhamani P,രാധാമണി P,7733,XXXX-XXXX-7733,+91 98460XXXXX,9846010733,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0734,Sujatha R,സുജാത R,7734,XXXX-XXXX-7734,+91 98460XXXXX,9846010734,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0735,Balan S,ബാലൻ S,7735,XXXX-XXXX-7735,+91 98460XXXXX,9846010735,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0736,Leela V,ലീല V,7736,XXXX-XXXX-7736,+91 98460XXXXX,9846010736,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0737,Chandran N,ചന്ദ്രൻ N,7737,XXXX-XXXX-7737,+91 98460XXXXX,9846010737,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0738,Mariamma G,മറിയാമ്മ G,7738,XXXX-XXXX-7738,+91 98460XXXXX,9846010738,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0739,Prabhakaran T,പ്രഭാകരൻ T,7739,XXXX-XXXX-7739,+91 98460XXXXX,9846010739,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0740,Antony B,ആന്റണി B,7740,XXXX-XXXX-7740,+91 98460XXXXX,9846010740,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0741,Ravi K,രവി K,7741,XXXX-XXXX-7741,+91 98460XXXXX,9846010741,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0742,Joseph M,ജോസഫ് M,7742,XXXX-XXXX-7742,+91 98460XXXXX,9846010742,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0743,Devaki P,ദേവകി P,7743,XXXX-XXXX-7743,+91 98460XXXXX,9846010743,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0744,Lakshmi R,ലക്ഷ്മി R,7744,XXXX-XXXX-7744,+91 98460XXXXX,9846010744,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0745,Muhammed S,മുഹമ്മദ് S,7745,XXXX-XXXX-7745,+91 98460XXXXX,9846010745,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0746,Fathima V,ഫാത്തിമ V,7746,XXXX-XXXX-7746,+91 98460XXXXX,9846010746,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0747,Sreedharan N,ശ്രീധരൻ N,7747,XXXX-XXXX-7747,+91 98460XXXXX,9846010747,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0748,Thomas G,തോമസ് G,7748,XXXX-XXXX-7748,+91 98460XXXXX,9846010748,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0749,Kunjumon T,കുഞ്ഞുമോൻ T,7749,XXXX-XXXX-7749,+91 98460XXXXX,9846010749,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0750,Valsala B,വത്സല B,7750,XXXX-XXXX-7750,+91 98460XXXXX,9846010750,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0751,Gopalan K,ഗോപാലൻ K,7751,XXXX-XXXX-7751,+91 98460XXXXX,9846010751,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0752,Sankaran M,ശങ്കരൻ M,7752,XXXX-XXXX-7752,+91 98460XXXXX,9846010752,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0753,Radhamani P,രാധാമണി P,7753,XXXX-XXXX-7753,+91 98460XXXXX,9846010753,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0754,Sujatha R,സുജാത R,7754,XXXX-XXXX-7754,+91 98460XXXXX,9846010754,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0755,Balan S,ബാലൻ S,7755,XXXX-XXXX-7755,+91 98460XXXXX,9846010755,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0756,Leela V,ലീല V,7756,XXXX-XXXX-7756,+91 98460XXXXX,9846010756,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0757,Chandran N,ചന്ദ്രൻ N,7757,XXXX-XXXX-7757,+91 98460XXXXX,9846010757,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0758,Mariamma G,മറിയാമ്മ G,7758,XXXX-XXXX-7758,+91 98460XXXXX,9846010758,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0759,Prabhakaran T,പ്രഭാകരൻ T,7759,XXXX-XXXX-7759,+91 98460XXXXX,9846010759,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0760,Antony B,ആന്റണി B,7760,XXXX-XXXX-7760,+91 98460XXXXX,9846010760,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0761,Ravi K,രവി K,7761,XXXX-XXXX-7761,+91 98460XXXXX,9846010761,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0762,Joseph M,ജോസഫ് M,7762,XXXX-XXXX-7762,+91 98460XXXXX,9846010762,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0763,Devaki P,ദേവകി P,7763,XXXX-XXXX-7763,+91 98460XXXXX,9846010763,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0764,Lakshmi R,ലക്ഷ്മി R,7764,XXXX-XXXX-7764,+91 98460XXXXX,9846010764,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0765,Muhammed S,മുഹമ്മദ് S,7765,XXXX-XXXX-7765,+91 98460XXXXX,9846010765,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0766,Fathima V,ഫാത്തിമ V,7766,XXXX-XXXX-7766,+91 98460XXXXX,9846010766,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0767,Sreedharan N,ശ്രീധരൻ N,7767,XXXX-XXXX-7767,+91 98460XXXXX,9846010767,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0768,Thomas G,തോമസ് G,7768,XXXX-XXXX-7768,+91 98460XXXXX,9846010768,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0769,Kunjumon T,കുഞ്ഞുമോൻ T,7769,XXXX-XXXX-7769,+91 98460XXXXX,9846010769,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0770,Valsala B,വത്സല B,7770,XXXX-XXXX-7770,+91 98460XXXXX,9846010770,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0771,Gopalan K,ഗോപാലൻ K,7771,XXXX-XXXX-7771,+91 98460XXXXX,9846010771,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0772,Sankaran M,ശങ്കരൻ M,7772,XXXX-XXXX-7772,+91 98460XXXXX,9846010772,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0773,Radhamani P,രാധാമണി P,7773,XXXX-XXXX-7773,+91 98460XXXXX,9846010773,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0774,Sujatha R,സുജാത R,7774,XXXX-XXXX-7774,+91 98460XXXXX,9846010774,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0775,Balan S,ബാലൻ S,7775,XXXX-XXXX-7775,+91 98460XXXXX,9846010775,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0776,Leela V,ലീല V,7776,XXXX-XXXX-7776,+91 98460XXXXX,9846010776,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0777,Chandran N,ചന്ദ്രൻ N,7777,XXXX-XXXX-7777,+91 98460XXXXX,9846010777,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0778,Mariamma G,മറിയാമ്മ G,7778,XXXX-XXXX-7778,+91 98460XXXXX,9846010778,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0779,Prabhakaran T,പ്രഭാകരൻ T,7779,XXXX-XXXX-7779,+91 98460XXXXX,9846010779,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0780,Antony B,ആന്റണി B,7780,XXXX-XXXX-7780,+91 98460XXXXX,9846010780,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0781,Ravi K,രവി K,7781,XXXX-XXXX-7781,+91 98460XXXXX,9846010781,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0782,Joseph M,ജോസഫ് M,7782,XXXX-XXXX-7782,+91 98460XXXXX,9846010782,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0783,Devaki P,ദേവകി P,7783,XXXX-XXXX-7783,+91 98460XXXXX,9846010783,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0784,Lakshmi R,ലക്ഷ്മി R,7784,XXXX-XXXX-7784,+91 98460XXXXX,9846010784,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0785,Muhammed S,മുഹമ്മദ് S,7785,XXXX-XXXX-7785,+91 98460XXXXX,9846010785,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0786,Fathima V,ഫാത്തിമ V,7786,XXXX-XXXX-7786,+91 98460XXXXX,9846010786,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0787,Sreedharan N,ശ്രീധരൻ N,7787,XXXX-XXXX-7787,+91 98460XXXXX,9846010787,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0788,Thomas G,തോമസ് G,7788,XXXX-XXXX-7788,+91 98460XXXXX,9846010788,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0789,Kunjumon T,കുഞ്ഞുമോൻ T,7789,XXXX-XXXX-7789,+91 98460XXXXX,9846010789,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0790,Valsala B,വത്സല B,7790,XXXX-XXXX-7790,+91 98460XXXXX,9846010790,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0791,Gopalan K,ഗോപാലൻ K,7791,XXXX-XXXX-7791,+91 98460XXXXX,9846010791,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0792,Sankaran M,ശങ്കരൻ M,7792,XXXX-XXXX-7792,+91 98460XXXXX,9846010792,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0793,Radhamani P,രാധാമണി P,7793,XXXX-XXXX-7793,+91 98460XXXXX,9846010793,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0794,Sujatha R,സുജാത R,7794,XXXX-XXXX-7794,+91 98460XXXXX,9846010794,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0795,Balan S,ബാലൻ S,7795,XXXX-XXXX-7795,+91 98460XXXXX,9846010795,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0796,Leela V,ലീല V,7796,XXXX-XXXX-7796,+91 98460XXXXX,9846010796,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0797,Chandran N,ചന്ദ്രൻ N,7797,XXXX-XXXX-7797,+91 98460XXXXX,9846010797,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0798,Mariamma G,മറിയാമ്മ G,7798,XXXX-XXXX-7798,+91 98460XXXXX,9846010798,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0799,Prabhakaran T,പ്രഭാകരൻ T,7799,XXXX-XXXX-7799,+91 98460XXXXX,9846010799,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0800,Antony B,ആന്റണി B,7800,XXXX-XXXX-7800,+91 98460XXXXX,9846010800,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0801,Ravi K,രവി K,7801,XXXX-XXXX-7801,+91 98460XXXXX,9846010801,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0802,Joseph M,ജോസഫ് M,7802,XXXX-XXXX-7802,+91 98460XXXXX,9846010802,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0803,Devaki P,ദേവകി P,7803,XXXX-XXXX-7803,+91 98460XXXXX,9846010803,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0804,Lakshmi R,ലക്ഷ്മി R,7804,XXXX-XXXX-7804,+91 98460XXXXX,9846010804,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0805,Muhammed S,മുഹമ്മദ് S,7805,XXXX-XXXX-7805,+91 98460XXXXX,9846010805,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0806,Fathima V,ഫാത്തിമ V,7806,XXXX-XXXX-7806,+91 98460XXXXX,9846010806,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0807,Sreedharan N,ശ്രീധരൻ N,7807,XXXX-XXXX-7807,+91 98460XXXXX,9846010807,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0808,Thomas G,തോമസ് G,7808,XXXX-XXXX-7808,+91 98460XXXXX,9846010808,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0809,Kunjumon T,കുഞ്ഞുമോൻ T,7809,XXXX-XXXX-7809,+91 98460XXXXX,9846010809,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0810,Valsala B,വത്സല B,7810,XXXX-XXXX-7810,+91 98460XXXXX,9846010810,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0811,Gopalan K,ഗോപാലൻ K,7811,XXXX-XXXX-7811,+91 98460XXXXX,9846010811,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0812,Sankaran M,ശങ്കരൻ M,7812,XXXX-XXXX-7812,+91 98460XXXXX,9846010812,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0813,Radhamani P,രാധാമണി P,7813,XXXX-XXXX-7813,+91 98460XXXXX,9846010813,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0814,Sujatha R,സുജാത R,7814,XXXX-XXXX-7814,+91 98460XXXXX,9846010814,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0815,Balan S,ബാലൻ S,7815,XXXX-XXXX-7815,+91 98460XXXXX,9846010815,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0816,Leela V,ലീല V,7816,XXXX-XXXX-7816,+91 98460XXXXX,9846010816,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0817,Chandran N,ചന്ദ്രൻ N,7817,XXXX-XXXX-7817,+91 98460XXXXX,9846010817,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0818,Mariamma G,മറിയാമ്മ G,7818,XXXX-XXXX-7818,+91 98460XXXXX,9846010818,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0819,Prabhakaran T,പ്രഭാകരൻ T,7819,XXXX-XXXX-7819,+91 98460XXXXX,9846010819,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0820,Antony B,ആന്റണി B,7820,XXXX-XXXX-7820,+91 98460XXXXX,9846010820,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0821,Ravi K,രവി K,7821,XXXX-XXXX-7821,+91 98460XXXXX,9846010821,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0822,Joseph M,ജോസഫ് M,7822,XXXX-XXXX-7822,+91 98460XXXXX,9846010822,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0823,Devaki P,ദേവകി P,7823,XXXX-XXXX-7823,+91 98460XXXXX,9846010823,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0824,Lakshmi R,ലക്ഷ്മി R,7824,XXXX-XXXX-7824,+91 98460XXXXX,9846010824,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0825,Muhammed S,മുഹമ്മദ് S,7825,XXXX-XXXX-7825,+91 98460XXXXX,9846010825,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0826,Fathima V,ഫാത്തിമ V,7826,XXXX-XXXX-7826,+91 98460XXXXX,9846010826,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0827,Sreedharan N,ശ്രീധരൻ N,7827,XXXX-XXXX-7827,+91 98460XXXXX,9846010827,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0828,Thomas G,തോമസ് G,7828,XXXX-XXXX-7828,+91 98460XXXXX,9846010828,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0829,Kunjumon T,കുഞ്ഞുമോൻ T,7829,XXXX-XXXX-7829,+91 98460XXXXX,9846010829,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0830,Valsala B,വത്സല B,7830,XXXX-XXXX-7830,+91 98460XXXXX,9846010830,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0831,Gopalan K,ഗോപാലൻ K,7831,XXXX-XXXX-7831,+91 98460XXXXX,9846010831,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0832,Sankaran M,ശങ്കരൻ M,7832,XXXX-XXXX-7832,+91 98460XXXXX,9846010832,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0833,Radhamani P,രാധാമണി P,7833,XXXX-XXXX-7833,+91 98460XXXXX,9846010833,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0834,Sujatha R,സുജാത R,7834,XXXX-XXXX-7834,+91 98460XXXXX,9846010834,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0835,Balan S,ബാലൻ S,7835,XXXX-XXXX-7835,+91 98460XXXXX,9846010835,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0836,Leela V,ലീല V,7836,XXXX-XXXX-7836,+91 98460XXXXX,9846010836,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0837,Chandran N,ചന്ദ്രൻ N,7837,XXXX-XXXX-7837,+91 98460XXXXX,9846010837,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0838,Mariamma G,മറിയാമ്മ G,7838,XXXX-XXXX-7838,+91 98460XXXXX,9846010838,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0839,Prabhakaran T,പ്രഭാകരൻ T,7839,XXXX-XXXX-7839,+91 98460XXXXX,9846010839,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0840,Antony B,ആന്റണി B,7840,XXXX-XXXX-7840,+91 98460XXXXX,9846010840,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0841,Ravi K,രവി K,7841,XXXX-XXXX-7841,+91 98460XXXXX,9846010841,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0842,Joseph M,ജോസഫ് M,7842,XXXX-XXXX-7842,+91 98460XXXXX,9846010842,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0843,Devaki P,ദേവകി P,7843,XXXX-XXXX-7843,+91 98460XXXXX,9846010843,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0844,Lakshmi R,ലക്ഷ്മി R,7844,XXXX-XXXX-7844,+91 98460XXXXX,9846010844,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0845,Muhammed S,മുഹമ്മദ് S,7845,XXXX-XXXX-7845,+91 98460XXXXX,9846010845,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0846,Fathima V,ഫാത്തിമ V,7846,XXXX-XXXX-7846,+91 98460XXXXX,9846010846,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0847,Sreedharan N,ശ്രീധരൻ N,7847,XXXX-XXXX-7847,+91 98460XXXXX,9846010847,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0848,Thomas G,തോമസ് G,7848,XXXX-XXXX-7848,+91 98460XXXXX,9846010848,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0849,Kunjumon T,കുഞ്ഞുമോൻ T,7849,XXXX-XXXX-7849,+91 98460XXXXX,9846010849,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0850,Valsala B,വത്സല B,7850,XXXX-XXXX-7850,+91 98460XXXXX,9846010850,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0851,Gopalan K,ഗോപാലൻ K,7851,XXXX-XXXX-7851,+91 98460XXXXX,9846010851,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0852,Sankaran M,ശങ്കരൻ M,7852,XXXX-XXXX-7852,+91 98460XXXXX,9846010852,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0853,Radhamani P,രാധാമണി P,7853,XXXX-XXXX-7853,+91 98460XXXXX,9846010853,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0854,Sujatha R,സുജാത R,7854,XXXX-XXXX-7854,+91 98460XXXXX,9846010854,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0855,Balan S,ബാലൻ S,7855,XXXX-XXXX-7855,+91 98460XXXXX,9846010855,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0856,Leela V,ലീല V,7856,XXXX-XXXX-7856,+91 98460XXXXX,9846010856,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0857,Chandran N,ചന്ദ്രൻ N,7857,XXXX-XXXX-7857,+91 98460XXXXX,9846010857,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0858,Mariamma G,മറിയാമ്മ G,7858,XXXX-XXXX-7858,+91 98460XXXXX,9846010858,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0859,Prabhakaran T,പ്രഭാകരൻ T,7859,XXXX-XXXX-7859,+91 98460XXXXX,9846010859,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0860,Antony B,ആന്റണി B,7860,XXXX-XXXX-7860,+91 98460XXXXX,9846010860,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0861,Ravi K,രവി K,7861,XXXX-XXXX-7861,+91 98460XXXXX,9846010861,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0862,Joseph M,ജോസഫ് M,7862,XXXX-XXXX-7862,+91 98460XXXXX,9846010862,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0863,Devaki P,ദേവകി P,7863,XXXX-XXXX-7863,+91 98460XXXXX,9846010863,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0864,Lakshmi R,ലക്ഷ്മി R,7864,XXXX-XXXX-7864,+91 98460XXXXX,9846010864,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0865,Muhammed S,മുഹമ്മദ് S,7865,XXXX-XXXX-7865,+91 98460XXXXX,9846010865,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0866,Fathima V,ഫാത്തിമ V,7866,XXXX-XXXX-7866,+91 98460XXXXX,9846010866,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0867,Sreedharan N,ശ്രീധരൻ N,7867,XXXX-XXXX-7867,+91 98460XXXXX,9846010867,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0868,Thomas G,തോമസ് G,7868,XXXX-XXXX-7868,+91 98460XXXXX,9846010868,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0869,Kunjumon T,കുഞ്ഞുമോൻ T,7869,XXXX-XXXX-7869,+91 98460XXXXX,9846010869,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0870,Valsala B,വത്സല B,7870,XXXX-XXXX-7870,+91 98460XXXXX,9846010870,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0871,Gopalan K,ഗോപാലൻ K,7871,XXXX-XXXX-7871,+91 98460XXXXX,9846010871,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0872,Sankaran M,ശങ്കരൻ M,7872,XXXX-XXXX-7872,+91 98460XXXXX,9846010872,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0873,Radhamani P,രാധാമണി P,7873,XXXX-XXXX-7873,+91 98460XXXXX,9846010873,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0874,Sujatha R,സുജാത R,7874,XXXX-XXXX-7874,+91 98460XXXXX,9846010874,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0875,Balan S,ബാലൻ S,7875,XXXX-XXXX-7875,+91 98460XXXXX,9846010875,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0876,Leela V,ലീല V,7876,XXXX-XXXX-7876,+91 98460XXXXX,9846010876,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0877,Chandran N,ചന്ദ്രൻ N,7877,XXXX-XXXX-7877,+91 98460XXXXX,9846010877,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0878,Mariamma G,മറിയാമ്മ G,7878,XXXX-XXXX-7878,+91 98460XXXXX,9846010878,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0879,Prabhakaran T,പ്രഭാകരൻ T,7879,XXXX-XXXX-7879,+91 98460XXXXX,9846010879,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0880,Antony B,ആന്റണി B,7880,XXXX-XXXX-7880,+91 98460XXXXX,9846010880,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0881,Ravi K,രവി K,7881,XXXX-XXXX-7881,+91 98460XXXXX,9846010881,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0882,Joseph M,ജോസഫ് M,7882,XXXX-XXXX-7882,+91 98460XXXXX,9846010882,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0883,Devaki P,ദേവകി P,7883,XXXX-XXXX-7883,+91 98460XXXXX,9846010883,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0884,Lakshmi R,ലക്ഷ്മി R,7884,XXXX-XXXX-7884,+91 98460XXXXX,9846010884,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0885,Muhammed S,മുഹമ്മദ് S,7885,XXXX-XXXX-7885,+91 98460XXXXX,9846010885,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0886,Fathima V,ഫാത്തിമ V,7886,XXXX-XXXX-7886,+91 98460XXXXX,9846010886,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0887,Sreedharan N,ശ്രീധരൻ N,7887,XXXX-XXXX-7887,+91 98460XXXXX,9846010887,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0888,Thomas G,തോമസ് G,7888,XXXX-XXXX-7888,+91 98460XXXXX,9846010888,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0889,Kunjumon T,കുഞ്ഞുമോൻ T,7889,XXXX-XXXX-7889,+91 98460XXXXX,9846010889,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0890,Valsala B,വത്സല B,7890,XXXX-XXXX-7890,+91 98460XXXXX,9846010890,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0891,Gopalan K,ഗോപാലൻ K,7891,XXXX-XXXX-7891,+91 98460XXXXX,9846010891,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0892,Sankaran M,ശങ്കരൻ M,7892,XXXX-XXXX-7892,+91 98460XXXXX,9846010892,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0893,Radhamani P,രാധാമണി P,7893,XXXX-XXXX-7893,+91 98460XXXXX,9846010893,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0894,Sujatha R,സുജാത R,7894,XXXX-XXXX-7894,+91 98460XXXXX,9846010894,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0895,Balan S,ബാലൻ S,7895,XXXX-XXXX-7895,+91 98460XXXXX,9846010895,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0896,Leela V,ലീല V,7896,XXXX-XXXX-7896,+91 98460XXXXX,9846010896,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0897,Chandran N,ചന്ദ്രൻ N,7897,XXXX-XXXX-7897,+91 98460XXXXX,9846010897,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0898,Mariamma G,മറിയാമ്മ G,7898,XXXX-XXXX-7898,+91 98460XXXXX,9846010898,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0899,Prabhakaran T,പ്രഭാകരൻ T,7899,XXXX-XXXX-7899,+91 98460XXXXX,9846010899,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0900,Antony B,ആന്റണി B,7900,XXXX-XXXX-7900,+91 98460XXXXX,9846010900,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0901,Ravi K,രവി K,7901,XXXX-XXXX-7901,+91 98460XXXXX,9846010901,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0902,Joseph M,ജോസഫ് M,7902,XXXX-XXXX-7902,+91 98460XXXXX,9846010902,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0903,Devaki P,ദേവകി P,7903,XXXX-XXXX-7903,+91 98460XXXXX,9846010903,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0904,Lakshmi R,ലക്ഷ്മി R,7904,XXXX-XXXX-7904,+91 98460XXXXX,9846010904,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0905,Muhammed S,മുഹമ്മദ് S,7905,XXXX-XXXX-7905,+91 98460XXXXX,9846010905,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0906,Fathima V,ഫാത്തിമ V,7906,XXXX-XXXX-7906,+91 98460XXXXX,9846010906,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0907,Sreedharan N,ശ്രീധരൻ N,7907,XXXX-XXXX-7907,+91 98460XXXXX,9846010907,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0908,Thomas G,തോമസ് G,7908,XXXX-XXXX-7908,+91 98460XXXXX,9846010908,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0909,Kunjumon T,കുഞ്ഞുമോൻ T,7909,XXXX-XXXX-7909,+91 98460XXXXX,9846010909,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0910,Valsala B,വത്സല B,7910,XXXX-XXXX-7910,+91 98460XXXXX,9846010910,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0911,Gopalan K,ഗോപാലൻ K,7911,XXXX-XXXX-7911,+91 98460XXXXX,9846010911,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0912,Sankaran M,ശങ്കരൻ M,7912,XXXX-XXXX-7912,+91 98460XXXXX,9846010912,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0913,Radhamani P,രാധാമണി P,7913,XXXX-XXXX-7913,+91 98460XXXXX,9846010913,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0914,Sujatha R,സുജാത R,7914,XXXX-XXXX-7914,+91 98460XXXXX,9846010914,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0915,Balan S,ബാലൻ S,7915,XXXX-XXXX-7915,+91 98460XXXXX,9846010915,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0916,Leela V,ലീല V,7916,XXXX-XXXX-7916,+91 98460XXXXX,9846010916,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0917,Chandran N,ചന്ദ്രൻ N,7917,XXXX-XXXX-7917,+91 98460XXXXX,9846010917,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0918,Mariamma G,മറിയാമ്മ G,7918,XXXX-XXXX-7918,+91 98460XXXXX,9846010918,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0919,Prabhakaran T,പ്രഭാകരൻ T,7919,XXXX-XXXX-7919,+91 98460XXXXX,9846010919,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0920,Antony B,ആന്റണി B,7920,XXXX-XXXX-7920,+91 98460XXXXX,9846010920,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0921,Ravi K,രവി K,7921,XXXX-XXXX-7921,+91 98460XXXXX,9846010921,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0922,Joseph M,ജോസഫ് M,7922,XXXX-XXXX-7922,+91 98460XXXXX,9846010922,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0923,Devaki P,ദേവകി P,7923,XXXX-XXXX-7923,+91 98460XXXXX,9846010923,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0924,Lakshmi R,ലക്ഷ്മി R,7924,XXXX-XXXX-7924,+91 98460XXXXX,9846010924,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0925,Muhammed S,മുഹമ്മദ് S,7925,XXXX-XXXX-7925,+91 98460XXXXX,9846010925,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0926,Fathima V,ഫാത്തിമ V,7926,XXXX-XXXX-7926,+91 98460XXXXX,9846010926,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0927,Sreedharan N,ശ്രീധരൻ N,7927,XXXX-XXXX-7927,+91 98460XXXXX,9846010927,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0928,Thomas G,തോമസ് G,7928,XXXX-XXXX-7928,+91 98460XXXXX,9846010928,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0929,Kunjumon T,കുഞ്ഞുമോൻ T,7929,XXXX-XXXX-7929,+91 98460XXXXX,9846010929,Irinjalakuda (M),Ward 11,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0930,Valsala B,വത്സല B,7930,XXXX-XXXX-7930,+91 98460XXXXX,9846010930,Kattoor,Ward 12,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0931,Gopalan K,ഗോപാലൻ K,7931,XXXX-XXXX-7931,+91 98460XXXXX,9846010931,Muriyad,Ward 13,KB Muriyad,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0932,Sankaran M,ശങ്കരൻ M,7932,XXXX-XXXX-7932,+91 98460XXXXX,9846010932,Karalam,Ward 14,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0933,Radhamani P,രാധാമണി P,7933,XXXX-XXXX-7933,+91 98460XXXXX,9846010933,Padiyur,Ward 15,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0934,Sujatha R,സുജാത R,7934,XXXX-XXXX-7934,+91 98460XXXXX,9846010934,Aloor,Ward 16,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0935,Balan S,ബാലൻ S,7935,XXXX-XXXX-7935,+91 98460XXXXX,9846010935,Vellookkara,Ward 17,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0936,Leela V,ലീല V,7936,XXXX-XXXX-7936,+91 98460XXXXX,9846010936,Poomangalam,Ward 18,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0937,Chandran N,ചന്ദ്രൻ N,7937,XXXX-XXXX-7937,+91 98460XXXXX,9846010937,Irinjalakuda (M),Ward 01,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0938,Mariamma G,മറിയാമ്മ G,7938,XXXX-XXXX-7938,+91 98460XXXXX,9846010938,Kattoor,Ward 02,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0939,Prabhakaran T,പ്രഭാകരൻ T,7939,XXXX-XXXX-7939,+91 98460XXXXX,9846010939,Muriyad,Ward 03,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0940,Antony B,ആന്റണി B,7940,XXXX-XXXX-7940,+91 98460XXXXX,9846010940,Karalam,Ward 04,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0941,Ravi K,രവി K,7941,XXXX-XXXX-7941,+91 98460XXXXX,9846010941,Padiyur,Ward 05,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0942,Joseph M,ജോസഫ് M,7942,XXXX-XXXX-7942,+91 98460XXXXX,9846010942,Aloor,Ward 06,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0943,Devaki P,ദേവകി P,7943,XXXX-XXXX-7943,+91 98460XXXXX,9846010943,Vellookkara,Ward 07,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0944,Lakshmi R,ലക്ഷ്മി R,7944,XXXX-XXXX-7944,+91 98460XXXXX,9846010944,Poomangalam,Ward 08,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0945,Muhammed S,മുഹമ്മദ് S,7945,XXXX-XXXX-7945,+91 98460XXXXX,9846010945,Irinjalakuda (M),Ward 09,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0946,Fathima V,ഫാത്തിമ V,7946,XXXX-XXXX-7946,+91 98460XXXXX,9846010946,Kattoor,Ward 10,KB Kattoor,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0947,Sreedharan N,ശ്രീധരൻ N,7947,XXXX-XXXX-7947,+91 98460XXXXX,9846010947,Muriyad,Ward 11,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0948,Thomas G,തോമസ് G,7948,XXXX-XXXX-7948,+91 98460XXXXX,9846010948,Karalam,Ward 12,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0949,Kunjumon T,കുഞ്ഞുമോൻ T,7949,XXXX-XXXX-7949,+91 98460XXXXX,9846010949,Padiyur,Ward 13,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0950,Valsala B,വത്സല B,7950,XXXX-XXXX-7950,+91 98460XXXXX,9846010950,Aloor,Ward 14,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0951,Gopalan K,ഗോപാലൻ K,7951,XXXX-XXXX-7951,+91 98460XXXXX,9846010951,Vellookkara,Ward 15,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0952,Sankaran M,ശങ്കരൻ M,7952,XXXX-XXXX-7952,+91 98460XXXXX,9846010952,Poomangalam,Ward 16,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0953,Radhamani P,രാധാമണി P,7953,XXXX-XXXX-7953,+91 98460XXXXX,9846010953,Irinjalakuda (M),Ward 17,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0954,Sujatha R,സുജാത R,7954,XXXX-XXXX-7954,+91 98460XXXXX,9846010954,Kattoor,Ward 18,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0955,Balan S,ബാലൻ S,7955,XXXX-XXXX-7955,+91 98460XXXXX,9846010955,Muriyad,Ward 01,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0956,Leela V,ലീല V,7956,XXXX-XXXX-7956,+91 98460XXXXX,9846010956,Karalam,Ward 02,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0957,Chandran N,ചന്ദ്രൻ N,7957,XXXX-XXXX-7957,+91 98460XXXXX,9846010957,Padiyur,Ward 03,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0958,Mariamma G,മറിയാമ്മ G,7958,XXXX-XXXX-7958,+91 98460XXXXX,9846010958,Aloor,Ward 04,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0959,Prabhakaran T,പ്രഭാകരൻ T,7959,XXXX-XXXX-7959,+91 98460XXXXX,9846010959,Vellookkara,Ward 05,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0960,Antony B,ആന്റണി B,7960,XXXX-XXXX-7960,+91 98460XXXXX,9846010960,Poomangalam,Ward 06,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0961,Ravi K,രവി K,7961,XXXX-XXXX-7961,+91 98460XXXXX,9846010961,Irinjalakuda (M),Ward 07,KB Irinjalakuda,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0962,Joseph M,ജോസഫ് M,7962,XXXX-XXXX-7962,+91 98460XXXXX,9846010962,Kattoor,Ward 08,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0963,Devaki P,ദേവകി P,7963,XXXX-XXXX-7963,+91 98460XXXXX,9846010963,Muriyad,Ward 09,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0964,Lakshmi R,ലക്ഷ്മി R,7964,XXXX-XXXX-7964,+91 98460XXXXX,9846010964,Karalam,Ward 10,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0965,Muhammed S,മുഹമ്മദ് S,7965,XXXX-XXXX-7965,+91 98460XXXXX,9846010965,Padiyur,Ward 11,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0966,Fathima V,ഫാത്തിമ V,7966,XXXX-XXXX-7966,+91 98460XXXXX,9846010966,Aloor,Ward 12,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0967,Sreedharan N,ശ്രീധരൻ N,7967,XXXX-XXXX-7967,+91 98460XXXXX,9846010967,Vellookkara,Ward 13,KB Vellookkara,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0968,Thomas G,തോമസ് G,7968,XXXX-XXXX-7968,+91 98460XXXXX,9846010968,Poomangalam,Ward 14,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0969,Kunjumon T,കുഞ്ഞുമോൻ T,7969,XXXX-XXXX-7969,+91 98460XXXXX,9846010969,Irinjalakuda (M),Ward 15,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0970,Valsala B,വത്സല B,7970,XXXX-XXXX-7970,+91 98460XXXXX,9846010970,Kattoor,Ward 16,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0971,Gopalan K,ഗോപാലൻ K,7971,XXXX-XXXX-7971,+91 98460XXXXX,9846010971,Muriyad,Ward 17,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0972,Sankaran M,ശങ്കരൻ M,7972,XXXX-XXXX-7972,+91 98460XXXXX,9846010972,Karalam,Ward 18,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0973,Radhamani P,രാധാമണി P,7973,XXXX-XXXX-7973,+91 98460XXXXX,9846010973,Padiyur,Ward 01,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0974,Sujatha R,സുജാത R,7974,XXXX-XXXX-7974,+91 98460XXXXX,9846010974,Aloor,Ward 02,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0975,Balan S,ബാലൻ S,7975,XXXX-XXXX-7975,+91 98460XXXXX,9846010975,Vellookkara,Ward 03,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-0976,Leela V,ലീല V,7976,XXXX-XXXX-7976,+91 98460XXXXX,9846010976,Poomangalam,Ward 04,KB Poomangalam,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0977,Chandran N,ചന്ദ്രൻ N,7977,XXXX-XXXX-7977,+91 98460XXXXX,9846010977,Irinjalakuda (M),Ward 05,KB Irinjalakuda,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0978,Mariamma G,മറിയാമ്മ G,7978,XXXX-XXXX-7978,+91 98460XXXXX,9846010978,Kattoor,Ward 06,KB Kattoor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0979,Prabhakaran T,പ്രഭാകരൻ T,7979,XXXX-XXXX-7979,+91 98460XXXXX,9846010979,Muriyad,Ward 07,KB Muriyad,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0980,Antony B,ആന്റണി B,7980,XXXX-XXXX-7980,+91 98460XXXXX,9846010980,Karalam,Ward 08,KB Karalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0981,Ravi K,രവി K,7981,XXXX-XXXX-7981,+91 98460XXXXX,9846010981,Padiyur,Ward 09,KB Padiyur,Large,Seeded,Completed,Y,NONE
+KL-TSR-0982,Joseph M,ജോസഫ് M,7982,XXXX-XXXX-7982,+91 98460XXXXX,9846010982,Aloor,Ward 10,KB Aloor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0983,Devaki P,ദേവകി P,7983,XXXX-XXXX-7983,+91 98460XXXXX,9846010983,Vellookkara,Ward 11,KB Vellookkara,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0984,Lakshmi R,ലക്ഷ്മി R,7984,XXXX-XXXX-7984,+91 98460XXXXX,9846010984,Poomangalam,Ward 12,KB Poomangalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0985,Muhammed S,മുഹമ്മദ് S,7985,XXXX-XXXX-7985,+91 98460XXXXX,9846010985,Irinjalakuda (M),Ward 13,KB Irinjalakuda,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0986,Fathima V,ഫാത്തിമ V,7986,XXXX-XXXX-7986,+91 98460XXXXX,9846010986,Kattoor,Ward 14,KB Kattoor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0987,Sreedharan N,ശ്രീധരൻ N,7987,XXXX-XXXX-7987,+91 98460XXXXX,9846010987,Muriyad,Ward 15,KB Muriyad,Large,Seeded,Completed,Y,NONE
+KL-TSR-0988,Thomas G,തോമസ് G,7988,XXXX-XXXX-7988,+91 98460XXXXX,9846010988,Karalam,Ward 16,KB Karalam,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0989,Kunjumon T,കുഞ്ഞുമോൻ T,7989,XXXX-XXXX-7989,+91 98460XXXXX,9846010989,Padiyur,Ward 17,KB Padiyur,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0990,Valsala B,വത്സല B,7990,XXXX-XXXX-7990,+91 98460XXXXX,9846010990,Aloor,Ward 18,KB Aloor,Large,Seeded,Completed,Y,NONE
+KL-TSR-0991,Gopalan K,ഗോപാലൻ K,7991,XXXX-XXXX-7991,+91 98460XXXXX,9846010991,Vellookkara,Ward 01,KB Vellookkara,Small Holder,Seeded,Completed,N,NONE
+KL-TSR-0992,Sankaran M,ശങ്കരൻ M,7992,XXXX-XXXX-7992,+91 98460XXXXX,9846010992,Poomangalam,Ward 02,KB Poomangalam,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0993,Radhamani P,രാധാമണി P,7993,XXXX-XXXX-7993,+91 98460XXXXX,9846010993,Irinjalakuda (M),Ward 03,KB Irinjalakuda,Large,Seeded,Completed,Y,NONE
+KL-TSR-0994,Sujatha R,സുജാത R,7994,XXXX-XXXX-7994,+91 98460XXXXX,9846010994,Kattoor,Ward 04,KB Kattoor,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0995,Balan S,ബാലൻ S,7995,XXXX-XXXX-7995,+91 98460XXXXX,9846010995,Muriyad,Ward 05,KB Muriyad,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0996,Leela V,ലീല V,7996,XXXX-XXXX-7996,+91 98460XXXXX,9846010996,Karalam,Ward 06,KB Karalam,Large,Seeded,Completed,Y,NONE
+KL-TSR-0997,Chandran N,ചന്ദ്രൻ N,7997,XXXX-XXXX-7997,+91 98460XXXXX,9846010997,Padiyur,Ward 07,KB Padiyur,Small Holder,Seeded,Completed,Y,NONE
+KL-TSR-0998,Mariamma G,മറിയാമ്മ G,7998,XXXX-XXXX-7998,+91 98460XXXXX,9846010998,Aloor,Ward 08,KB Aloor,Marginal,Seeded,Completed,Y,NONE
+KL-TSR-0999,Prabhakaran T,പ്രഭാകരൻ T,7999,XXXX-XXXX-7999,+91 98460XXXXX,9846010999,Vellookkara,Ward 09,KB Vellookkara,Large,Seeded,Completed,Y,NONE
+KL-TSR-1000,Antony B,ആന്റണി B,8000,XXXX-XXXX-8000,+91 98460XXXXX,9846011000,Poomangalam,Ward 10,KB Poomangalam,Small Holder,Seeded,Completed,Y,NONE

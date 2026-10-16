@@ -1,0 +1,4 @@
+metric_id,title,value,badge,description,source_name,source_link
+CTX01,Registered Kerala PM-KISAN Beneficiaries,23.4 Lakh,Statewide Base,Total active agrarian beneficiaries registered under Direct Benefit Transfer throughout 14 Kerala districts.,Dept. of Agriculture & Farmers Welfare GoK,https://keralaagriculture.gov.in
+CTX02,Farmers Pending Aadhaar-Bank Seeding (Feb 2026),68798,NPCI De-link,Major statewide hurdle: NPCI mapper unlinking without farmer awareness when accounts transition to PMJDY or undergo IFSC changes.,State SLBC & PFMS Monthly Audit Bulletin,https://slbckerala.com
+CTX03,Thrissur Farmers Denied for Invalid Accounts (2023),34689,Thrissur Record,Historical peak failure rate caused by bank amalgamations emphasizing the need for Krishi Bhavan local IVR & automated triage tools.,District Lead Bank MIS & DLCC Thrissur,https://canarabank.com/thrissur-lead-bank

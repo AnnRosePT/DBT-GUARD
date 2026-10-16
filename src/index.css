@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-slate: #F4F6F9;
+    --color-surface-card: #FFFFFF;
+    --color-surface: #F9F9FF;
+    --color-on-surface: #151C27;
+    --color-primary: #041534;
+    --color-primary-container: #1B2A4A;
+    --color-secondary: #3A6188;
+    --color-border-subtle: #D1D5DB;
+    --color-border-strong: #9CA3AF;
+  }
+
+  html.high-contrast {
+    --color-bg-slate: #000000;
+    --color-surface-card: #121212;
+    --color-surface: #1E1E1E;
+    --color-on-surface: #FFFFFF;
+    --color-primary: #FFFFFF;
+    --color-primary-container: #000000;
+    --color-secondary: #60A5FA;
+    --color-border-subtle: #FFFFFF;
+    --color-border-strong: #FFFFFF;
+  }
+
+  html.text-sm {
+    font-size: 14px;
+  }
+  html.text-base {
+    font-size: 16px;
+  }
+  html.text-lg {
+    font-size: 18px;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', 'Noto Sans Malayalam', sans-serif;
+  }
+
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Subtle custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

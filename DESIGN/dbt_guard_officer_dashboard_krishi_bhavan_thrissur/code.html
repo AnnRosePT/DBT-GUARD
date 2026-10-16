@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>DBT-GUARD — Krishi Bhavan Thrissur</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Noto+Sans+Malayalam:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-dim": "#d3daea", "inverse-primary": "#b7c6ee", "primary-fixed-dim": "#b7c6ee", "status-warning": "#D97706", "secondary": "#3a6188", "surface-container-lowest": "#ffffff", "disclaimer-banner-border": "#F59E0B", "on-secondary": "#ffffff", "primary": "#041534", "background-slate": "#F4F6F9", "secondary-fixed-dim": "#a3caf6", "surface-bright": "#f9f9ff", "inverse-surface": "#2a313d", "error": "#ba1a1a", "on-surface": "#151c27", "outline": "#75777f", "status-ready": "#138808", "accent-green": "#138808", "status-warning-bg": "#FEF3C7", "on-primary-container": "#8392b7", "on-surface-variant": "#45464e", "on-background": "#151c27", "primary-container": "#1b2a4a", "on-primary-fixed": "#0a1a3a", "accent-saffron": "#FF9933", "surface-tint": "#4f5e81", "on-tertiary": "#ffffff", "secondary-fixed": "#d0e4ff", "on-secondary-container": "#335b81", "primary-fixed": "#d9e2ff", "on-error-container": "#93000a", "background": "#f9f9ff", "on-secondary-fixed-variant": "#1f496f", "on-tertiary-container": "#3ba72b", "surface-card": "#FFFFFF", "border-subtle": "#D1D5DB", "tertiary": "#001c00", "status-pending": "#6B7280", "on-tertiary-fixed-variant": "#035300", "disclaimer-banner-bg": "#FEF3C7", "on-error": "#ffffff", "surface-container": "#e7eefe", "on-primary": "#ffffff", "on-secondary-fixed": "#001d35", "on-tertiary-fixed": "#012200", "on-primary-fixed-variant": "#384668", "tertiary-fixed": "#8dfc75", "status-pending-bg": "#F3F4F6", "tertiary-fixed-dim": "#72de5c", "inverse-on-surface": "#ebf1ff", "surface-container-highest": "#dce2f3", "surface-variant": "#dce2f3", "disclaimer-banner-text": "#92400E", "border-strong": "#9CA3AF", "surface-container-low": "#f0f3ff", "surface": "#f9f9ff", "secondary-container": "#acd2ff", "status-error-bg": "#FEE2E2", "outline-variant": "#c5c6cf", "tricolor-gradient": "linear-gradient(90deg, #FF9933 0%, #FFFFFF 50%, #138808 100%)", "error-container": "#ffdad6", "surface-container-high": "#e2e8f8", "status-error": "#DC2626", "status-ready-bg": "#DCFCE7", "tertiary-container": "#013300" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "margin-mobile": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-2xl": "3rem", "gutter-mobile": "1rem", "space-xl": "2rem", "space-md": "1rem", "gutter": "1.5rem", "margin": "2rem" }, "fontFamily": { "body-sm": ["Noto Sans"], "body-lg": ["Noto Sans"], "title-lg": ["Noto Sans"], "data-mono": ["Noto Sans"], "headline-md": ["Noto Sans"], "display-lg-mobile": ["Noto Sans"], "label-md": ["Noto Sans"], "title-md": ["Noto Sans"], "label-lg": ["Noto Sans"], "body-md": ["Noto Sans"], "headline-lg": ["Noto Sans"], "label-sm": ["Noto Sans"], "display-lg": ["Noto Sans"] }, "fontSize": { "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "title-lg": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "data-mono": ["14px", { "lineHeight": "20px", "letterSpacing": "1px", "fontWeight": "500" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "display-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.4px", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.2px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.5px", "fontWeight": "700" }], "display-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }] } } } };</script></head><body class="bg-background-slate font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="w-full flex-shrink-0 z-50 shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="bg-primary-container text-on-primary border-b border-primary/20"><div class="max-w-7xl mx-auto px-gutter h-10 flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs text-on-primary/80"><a class="hover:text-on-primary hover:underline transition-colors" href="#main-content">Skip to main content</a><span class="text-on-primary/40">|</span><button class="hover:text-on-primary hover:underline transition-colors flex items-center gap-1" type="button"><span class="material-symbols-outlined text-[14px]">animated_images</span>Screen Reader Access</button></div><span class="text-on-primary/40">|</span><div class="flex items-center gap-1 text-on-primary/90"><span class="text-on-primary/60 mr-1">Text:</span><button class="px-1.5 py-0.5 rounded hover:bg-primary text-on-primary font-bold" type="button">A-</button><button class="px-1.5 py-0.5 rounded hover:bg-primary text-on-primary font-bold" type="button">A</button><button class="px-1.5 py-0.5 rounded hover:bg-primary text-on-primary font-bold" type="button">A+</button></div><span class="text-on-primary/40">|</span><div class="flex items-center gap-1"><button class="px-1.5 py-0.5 rounded hover:bg-primary text-on-primary flex items-center gap-1" type="button"><span class="material-symbols-outlined text-[14px]">contrast</span>Contrast</button></div><span class="text-on-primary/40">|</span><div class="flex items-center rounded overflow-hidden border border-on-primary/30"><button class="px-2 py-0.5 bg-accent-saffron text-primary font-bold" type="button">English</button><button class="px-2 py-0.5 bg-primary-container text-on-primary hover:bg-primary transition-colors" type="button">മലയാളം</button></div></div><div class="hidden lg:flex items-center gap-space-md"><span class="text-on-primary/80 font-body-sm text-body-sm">Govt. of Kerala · Dept. of Agriculture &amp; Farmers' Welfare | Krishi Bhavan, Thrissur Dist.</span><span class="bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">Agricultural Officer (Gazetted)</span></div></div></div><div class="bg-surface-card border-b border-border-subtle py-space-sm"><div class="max-w-7xl mx-auto px-gutter flex flex-col lg:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="DBT-GUARD Shield and Leaf Logo" class="h-12 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1V35Hvp1is-M17wmyw0fdprRuS5n4JgXZZclYrDALXgKr0RhiBMP4-qr89WWSvFb8tGTtAJZBfuIJdZS1HR-oTMipAkwDFKgYpD5ntHZSqRdqwwKM_gmgovtvwBQEBF5WRH1fQpVXtXtk-Ep9cq9ob7YP_wU2D0LgmLncYL3Ni4S8gB5bvWSTPRi-TZ5miNDi3lZg7mqHVvROsqlZ0A4bgYnujQ42bwyc2TccpRrTETJuu7xXQvCTciheU"/><div class="flex flex-col"><div class="flex items-baseline gap-space-xs"><span class="font-display-lg text-display-lg text-primary tracking-tight font-black">DBT-GUARD</span><span class="font-label-sm text-label-sm bg-status-ready-bg text-status-ready px-2 py-0.5 rounded-full font-bold uppercase border border-status-ready/30">Thrissur Pilot v3.2</span></div><p class="font-label-md text-label-md text-secondary font-bold tracking-wide uppercase">Detect. Explain. Contact. Resolve.</p><p class="font-body-sm text-body-sm text-on-surface-variant">PM-KISAN DBT Beneficiary Payment Resolution Platform — Krishi Bhavan Thrissur</p></div></div><div class="w-full lg:max-w-xl flex flex-col gap-space-xs"><form class="flex items-center shadow-sm rounded-lg overflow-hidden border border-border-strong bg-surface-card focus-within:ring-2 focus-within:ring-secondary"><label class="sr-only" for="portal-category-select">Search Category</label><select class="bg-surface-container-low text-on-surface font-label-md text-label-md px-3 py-2 border-r border-border-subtle focus:outline-none cursor-pointer" id="portal-category-select"><option>All Categories</option><option>Farmers (Aadhaar / Mobile)</option><option>Cases (Grievance ID)</option><option>Offices (Banks / Akshaya / Village)</option></select><div class="relative flex-1 flex items-center"><span class="material-symbols-outlined text-outline absolute left-3 pointer-events-none text-[20px]">search</span><input class="w-full pl-9 pr-3 py-2 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none bg-surface-card" placeholder="Search by Farmer Name, Aadhaar (masked), Village, or Bank Branch..." type="search"/></div><button class="bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg px-space-md py-2 transition-colors flex items-center gap-1.5 flex-shrink-0" type="submit"><span class="material-symbols-outlined text-[18px]">search</span><span>Search</span></button></form><div class="flex items-center gap-1.5 flex-wrap font-label-sm text-label-sm text-on-surface-variant"><span class="font-bold text-on-surface flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px] text-accent-saffron">trending_up</span>Triage:</span><a class="bg-status-warning-bg text-disclaimer-banner-text border border-status-warning/40 px-2 py-0.5 rounded-full hover:bg-status-warning/20 transition-colors" href="#">Pending e-KYC (142)</a><a class="bg-status-error-bg text-status-error border border-status-error/40 px-2 py-0.5 rounded-full hover:bg-status-error/20 transition-colors" href="#">Aadhaar not mapped to NPCI (89)</a><a class="bg-surface-container-high text-on-surface border border-outline-variant px-2 py-0.5 rounded-full hover:bg-surface-variant transition-colors" href="#">Land Seeding Failure (34)</a><a class="bg-status-error-bg text-status-error font-bold border border-status-error/40 px-2 py-0.5 rounded-full hover:bg-status-error/20 transition-colors" href="#">Overdue Cases &gt; 14 days (18)</a></div></div><div class="hidden xl:flex items-center gap-space-md border-l border-border-subtle pl-space-lg"><div class="flex flex-col text-right"><span class="font-title-md text-title-md text-primary font-bold leading-tight">K. R. Rajesh, AO</span><span class="font-body-sm text-body-sm text-on-surface-variant">Thrissur West Circle</span><div class="flex items-center justify-end gap-2 mt-0.5"><a class="font-label-sm text-label-sm text-secondary hover:underline flex items-center gap-0.5" href="#"><span class="material-symbols-outlined text-[12px]">support_agent</span>Helpdesk</a><span class="text-border-strong text-xs">·</span><a class="font-label-sm text-label-sm text-error hover:underline flex items-center gap-0.5" href="#"><span class="material-symbols-outlined text-[12px]">logout</span>Logout</a></div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div><div class="h-[3px] w-full bg-tricolor-gradient"></div><nav aria-label="Primary Administrative Navigation" class="bg-primary-container text-on-primary" data-active-classes="bg-primary text-on-primary font-bold border-b-2 border-accent-saffron"><div class="max-w-7xl mx-auto px-gutter flex items-center justify-between overflow-x-auto"><div class="flex items-center"><a aria-current="page" class="transition-colors px-space-md py-3.5 whitespace-nowrap bg-primary text-on-primary font-bold border-b-2 border-accent-saffron" data-path="dashboard" href="#">Dashboard</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="import-sync" href="#">Import &amp; Sync (PFMS/PM-KISAN)</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="cases-grievances" href="#">Cases &amp; Grievances</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="malayalam-voice-assist" href="#">Malayalam Voice Assist</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent flex items-center gap-1.5" data-path="my-tasks" href="#">My Tasks<span class="bg-status-error text-on-primary font-label-sm text-label-sm px-1.5 py-0.2 rounded-full font-bold">12</span></a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="revalidate-npci-check" href="#">Revalidate &amp; NPCI Check</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="escalations" href="#">Escalations</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="reports-mis" href="#">Reports &amp; MIS</a><a class="text-on-primary/90 hover:text-on-primary hover:bg-primary/50 transition-colors font-label-md text-label-md px-space-md py-3.5 whitespace-nowrap border-b-2 border-transparent" data-path="audit-log" href="#">Audit Log</a></div><div class="hidden md:flex items-center gap-space-xs text-on-primary/80 font-body-sm text-body-sm"><span class="inline-block w-2 h-2 rounded-full bg-status-ready animate-pulse"></span><span>PFMS Gateway: Operational</span></div></div></nav><div class="bg-disclaimer-banner-bg border-y border-disclaimer-banner-border text-disclaimer-banner-text font-body-sm text-body-sm py-2 px-gutter" role="alert"><div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-xs font-semibold"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-status-warning flex-shrink-0 text-[20px]">warning</span><span>⚠️ SIMULATED DATA — ACADEMIC / STUDENT PROTOTYPE. Not an official Government of India or Govt. of Kerala website. All farmer and financial records are synthetic.</span></div><div class="flex items-center gap-2"><span class="bg-surface-card border border-disclaimer-banner-border px-2.5 py-0.5 rounded-full font-label-sm text-label-sm uppercase font-bold text-disclaimer-banner-text shadow-xs flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-accent-green">verified_user</span>Compliance Mode: GIGW 3.0 Accessible</span></div></div></div></header><main class="w-full flex-grow bg-background-slate max-w-7xl mx-auto px-gutter py-space-lg" id="main-content"><div class="flex flex-col w-full space-y-space-md">
+<!-- Jurisdiction Breadcrumb & Quick Action Bar -->
+<section class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<nav aria-label="Breadcrumb" class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant flex-wrap">
+<a class="hover:text-primary hover:underline flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px] text-primary">home</span>
+<span>Home</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-on-surface-variant font-medium">Kerala State Krishi Portal</span>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-primary font-bold">Krishi Bhavan Thrissur Circle (തൃശ്ശൂർ)</span>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary font-bold">DBT Remediation Operations</span>
+</nav>
+<div class="flex items-center gap-2 mt-0.5">
+<h1 class="font-headline-md text-headline-md text-primary font-bold tracking-tight">Agricultural Officer Remediation Console</h1>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-ready-bg text-status-ready border border-status-ready/30">
+<span class="w-1.5 h-1.5 rounded-full bg-status-ready animate-pulse"></span> Live Gateway
+        </span>
+</div>
+</div>
+<!-- Quick Action Bar -->
+<div class="flex items-center gap-2 flex-wrap">
+<button class="inline-flex items-center gap-1.5 px-3 py-2 bg-surface-card border border-border-strong text-primary hover:bg-surface-container-low font-label-md text-label-md rounded shadow-xs transition-colors" title="Check sync state with central gateway" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">sync</span>
+<span>Sync PFMS Feed <span class="font-normal text-on-surface-variant text-[11px]">(08:30 AM IST)</span></span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3 py-2 bg-surface-card border border-border-strong text-primary hover:bg-surface-container-low font-label-md text-label-md rounded shadow-xs transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px] text-accent-saffron">send_to_mobile</span>
+<span>Batch Dispatch Akshaya</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3 py-2 bg-surface-card border border-border-strong text-primary hover:bg-surface-container-low font-label-md text-label-md rounded shadow-xs transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">record_voice_over</span>
+<span>Trigger Malayalam IVR</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3 py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded shadow-xs transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px] text-accent-saffron">description</span>
+<span>Generate Lead Bank MIS</span>
+</button>
+</div>
+</section>
+<!-- Top Metric KPI Row (4 High-Contrast Cards adhering to strict National Portal/GIGW specs) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- KPI 1: Total Beneficiaries Tracked -->
+<div class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold">Total Beneficiaries Tracked</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ollur, Anthikad &amp; Cherpu Blocks</span>
+</div>
+<div class="w-9 h-9 rounded-md bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+</div>
+<div class="mt-3 flex items-baseline justify-between">
+<span class="font-display-lg text-display-lg font-black text-primary">14,820</span>
+<span class="font-label-sm text-label-sm bg-status-ready-bg text-status-ready font-bold px-2 py-0.5 rounded-full border border-status-ready/30">
+          91.4% Credited
+        </span>
+</div>
+<div class="mt-2 pt-2 border-t border-border-subtle/60 flex items-center gap-1.5 font-label-sm text-label-sm text-status-ready font-semibold">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span>+342 cleared this week via auto-recheck</span>
+</div>
+</div>
+<!-- KPI 2: Stuck / Failed Payments (RED ALERT) -->
+<div class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-status-error"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-status-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">error</span> Stuck / Failed Payments
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Installment 16 &amp; 17 DBT Rejections</span>
+</div>
+<div class="w-9 h-9 rounded-md bg-status-error-bg flex items-center justify-center text-status-error">
+<span class="material-symbols-outlined text-[20px]">report_problem</span>
+</div>
+</div>
+<div class="mt-3 flex items-baseline justify-between">
+<span class="font-display-lg text-display-lg font-black text-status-error">642</span>
+<span class="font-label-sm text-label-sm bg-status-error-bg text-status-error font-bold px-2 py-0.5 rounded-full border border-status-error/30">
+          Action Critical
+        </span>
+</div>
+<div class="mt-2 pt-2 border-t border-border-subtle/60 flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>e-KYC (241) · NPCI (289) · Land (112)</span>
+<a class="text-status-error hover:underline font-bold" href="#active-queue">Investigate →</a>
+</div>
+</div>
+<!-- KPI 3: Active in Remediation Pipeline (AMBER) -->
+<div class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-status-warning"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-disclaimer-banner-text font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">hourglass_top</span> Remediation Pipeline
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Akshaya + Lead Bank SLA Tracking</span>
+</div>
+<div class="w-9 h-9 rounded-md bg-status-warning-bg flex items-center justify-center text-disclaimer-banner-text">
+<span class="material-symbols-outlined text-[20px]">pending_actions</span>
+</div>
+</div>
+<div class="mt-3 flex items-baseline justify-between">
+<span class="font-display-lg text-display-lg font-black text-disclaimer-banner-text">284</span>
+<span class="font-label-sm text-label-sm bg-status-warning-bg text-disclaimer-banner-text font-bold px-2 py-0.5 rounded-full border border-status-warning/40">
+          In Triage
+        </span>
+</div>
+<div class="mt-2 pt-2 border-t border-border-subtle/60 flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Avg SLA to resolution: 4.2 days</span>
+<span class="text-secondary font-bold">18 nearing SLA</span>
+</div>
+</div>
+<!-- KPI 4: Successfully Credited Post-Remediation (GREEN) -->
+<div class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-status-ready"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-status-ready font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Remediation Solved
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direct Benefit Credited Successfully</span>
+</div>
+<div class="w-9 h-9 rounded-md bg-status-ready-bg flex items-center justify-center text-status-ready">
+<span class="material-symbols-outlined text-[20px]">currency_rupee</span>
+</div>
+</div>
+<div class="mt-3 flex items-baseline justify-between">
+<span class="font-display-lg text-display-lg font-black text-status-ready">358</span>
+<span class="font-label-sm text-label-sm bg-status-ready-bg text-status-ready font-bold px-2 py-0.5 rounded-full border border-status-ready/30">
+          ₹7.16 Lakhs
+        </span>
+</div>
+<div class="mt-2 pt-2 border-t border-border-subtle/60 flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>100% verified with bank SMS receipts</span>
+<span class="text-status-ready font-bold">Thrissur Pilot</span>
+</div>
+</div>
+</section>
+<!-- 4-Stage Operational Pipeline Widget ("Detect. Explain. Contact. Resolve.") -->
+<section class="bg-surface-card rounded-lg shadow-sm border border-border-subtle overflow-hidden">
+<div class="px-space-md py-space-sm bg-surface-container-low border-b border-border-subtle flex flex-col md:flex-row md:items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">alt_route</span>
+<div>
+<h2 class="font-title-md text-title-md text-primary font-bold leading-tight">PM-KISAN DBT 4-Step Triaging &amp; Remediation Pipeline</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Standard Operating Procedure for Krishi Bhavan Thrissur Extension Officers (കർഷക സേവന ഘട്ടങ്ങൾ)</p>
+</div>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-status-ready"></span> Auto-Sync Enabled</span>
+<span>·</span>
+<span>Gateway Latency: 140ms</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-border-subtle text-on-surface">
+<!-- Stage 1: DETECT -->
+<div class="p-space-md flex flex-col justify-between hover:bg-surface-container-low/50 transition-colors">
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-primary text-on-primary font-bold px-2 py-0.5 rounded">STAGE 01</span>
+<span class="material-symbols-outlined text-status-error text-[20px]">manage_search</span>
+</div>
+<div class="font-title-md text-title-md font-bold text-primary flex items-center gap-1">
+<span>DETECT</span>
+<span class="font-normal text-on-surface-variant text-body-sm">(കണ്ടെത്തൽ)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Automatic ingestion of daily PFMS rejection codes (<code class="bg-surface-container-high px-1 rounded text-primary font-mono text-[11px]">R01</code>, <code class="bg-surface-container-high px-1 rounded text-primary font-mono text-[11px]">R04</code>, <code class="bg-surface-container-high px-1 rounded text-primary font-mono text-[11px]">L02</code>).
+          </p>
+</div>
+<div class="mt-4 pt-2 border-t border-border-subtle flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-status-error font-bold">642 Flagged</span>
+<span class="text-on-surface-variant">PFMS / PM-KISAN API</span>
+</div>
+</div>
+<!-- Stage 2: EXPLAIN -->
+<div class="p-space-md flex flex-col justify-between hover:bg-surface-container-low/50 transition-colors">
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-primary text-on-primary font-bold px-2 py-0.5 rounded">STAGE 02</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">psychology</span>
+</div>
+<div class="font-title-md text-title-md font-bold text-primary flex items-center gap-1">
+<span>EXPLAIN</span>
+<span class="font-normal text-on-surface-variant text-body-sm">(വിശദീകരണം)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Algorithmic translation of cryptic banking errors into plain Malayalam &amp; English actionable root causes.
+          </p>
+</div>
+<div class="mt-4 pt-2 border-t border-border-subtle flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-disclaimer-banner-text font-bold">100% Parsed</span>
+<span class="text-on-surface-variant">Bilingual Engine</span>
+</div>
+</div>
+<!-- Stage 3: CONTACT -->
+<div class="p-space-md flex flex-col justify-between hover:bg-surface-container-low/50 transition-colors">
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-primary text-on-primary font-bold px-2 py-0.5 rounded">STAGE 03</span>
+<span class="material-symbols-outlined text-accent-saffron text-[20px]">phone_in_talk</span>
+</div>
+<div class="font-title-md text-title-md font-bold text-primary flex items-center gap-1">
+<span>CONTACT</span>
+<span class="font-normal text-on-surface-variant text-body-sm">(ആശയവിനിമയം)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Automated Malayalam voice call (IVR) + vernacular SMS direct to registered mobile with clear next steps.
+          </p>
+</div>
+<div class="mt-4 pt-2 border-t border-border-subtle flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-secondary font-bold">48 Calls Today</span>
+<span class="text-status-ready font-bold">85.4% Listened</span>
+</div>
+</div>
+<!-- Stage 4: RESOLVE -->
+<div class="p-space-md flex flex-col justify-between hover:bg-surface-container-low/50 transition-colors bg-surface-container-low/30">
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-primary text-on-primary font-bold px-2 py-0.5 rounded">STAGE 04</span>
+<span class="material-symbols-outlined text-status-ready text-[20px]">task_alt</span>
+</div>
+<div class="font-title-md text-title-md font-bold text-primary flex items-center gap-1">
+<span>RESOLVE</span>
+<span class="font-normal text-on-surface-variant text-body-sm">(പരിഹാരം)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Auto-routing ticket to Canara/SBI lead bank, Akshaya e-Kendra, or Village Revenue Desk with strict SLA timers.
+          </p>
+</div>
+<div class="mt-4 pt-2 border-t border-border-subtle flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-status-ready font-bold">358 Recovered</span>
+<span class="text-on-surface-variant">SLA Compliant</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Layout: 8 cols Left (Queue Table), 4 cols Right (Coordination Hub) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md" id="active-queue">
+<!-- LEFT COLUMN: Primary Work Table & Case Investigation (8 cols) -->
+<div class="lg:col-span-8 flex flex-col space-y-space-md">
+<div class="bg-surface-card rounded-lg shadow-sm border border-border-subtle flex flex-col">
+<!-- Card Header with Filters -->
+<div class="p-space-md border-b border-border-subtle space-y-3">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">format_list_bulleted</span>
+<div>
+<h3 class="font-title-md text-title-md text-primary font-bold">Active PM-KISAN Remediation Queue</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jurisdiction: Thrissur West Block (തൃശ്ശൂർ വെസ്റ്റ് ബ്ലോക്ക്)</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Showing <strong class="text-on-surface">4 of 284</strong> cases</span>
+<a class="font-label-sm text-label-sm text-secondary hover:underline font-bold flex items-center gap-0.5" href="#">
+<span>View all 284</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Quick Filter Tabs -->
+<div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-label-sm font-label-sm">
+<button class="px-2.5 py-1 rounded bg-primary text-on-primary font-bold flex-shrink-0" type="button">
+              All Issues (284)
+            </button>
+<button class="px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold flex-shrink-0 transition-colors" type="button">
+              Aadhaar-NPCI Inactive (112)
+            </button>
+<button class="px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold flex-shrink-0 transition-colors" type="button">
+              Land Seeding Failed (84)
+            </button>
+<button class="px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold flex-shrink-0 transition-colors" type="button">
+              e-KYC Pending (68)
+            </button>
+<button class="px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold flex-shrink-0 transition-colors" type="button">
+              Name Mismatch (20)
+            </button>
+</div>
+</div>
+<!-- High-density Data Table (GIGW 3.0 Standards) -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface border-b border-border-subtle font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-2.5 px-3" scope="col">Case ID &amp; Beneficiary</th>
+<th class="py-2.5 px-3" scope="col">Masked ID / Contact</th>
+<th class="py-2.5 px-3" scope="col">Panchayat / Circle</th>
+<th class="py-2.5 px-3" scope="col">Failure Root Cause</th>
+<th class="py-2.5 px-3" scope="col">Assigned Agency</th>
+<th class="py-2.5 px-3" scope="col">IVR Voice Status</th>
+<th class="py-2.5 px-3" scope="col">Status / SLA</th>
+<th class="py-2.5 px-3 text-right" scope="col">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-subtle font-body-sm text-body-sm">
+<!-- Row 1: K. Raman Pillai (NPCI Inactive) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-bold text-primary">#KL-TSR-09412</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">K. Raman Pillai</span>
+<span class="text-on-surface-variant text-[11px] font-medium">കെ. രാമൻ പിള്ള · Small Holder (Paddy)</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-semibold text-primary">XXXX-XXXX-7841</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant text-[12px]">+91 98471 XXXXX</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Anthikad</span>
+<span class="text-on-surface-variant text-[11px]">അന്തിക്കാട് പഞ്ചായത്ത്</span>
+</div>
+</td>
+<td class="py-3 px-3 max-w-[200px]">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-warning font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">warning</span> NPCI Inactive (R02)
+                    </span>
+<span class="text-on-surface-variant text-[11px] leading-tight mt-0.5">Aadhaar delinked from Canara Bank primary a/c</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-secondary-fixed text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[12px]">account_balance</span> Canara Bank, Anthikad
+                  </span>
+</td>
+<td class="py-3 px-3 max-w-[160px]">
+<div class="flex flex-col">
+<span class="text-status-ready font-bold flex items-center gap-0.5 text-[11px]">
+<span class="material-symbols-outlined text-[13px]">phone_callback</span> Call Played (82s)
+                    </span>
+<span class="text-on-surface-variant text-[11px] italic font-['Noto_Sans_Malayalam']">'ബാങ്ക് സന്ദർശിക്കുക'</span>
+</div>
+</td>
+<td class="py-3 px-3 whitespace-nowrap">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-warning-bg text-status-warning border border-status-warning/40">
+                      Bank In Progress
+                    </span>
+<span class="text-on-surface-variant text-[10px]">SLA: 2 days left</span>
+</div>
+</td>
+<td class="py-3 px-3 text-right whitespace-nowrap">
+<div class="flex items-center justify-end gap-1">
+<button class="px-2 py-1 rounded bg-surface-card border border-border-subtle hover:bg-surface-container-high text-primary font-label-sm text-label-sm font-bold shadow-xs" type="button">
+                      Dossier
+                    </button>
+<button class="p-1 rounded text-secondary hover:bg-secondary-fixed/40" title="Resend Notice via SMS" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Mariamma Varghese (Land Record Mismatch - RED) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors bg-status-error-bg/10">
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-bold text-status-error">#KL-TSR-09418</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Mariamma Varghese</span>
+<span class="text-on-surface-variant text-[11px] font-medium">മറിയാമ്മ വർഗ്ഗീസ് · Marginal (Coconut)</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-semibold text-primary">XXXX-XXXX-3190</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant text-[12px]">+91 94462 XXXXX</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Ollur Circle</span>
+<span class="text-on-surface-variant text-[11px]">ഒല്ലൂർ കൃഷിഭവൻ</span>
+</div>
+</td>
+<td class="py-3 px-3 max-w-[200px]">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-error font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">error</span> Land Mismatch (L04)
+                    </span>
+<span class="text-on-surface-variant text-[11px] leading-tight mt-0.5">RoR survey mismatch with ReLIS portal</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[12px]">location_city</span> Village Office, Ollur
+                  </span>
+</td>
+<td class="py-3 px-3 max-w-[160px]">
+<div class="flex flex-col">
+<span class="text-disclaimer-banner-text font-bold flex items-center gap-0.5 text-[11px]">
+<span class="material-symbols-outlined text-[13px]">schedule</span> Scheduled 02:00 PM
+                    </span>
+<span class="text-on-surface-variant text-[11px]">Malayalam IVR Script #3</span>
+</div>
+</td>
+<td class="py-3 px-3 whitespace-nowrap">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-error-bg text-status-error border border-status-error/40">
+                      Stuck / Overdue
+                    </span>
+<span class="text-status-error font-bold text-[10px]">Overdue by 3 days</span>
+</div>
+</td>
+<td class="py-3 px-3 text-right whitespace-nowrap">
+<div class="flex items-center justify-end gap-1">
+<button class="px-2 py-1 rounded bg-status-error text-on-error hover:bg-error font-label-sm text-label-sm font-bold shadow-xs" type="button">
+                      Expedite
+                    </button>
+<button class="p-1 rounded text-primary hover:bg-surface-container-high" title="Case Details" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Muhammed Shafi (e-KYC - GREEN / PENDING SYNC) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-bold text-primary">#KL-TSR-09425</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Muhammed Shafi</span>
+<span class="text-on-surface-variant text-[11px] font-medium">മുഹമ്മദ് ഷാഫി · Vegetable Cultivator</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-semibold text-primary">XXXX-XXXX-5524</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant text-[12px]">+91 97450 XXXXX</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Cherpu</span>
+<span class="text-on-surface-variant text-[11px]">ചേർപ്പ് പഞ്ചായത്ത്</span>
+</div>
+</td>
+<td class="py-3 px-3 max-w-[200px]">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">fingerprint</span> e-KYC Biometric (E01)
+                    </span>
+<span class="text-on-surface-variant text-[11px] leading-tight mt-0.5">Biometric re-authentication triggered</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-accent-saffron/10 text-disclaimer-banner-text border border-accent-saffron/30">
+<span class="material-symbols-outlined text-[12px]">store</span> Akshaya #14, Cherpu
+                  </span>
+</td>
+<td class="py-3 px-3 max-w-[160px]">
+<div class="flex flex-col">
+<span class="text-status-ready font-bold flex items-center gap-0.5 text-[11px]">
+<span class="material-symbols-outlined text-[13px]">done_all</span> SMS + Voice Sent
+                    </span>
+<span class="text-on-surface-variant text-[11px] italic font-['Noto_Sans_Malayalam']">'അക്ഷയ കേന്ദ്രത്തിൽ പോവുക'</span>
+</div>
+</td>
+<td class="py-3 px-3 whitespace-nowrap">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-ready-bg text-status-ready border border-status-ready/30">
+                      Visited Akshaya
+                    </span>
+<span class="text-on-surface-variant text-[10px]">Awaiting NPCI Sync</span>
+</div>
+</td>
+<td class="py-3 px-3 text-right whitespace-nowrap">
+<div class="flex items-center justify-end gap-1">
+<button class="px-2 py-1 rounded bg-surface-card border border-border-subtle hover:bg-surface-container-high text-primary font-label-sm text-label-sm font-bold shadow-xs" type="button">
+                      Verify Live
+                    </button>
+<button class="p-1 rounded text-primary hover:bg-surface-container-high" title="Case Details" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Devaki Amma (Account Dormant - GREY/ASSIGNED) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-bold text-primary">#KL-TSR-09431</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Devaki Amma</span>
+<span class="text-on-surface-variant text-[11px] font-medium">ദേവകി അമ്മ · Elderly Widow Farmer</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-data-mono text-data-mono font-semibold text-primary">XXXX-XXXX-9761</span>
+<span class="font-data-mono text-data-mono text-on-surface-variant text-[12px]">+91 94473 XXXXX</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Wadakkanchery</span>
+<span class="text-on-surface-variant text-[11px]">വടക്കാഞ്ചേരി നഗരസഭ</span>
+</div>
+</td>
+<td class="py-3 px-3 max-w-[200px]">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-pending font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">lock</span> Dormant A/C (B08)
+                    </span>
+<span class="text-on-surface-variant text-[11px] leading-tight mt-0.5">Account blocked: no transactions in 24m</span>
+</div>
+</td>
+<td class="py-3 px-3">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[12px]">account_balance</span> Kerala Gramin Bank
+                  </span>
+</td>
+<td class="py-3 px-3 max-w-[160px]">
+<div class="flex flex-col">
+<span class="text-status-warning font-bold flex items-center gap-0.5 text-[11px]">
+<span class="material-symbols-outlined text-[13px]">contact_phone</span> Officer Call Flagged
+                    </span>
+<span class="text-on-surface-variant text-[11px]">Needs Field Volunteer</span>
+</div>
+</td>
+<td class="py-3 px-3 whitespace-nowrap">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-pending-bg text-status-pending border border-status-pending/30">
+                      Assigned to AEO
+                    </span>
+<span class="text-on-surface-variant text-[10px]">Volunteer visit set</span>
+</div>
+</td>
+<td class="py-3 px-3 text-right whitespace-nowrap">
+<div class="flex items-center justify-end gap-1">
+<button class="px-2 py-1 rounded bg-secondary text-on-secondary hover:bg-primary font-label-sm text-label-sm font-bold shadow-xs" type="button">
+                      Assign Agent
+                    </button>
+<button class="p-1 rounded text-primary hover:bg-surface-container-high" title="Case Details" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Footer / Pagination -->
+<div class="p-space-md border-t border-border-subtle bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span>Rows per page:</span>
+<select class="bg-surface-card border border-border-subtle rounded px-2 py-1 text-on-surface font-semibold focus:outline-none">
+<option>10</option>
+<option>25</option>
+<option>50</option>
+</select>
+<span>Showing 1 – 4 of 284 cases</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded bg-surface-card border border-border-subtle text-on-surface-variant hover:bg-surface-container hover:text-primary font-bold shadow-xs inline-flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Export CSV</span>
+</button>
+<button class="px-3 py-1.5 rounded bg-surface-card border border-border-subtle text-on-surface-variant hover:bg-surface-container hover:text-primary font-bold shadow-xs inline-flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">print</span>
+<span>Print Notices</span>
+</button>
+<div class="flex items-center border border-border-subtle rounded overflow-hidden">
+<button class="px-2 py-1 bg-surface-card hover:bg-surface-container disabled:opacity-40" disabled="" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_left</span>
+</button>
+<span class="px-3 py-1 bg-primary text-on-primary font-bold">1</span>
+<button class="px-2.5 py-1 bg-surface-card hover:bg-surface-container text-on-surface" type="button">2</button>
+<button class="px-2.5 py-1 bg-surface-card hover:bg-surface-container text-on-surface" type="button">3</button>
+<button class="px-2 py-1 bg-surface-card hover:bg-surface-container text-on-surface" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- District Nodal Progress & Cadastre Heatmap Summary -->
+<div class="bg-surface-card rounded-lg p-space-md shadow-sm border border-border-subtle space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">analytics</span>
+<h3 class="font-title-md text-title-md text-primary font-bold">Panchayat-level Remediation Clearance Rate</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target: 98% by 31 Oct</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+<!-- Panchayat 1: Ollur -->
+<div class="bg-surface-container-low p-3 rounded border border-border-subtle flex flex-col gap-1.5">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="font-bold text-primary">Ollur (ഒല്ലൂർ)</span>
+<span class="text-status-ready font-bold">94.2%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-status-ready h-2 rounded-full" style="width: 94.2%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Remaining: 38 cases</span>
+<span class="text-status-ready font-bold">Optimal</span>
+</div>
+</div>
+<!-- Panchayat 2: Anthikad -->
+<div class="bg-surface-container-low p-3 rounded border border-border-subtle flex flex-col gap-1.5">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="font-bold text-primary">Anthikad (അന്തിക്കാട്)</span>
+<span class="text-status-warning font-bold">88.5%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-status-warning h-2 rounded-full" style="width: 88.5%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Remaining: 114 cases</span>
+<span class="text-disclaimer-banner-text font-bold">Lead Bank Delay</span>
+</div>
+</div>
+<!-- Panchayat 3: Cherpu & Wadakkanchery -->
+<div class="bg-surface-container-low p-3 rounded border border-border-subtle flex flex-col gap-1.5">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="font-bold text-primary">Cherpu / Wadakkanchery</span>
+<span class="text-secondary font-bold">91.8%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-2 rounded-full" style="width: 91.8%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Remaining: 132 cases</span>
+<span class="text-secondary font-bold">Akshaya Drives On</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Inter-Agency Coordination & Voice Assist Hub (4 cols) -->
+<div class="lg:col-span-4 flex flex-col space-y-space-md">
+<!-- WIDGET 1: Malayalam Voice Outreach Engine (AI-IVR Tracker) -->
+<div class="bg-surface-card rounded-lg shadow-sm border border-border-subtle p-space-md flex flex-col space-y-3">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">record_voice_over</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-primary font-bold">Malayalam IVR Voice Outreach</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">സംഭാഷണ സഹായി (Automated Dialler)</p>
+</div>
+</div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm bg-status-ready-bg text-status-ready font-bold border border-status-ready/30">
+            Active Hub
+          </span>
+</div>
+<!-- Simulated Malayalam Voice Waveform Card -->
+<div class="bg-primary text-on-primary p-3 rounded-lg flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-primary/80">
+<span class="flex items-center gap-1 font-bold text-accent-saffron">
+<span class="w-2 h-2 rounded-full bg-accent-saffron animate-pulse"></span>
+              Live Audio Broadcast Script
+            </span>
+<span>Duration: 00:44 / 01:15</span>
+</div>
+<!-- Malayalam Script Quote -->
+<p class="font-['Noto_Sans_Malayalam'] font-body-sm text-body-sm leading-relaxed text-on-primary bg-primary-container/80 p-2.5 rounded border border-on-primary/10">
+            "ശ്രദ്ധിക്കുക: നിങ്ങളുടെ പി.എം കിസാൻ ആനുകൂല്യം ലഭിക്കുന്നതിന് കാനറാ ബാങ്ക് അക്കൗണ്ടുമായി ആധാർ ബന്ധിപ്പിക്കുക. സഹായത്തിന് അക്ഷയ കേന്ദ്രം സന്ദർശിക്കുക..."
+          </p>
+<!-- SVG Audio Waveform Visualizer -->
+<div class="flex items-center gap-1 h-8 px-1">
+<div class="w-1 bg-accent-saffron h-3 rounded-full animate-pulse"></div>
+<div class="w-1 bg-accent-saffron h-6 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-4 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-7 rounded-full animate-pulse"></div>
+<div class="w-1 bg-accent-saffron h-5 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-8 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-4 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-6 rounded-full animate-pulse"></div>
+<div class="w-1 bg-accent-saffron h-3 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-7 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-5 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-8 rounded-full animate-pulse"></div>
+<div class="w-1 bg-accent-saffron h-4 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-6 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-3 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-5 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-7 rounded-full"></div>
+<div class="w-1 bg-accent-saffron h-2 rounded-full"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-accent-saffron text-primary hover:bg-accent-saffron/90 font-label-sm text-label-sm font-bold rounded shadow-xs transition-colors" id="play-sample-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Listen Sample Voice Note</span>
+</button>
+<span class="font-data-mono text-data-mono text-on-primary/70 text-[11px]">TTS Malayalam v2.4</span>
+</div>
+</div>
+<!-- Telemetry Stats -->
+<div class="grid grid-cols-3 gap-2 text-center pt-1">
+<div class="p-2 bg-surface-container-low rounded border border-border-subtle">
+<div class="font-headline-md text-headline-md font-bold text-primary">48</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Calls Today</div>
+</div>
+<div class="p-2 bg-surface-container-low rounded border border-border-subtle">
+<div class="font-headline-md text-headline-md font-bold text-status-ready">41</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Answered (85%)</div>
+</div>
+<div class="p-2 bg-surface-container-low rounded border border-border-subtle">
+<div class="font-headline-md text-headline-md font-bold text-secondary">58s</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Avg Duration</div>
+</div>
+</div>
+</div>
+<!-- WIDGET 2: Action Despatch by Office Type (One-Click Escalation) -->
+<div class="bg-surface-card rounded-lg shadow-sm border border-border-subtle p-space-md flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">hub</span>
+<h3 class="font-title-md text-title-md text-primary font-bold">Inter-Agency Direct Escalation</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">3 Portals</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+          One-click batch notification to nodal officers across Thrissur district:
+        </p>
+<!-- Agency 1: Akshaya Centres -->
+<div class="p-3 bg-surface-container-low rounded-lg border border-border-subtle flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded bg-accent-saffron/20 text-disclaimer-banner-text flex items-center justify-center font-bold text-xs">
+                AK
+              </span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-bold text-[14px]">Akshaya e-Kendras</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Biometric e-KYC Verification</span>
+</div>
+</div>
+<span class="bg-status-warning-bg text-status-warning font-bold font-label-sm text-label-sm px-2 py-0.5 rounded-full border border-status-warning/30">
+              84 Pending
+            </span>
+</div>
+<button class="w-full mt-1 py-1.5 px-3 bg-surface-card border border-border-strong hover:bg-surface-container text-primary font-label-sm text-label-sm font-bold rounded shadow-xs inline-flex items-center justify-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-accent-saffron">forward_to_inbox</span>
+<span>Dispatch Akshaya Batch Docket</span>
+</button>
+</div>
+<!-- Agency 2: Village Revenue Offices -->
+<div class="p-3 bg-surface-container-low rounded-lg border border-border-subtle flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded bg-surface-container-high text-primary flex items-center justify-center font-bold text-xs">
+                VR
+              </span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-bold text-[14px]">Village Revenue Offices</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Land Record &amp; RoR Survey Seeding</span>
+</div>
+</div>
+<span class="bg-status-error-bg text-status-error font-bold font-label-sm text-label-sm px-2 py-0.5 rounded-full border border-status-error/30">
+              52 Pending
+            </span>
+</div>
+<button class="w-full mt-1 py-1.5 px-3 bg-surface-card border border-border-strong hover:bg-surface-container text-primary font-label-sm text-label-sm font-bold rounded shadow-xs inline-flex items-center justify-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-status-error">outgoing_mail</span>
+<span>Send Inter-Departmental Memo</span>
+</button>
+</div>
+<!-- Agency 3: Lead Banks (Canara / SBI / Kerala Gramin) -->
+<div class="p-3 bg-surface-container-low rounded-lg border border-border-subtle flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-xs">
+                LB
+              </span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-bold text-[14px]">Commercial &amp; Gramin Banks</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">NPCI Mapper &amp; DBT Mandates</span>
+</div>
+</div>
+<span class="bg-status-warning-bg text-status-warning font-bold font-label-sm text-label-sm px-2 py-0.5 rounded-full border border-status-warning/30">
+              112 Pending
+            </span>
+</div>
+<button class="w-full mt-1 py-1.5 px-3 bg-primary text-on-primary hover:bg-primary-container font-label-sm text-label-sm font-bold rounded shadow-xs inline-flex items-center justify-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-accent-saffron">upload_file</span>
+<span>Send Lead Bank Escalation File</span>
+</button>
+</div>
+</div>
+<!-- WIDGET 3: Official Verification Hotline & Prototype Notice -->
+<div class="bg-surface-card rounded-lg shadow-sm border border-border-subtle p-space-md flex flex-col space-y-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-ready text-[20px]">verified</span>
+<h3 class="font-title-md text-title-md text-primary font-bold">Nodal District Helpdesk</h3>
+</div>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center justify-between py-1 border-b border-border-subtle">
+<span class="text-on-surface font-medium">Krishi Bhavan Hotline:</span>
+<span class="font-data-mono text-data-mono font-bold text-primary">0487-233XXXX</span>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-border-subtle">
+<span class="text-on-surface font-medium">Nodal Extension Officer:</span>
+<span class="font-semibold text-primary">K. R. Rajesh, AO</span>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="text-on-surface font-medium">GIGW Compliance Mode:</span>
+<span class="text-status-ready font-bold">Level AA Accessible</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded border border-border-subtle text-[11px] leading-relaxed text-on-surface-variant flex items-start gap-2">
+<span class="material-symbols-outlined text-disclaimer-banner-text text-[16px] flex-shrink-0">info</span>
+<span>Prototype built for Agricultural Extension officers handling PM-KISAN grievance resolution in Kerala. All farmer names and Aadhaar records are synthetic academic instances.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive JavaScript for micro-interactions (GIGW Compliant feedback) -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Audio Sample Voice Player toggle simulation
+      const playBtn = document.getElementById('play-sample-btn');
+      if (playBtn) {
+        let isPlaying = false;
+        playBtn.addEventListener('click', () => {
+          isPlaying = !isPlaying;
+          if (isPlaying) {
+            playBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">pause</span><span>Playing Malayalam Audio...</span>';
+            playBtn.classList.remove('bg-accent-saffron');
+            playBtn.classList.add('bg-status-ready', 'text-on-primary');
+          } else {
+            playBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">play_arrow</span><span>Listen Sample Voice Note</span>';
+            playBtn.classList.remove('bg-status-ready', 'text-on-primary');
+            playBtn.classList.add('bg-accent-saffron', 'text-primary');
+          }
+        });
+      }
+
+      // Quick-filter active state demonstration
+      const filterButtons = document.querySelectorAll('#active-queue button');
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          if (btn.closest('.flex.items-center.gap-1.5')) {
+            filterButtons.forEach(b => {
+              if (b.closest('.flex.items-center.gap-1.5')) {
+                b.className = 'px-2.5 py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold flex-shrink-0 transition-colors';
+              }
+            });
+            btn.className = 'px-2.5 py-1 rounded bg-primary text-on-primary font-bold flex-shrink-0';
+          }
+        });
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-primary-container text-on-primary border-t-4 border-accent-saffron mt-auto"><div class="max-w-7xl mx-auto px-gutter pt-space-2xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl border-b border-on-primary/10"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-2"><span class="font-title-lg text-title-lg font-bold text-accent-saffron tracking-tight">DBT-GUARD</span><span class="font-label-sm text-label-sm bg-primary px-2 py-0.5 rounded border border-on-primary/20">v3.2</span></div><p class="font-body-sm text-body-sm text-on-primary/80 leading-relaxed">Decision-support &amp; payment-correction portal engineered for Krishi Bhavan Agricultural Officers to rapidly diagnose NPCI Aadhaar-mapper de-links, PFMS rejections, and state-cadastre mismatches.</p><div class="flex flex-col gap-1 text-on-primary/70 font-body-sm text-body-sm mt-1"><span class="font-bold text-on-primary">Nodal Jurisdiction:</span><span>Krishi Bhavan, Thrissur West Block, Kerala 680001</span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-accent-saffron font-bold">Data Sources (Simulated)</h3><ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-primary/80"><li><a class="hover:text-on-primary hover:underline flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>NPCI Aadhaar-Seeding Sandbox</a></li><li><a class="hover:text-on-primary hover:underline flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>PFMS Public Financial Management Gateway</a></li><li><a class="hover:text-on-primary hover:underline flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Kerala Rythu Digital Land Record System</a></li><li><a class="hover:text-on-primary hover:underline flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>PM-KISAN Central DBT Beneficiary Registry</a></li><li><a class="hover:text-on-primary hover:underline flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Akshaya e-Kendra Village Routing Index</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-accent-saffron font-bold">Privacy &amp; Data Masking Policy</h3><p class="font-body-sm text-body-sm text-on-primary/80 leading-relaxed">Complies with UIDAI Aadhaar Act 2016 regulations. Synthetic Aadhaar instances formatted as <span class="font-data-mono text-data-mono text-secondary-fixed bg-primary px-1 py-0.5 rounded font-bold">XXXX-XXXX-7841</span> and Bank Accounts as <span class="font-data-mono text-data-mono text-secondary-fixed bg-primary px-1 py-0.5 rounded font-bold">XXXXXXX9761</span>.</p><p class="font-body-sm text-body-sm text-on-primary/80">No real PII (Personally Identifiable Information) is stored or transferred within this research artifact.</p></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-accent-saffron font-bold">Officer Support &amp; Escalation</h3><div class="flex flex-col gap-2 font-body-sm text-body-sm text-on-primary/80"><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-accent-green">phone_in_talk</span><span>Toll Free Krishi Helpdesk: 1800-425-1661</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-accent-green">mail</span><span>dbt-support.thrissur@kerala.gov.in</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-accent-green">timer</span><span>Hours: 10:00 AM – 05:00 PM (IST)</span></p></div><div class="mt-2 pt-2 border-t border-on-primary/10"><span class="font-label-sm text-label-sm text-on-primary/60">System Node: KB-TCR-CL04 · Server Time: IST</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-center md:text-left"><div class="flex flex-col gap-1"><p class="font-body-sm text-body-sm text-on-primary/90 font-medium">Academic Prototype for Direct Benefit Transfer Error Remediation · Developed for Agricultural Extension Innovation.</p><p class="font-label-sm text-label-sm text-on-primary/60">Last updated: 16 Oct 2026 | Best viewed in 1440×900 or higher resolution | ISO 27001 &amp; GIGW Mock Compliant</p></div><div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-primary/70"><a class="hover:text-on-primary underline" href="#">Terms of Use</a><a class="hover:text-on-primary underline" href="#">Hyperlinking Policy</a><a class="hover:text-on-primary underline" href="#">Security Policy</a><a class="hover:text-on-primary underline" href="#">Sitemap</a></div></div></div></footer></body></html>

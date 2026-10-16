@@ -1,0 +1,1001 @@
+farmer_id,bank_name,branch_name,ifsc,account_number_masked,account_status,kyc_status
+KL-TSR-0001,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9001,Active,Valid
+KL-TSR-0002,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9002,Active,Valid
+KL-TSR-0003,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9003,Active,Valid
+KL-TSR-0004,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9004,Active,Valid
+KL-TSR-0005,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9005,Active,Valid
+KL-TSR-0006,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9006,Active,Valid
+KL-TSR-0007,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9007,Active,Valid
+KL-TSR-0008,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9008,Active,Valid
+KL-TSR-0009,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9009,Active,Valid
+KL-TSR-0010,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9010,Active,Valid
+KL-TSR-0011,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9011,Active,Valid
+KL-TSR-0012,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9012,Active,Valid
+KL-TSR-0013,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9013,Active,Valid
+KL-TSR-0014,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9014,Active,Valid
+KL-TSR-0015,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9015,Active,Valid
+KL-TSR-0016,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9016,Active,Valid
+KL-TSR-0017,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9017,Active,Valid
+KL-TSR-0018,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9018,Active,Valid
+KL-TSR-0019,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9019,Active,Valid
+KL-TSR-0020,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9020,Active,Valid
+KL-TSR-0021,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9021,Active,Valid
+KL-TSR-0022,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9022,Active,Valid
+KL-TSR-0023,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9023,Active,Valid
+KL-TSR-0024,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9024,Active,Valid
+KL-TSR-0025,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9025,Active,Valid
+KL-TSR-0026,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9026,Active,Valid
+KL-TSR-0027,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9027,Active,Valid
+KL-TSR-0028,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9028,Active,Valid
+KL-TSR-0029,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9029,Active,Valid
+KL-TSR-0030,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9030,Active,Valid
+KL-TSR-0031,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9031,Active,Valid
+KL-TSR-0032,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9032,Active,Valid
+KL-TSR-0033,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9033,Active,Valid
+KL-TSR-0034,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9034,Active,Valid
+KL-TSR-0035,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9035,Active,Valid
+KL-TSR-0036,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9036,Active,Valid
+KL-TSR-0037,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9037,Active,Valid
+KL-TSR-0038,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9038,Active,Valid
+KL-TSR-0039,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9039,Active,Valid
+KL-TSR-0040,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9040,Active,Valid
+KL-TSR-0041,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9041,Active,Valid
+KL-TSR-0042,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9042,Active,Valid
+KL-TSR-0043,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9043,Active,Valid
+KL-TSR-0044,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9044,Active,Valid
+KL-TSR-0045,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9045,Active,Valid
+KL-TSR-0046,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9046,Active,Valid
+KL-TSR-0047,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9047,Active,Valid
+KL-TSR-0048,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9048,Active,Valid
+KL-TSR-0049,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9049,Active,Valid
+KL-TSR-0050,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9050,Active,Valid
+KL-TSR-0051,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9051,Active,Valid
+KL-TSR-0052,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9052,Active,Valid
+KL-TSR-0053,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9053,Active,Valid
+KL-TSR-0054,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9054,Active,Valid
+KL-TSR-0055,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9055,Active,Valid
+KL-TSR-0056,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9056,Active,Valid
+KL-TSR-0057,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9057,Active,Valid
+KL-TSR-0058,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9058,Active,Valid
+KL-TSR-0059,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9059,Active,Valid
+KL-TSR-0060,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9060,Active,Valid
+KL-TSR-0061,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9061,Active,Valid
+KL-TSR-0062,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9062,Active,Valid
+KL-TSR-0063,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9063,Active,Valid
+KL-TSR-0064,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9064,Active,Valid
+KL-TSR-0065,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9065,Active,Valid
+KL-TSR-0066,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9066,Active,Valid
+KL-TSR-0067,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9067,Active,Valid
+KL-TSR-0068,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9068,Active,Valid
+KL-TSR-0069,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9069,Active,Valid
+KL-TSR-0070,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9070,Active,Valid
+KL-TSR-0071,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9071,Active,Valid
+KL-TSR-0072,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9072,Active,Valid
+KL-TSR-0073,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9073,Active,Valid
+KL-TSR-0074,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9074,Active,Valid
+KL-TSR-0075,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9075,Active,Valid
+KL-TSR-0076,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9076,Active,Valid
+KL-TSR-0077,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9077,Active,Valid
+KL-TSR-0078,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9078,Active,Valid
+KL-TSR-0079,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9079,Active,Valid
+KL-TSR-0080,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9080,Active,Valid
+KL-TSR-0081,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9081,Active,Valid
+KL-TSR-0082,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9082,Active,Valid
+KL-TSR-0083,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9083,Active,Valid
+KL-TSR-0084,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9084,Active,Valid
+KL-TSR-0085,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9085,Active,Valid
+KL-TSR-0086,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9086,Active,Valid
+KL-TSR-0087,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9087,Active,Valid
+KL-TSR-0088,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9088,Active,Valid
+KL-TSR-0089,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9089,Active,Valid
+KL-TSR-0090,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9090,Active,Valid
+KL-TSR-0091,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9091,Active,Valid
+KL-TSR-0092,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9092,Active,Valid
+KL-TSR-0093,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9093,Active,Valid
+KL-TSR-0094,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9094,Active,Valid
+KL-TSR-0095,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9095,Active,Valid
+KL-TSR-0096,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9096,Active,Valid
+KL-TSR-0097,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9097,Active,Valid
+KL-TSR-0098,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9098,Active,Valid
+KL-TSR-0099,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9099,Active,Valid
+KL-TSR-0100,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9100,Active,Valid
+KL-TSR-0101,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9101,Active,Valid
+KL-TSR-0102,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9102,Active,Valid
+KL-TSR-0103,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9103,Active,Valid
+KL-TSR-0104,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9104,Active,Valid
+KL-TSR-0105,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9105,Active,Valid
+KL-TSR-0106,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9106,Active,Valid
+KL-TSR-0107,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9107,Active,Valid
+KL-TSR-0108,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9108,Active,Valid
+KL-TSR-0109,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9109,Active,Valid
+KL-TSR-0110,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9110,Active,Valid
+KL-TSR-0111,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9111,Active,Valid
+KL-TSR-0112,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9112,Active,Valid
+KL-TSR-0113,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9113,Active,Valid
+KL-TSR-0114,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9114,Active,Valid
+KL-TSR-0115,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9115,Active,Valid
+KL-TSR-0116,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9116,Active,Valid
+KL-TSR-0117,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9117,Active,Valid
+KL-TSR-0118,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9118,Active,Valid
+KL-TSR-0119,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9119,Active,Valid
+KL-TSR-0120,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9120,Active,Valid
+KL-TSR-0121,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9121,Active,Valid
+KL-TSR-0122,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9122,Active,Valid
+KL-TSR-0123,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9123,Active,Valid
+KL-TSR-0124,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9124,Active,Valid
+KL-TSR-0125,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9125,Active,Valid
+KL-TSR-0126,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9126,Active,Valid
+KL-TSR-0127,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9127,Active,Valid
+KL-TSR-0128,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9128,Active,Valid
+KL-TSR-0129,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9129,Active,Valid
+KL-TSR-0130,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9130,Active,Valid
+KL-TSR-0131,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9131,Active,Valid
+KL-TSR-0132,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9132,Active,Valid
+KL-TSR-0133,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9133,Active,Valid
+KL-TSR-0134,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9134,Active,Valid
+KL-TSR-0135,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9135,Active,Valid
+KL-TSR-0136,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9136,Active,Valid
+KL-TSR-0137,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9137,Active,Valid
+KL-TSR-0138,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9138,Active,Valid
+KL-TSR-0139,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9139,Active,Valid
+KL-TSR-0140,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9140,Active,Valid
+KL-TSR-0141,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9141,Active,Valid
+KL-TSR-0142,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9142,Active,Valid
+KL-TSR-0143,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9143,Active,Valid
+KL-TSR-0144,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9144,Active,Valid
+KL-TSR-0145,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9145,Active,Valid
+KL-TSR-0146,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9146,Active,Valid
+KL-TSR-0147,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9147,Active,Valid
+KL-TSR-0148,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9148,Active,Valid
+KL-TSR-0149,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9149,Active,Valid
+KL-TSR-0150,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9150,Active,Valid
+KL-TSR-0151,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9151,Active,Valid
+KL-TSR-0152,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9152,Active,Valid
+KL-TSR-0153,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9153,Active,Valid
+KL-TSR-0154,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9154,Active,Valid
+KL-TSR-0155,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9155,Active,Valid
+KL-TSR-0156,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9156,Active,Valid
+KL-TSR-0157,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9157,Active,Valid
+KL-TSR-0158,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9158,Active,Valid
+KL-TSR-0159,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9159,Active,Valid
+KL-TSR-0160,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9160,Active,Valid
+KL-TSR-0161,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9161,Active,Valid
+KL-TSR-0162,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9162,Active,Valid
+KL-TSR-0163,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9163,Active,Valid
+KL-TSR-0164,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9164,Active,Valid
+KL-TSR-0165,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9165,Active,Valid
+KL-TSR-0166,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9166,Active,Valid
+KL-TSR-0167,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9167,Active,Valid
+KL-TSR-0168,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9168,Active,Valid
+KL-TSR-0169,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9169,Active,Valid
+KL-TSR-0170,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9170,Active,Valid
+KL-TSR-0171,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9171,Active,Valid
+KL-TSR-0172,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9172,Active,Valid
+KL-TSR-0173,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9173,Active,Valid
+KL-TSR-0174,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9174,Active,Valid
+KL-TSR-0175,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9175,Active,Valid
+KL-TSR-0176,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9176,Active,Valid
+KL-TSR-0177,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9177,Active,Valid
+KL-TSR-0178,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9178,Active,Valid
+KL-TSR-0179,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9179,Active,Valid
+KL-TSR-0180,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9180,Active,Valid
+KL-TSR-0181,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9181,Active,Valid
+KL-TSR-0182,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9182,Active,Valid
+KL-TSR-0183,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9183,Active,Valid
+KL-TSR-0184,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9184,Active,Valid
+KL-TSR-0185,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9185,Active,Valid
+KL-TSR-0186,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9186,Active,Valid
+KL-TSR-0187,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9187,Active,Valid
+KL-TSR-0188,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9188,Active,Valid
+KL-TSR-0189,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9189,Active,Valid
+KL-TSR-0190,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9190,Active,Valid
+KL-TSR-0191,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9191,Active,Valid
+KL-TSR-0192,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9192,Active,Valid
+KL-TSR-0193,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9193,Active,Valid
+KL-TSR-0194,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9194,Active,Valid
+KL-TSR-0195,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9195,Active,Valid
+KL-TSR-0196,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9196,Active,Valid
+KL-TSR-0197,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9197,Active,Valid
+KL-TSR-0198,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9198,Active,Valid
+KL-TSR-0199,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9199,Active,Valid
+KL-TSR-0200,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9200,Active,Valid
+KL-TSR-0201,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9201,Active,Valid
+KL-TSR-0202,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9202,Active,Valid
+KL-TSR-0203,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9203,Active,Valid
+KL-TSR-0204,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9204,Active,Valid
+KL-TSR-0205,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9205,Active,Valid
+KL-TSR-0206,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9206,Active,Valid
+KL-TSR-0207,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9207,Active,Valid
+KL-TSR-0208,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9208,Active,Valid
+KL-TSR-0209,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9209,Active,Valid
+KL-TSR-0210,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9210,Active,Valid
+KL-TSR-0211,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9211,Active,Valid
+KL-TSR-0212,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9212,Closed,Valid
+KL-TSR-0213,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9213,Closed,Valid
+KL-TSR-0214,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9214,Closed,Valid
+KL-TSR-0215,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9215,Closed,Valid
+KL-TSR-0216,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9216,Closed,Valid
+KL-TSR-0217,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9217,Closed,Valid
+KL-TSR-0218,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9218,Closed,Valid
+KL-TSR-0219,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9219,Closed,Valid
+KL-TSR-0220,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9220,Closed,Valid
+KL-TSR-0221,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9221,Closed,Valid
+KL-TSR-0222,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9222,Closed,Valid
+KL-TSR-0223,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9223,Closed,Valid
+KL-TSR-0224,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9224,Closed,Valid
+KL-TSR-0225,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9225,Closed,Valid
+KL-TSR-0226,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9226,Closed,Valid
+KL-TSR-0227,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9227,Closed,Valid
+KL-TSR-0228,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9228,Closed,Valid
+KL-TSR-0229,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9229,Closed,Valid
+KL-TSR-0230,State Bank of India,SBI Irinjalakuda Town,SBIN9999999_INV,XXXXXXXX9230,Active,Valid
+KL-TSR-0231,Canara Bank,Canara Bank Aloor,SBIN9999999_INV,XXXXXXXX9231,Active,Valid
+KL-TSR-0232,Federal Bank,Federal Bank Muriyad,SBIN9999999_INV,XXXXXXXX9232,Active,Valid
+KL-TSR-0233,Kerala Gramin Bank,KGB Kattoor,SBIN9999999_INV,XXXXXXXX9233,Active,Valid
+KL-TSR-0234,Punjab National Bank,PNB Kodakara,SBIN9999999_INV,XXXXXXXX9234,Active,Valid
+KL-TSR-0235,State Bank of India,SBI Irinjalakuda Main,SBIN9999999_INV,XXXXXXXX9235,Active,Valid
+KL-TSR-0236,State Bank of India,SBI Irinjalakuda Town,SBIN9999999_INV,XXXXXXXX9236,Active,Valid
+KL-TSR-0237,Canara Bank,Canara Bank Aloor,SBIN9999999_INV,XXXXXXXX9237,Active,Valid
+KL-TSR-0238,Federal Bank,Federal Bank Muriyad,SBIN9999999_INV,XXXXXXXX9238,Active,Valid
+KL-TSR-0239,Kerala Gramin Bank,KGB Kattoor,SBIN9999999_INV,XXXXXXXX9239,Active,Valid
+KL-TSR-0240,Punjab National Bank,PNB Kodakara,SBIN9999999_INV,XXXXXXXX9240,Active,Valid
+KL-TSR-0241,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9241,Active,Expired
+KL-TSR-0242,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9242,Active,Expired
+KL-TSR-0243,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9243,Active,Expired
+KL-TSR-0244,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9244,Active,Expired
+KL-TSR-0245,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9245,Active,Expired
+KL-TSR-0246,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9246,Active,Expired
+KL-TSR-0247,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9247,Active,Expired
+KL-TSR-0248,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9248,Active,Expired
+KL-TSR-0249,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9249,Active,Expired
+KL-TSR-0250,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9250,Active,Expired
+KL-TSR-0251,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9251,Active,Valid
+KL-TSR-0252,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9252,Active,Valid
+KL-TSR-0253,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9253,Active,Valid
+KL-TSR-0254,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9254,Active,Valid
+KL-TSR-0255,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9255,Active,Valid
+KL-TSR-0256,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9256,Dormant,Valid
+KL-TSR-0257,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9257,Dormant,Valid
+KL-TSR-0258,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9258,Dormant,Valid
+KL-TSR-0259,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9259,Dormant,Valid
+KL-TSR-0260,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9260,Dormant,Valid
+KL-TSR-0261,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9261,Active,Valid
+KL-TSR-0262,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9262,Active,Valid
+KL-TSR-0263,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9263,Active,Valid
+KL-TSR-0264,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9264,Active,Valid
+KL-TSR-0265,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9265,Active,Valid
+KL-TSR-0266,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9266,Active,Valid
+KL-TSR-0267,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9267,Active,Valid
+KL-TSR-0268,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9268,Active,Valid
+KL-TSR-0269,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9269,Active,Valid
+KL-TSR-0270,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9270,Active,Valid
+KL-TSR-0271,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9271,Active,Valid
+KL-TSR-0272,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9272,Active,Valid
+KL-TSR-0273,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9273,Active,Valid
+KL-TSR-0274,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9274,Active,Valid
+KL-TSR-0275,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9275,Active,Valid
+KL-TSR-0276,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9276,Active,Valid
+KL-TSR-0277,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9277,Active,Valid
+KL-TSR-0278,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9278,Active,Valid
+KL-TSR-0279,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9279,Active,Valid
+KL-TSR-0280,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9280,Active,Valid
+KL-TSR-0281,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9281,Active,Valid
+KL-TSR-0282,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9282,Active,Valid
+KL-TSR-0283,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9283,Active,Valid
+KL-TSR-0284,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9284,Active,Valid
+KL-TSR-0285,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9285,Active,Valid
+KL-TSR-0286,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9286,Active,Valid
+KL-TSR-0287,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9287,Active,Valid
+KL-TSR-0288,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9288,Active,Valid
+KL-TSR-0289,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9289,Active,Valid
+KL-TSR-0290,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9290,Active,Valid
+KL-TSR-0291,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9291,Active,Valid
+KL-TSR-0292,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9292,Active,Valid
+KL-TSR-0293,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9293,Active,Valid
+KL-TSR-0294,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9294,Active,Valid
+KL-TSR-0295,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9295,Active,Valid
+KL-TSR-0296,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9296,Active,Valid
+KL-TSR-0297,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9297,Active,Valid
+KL-TSR-0298,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9298,Active,Valid
+KL-TSR-0299,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9299,Active,Valid
+KL-TSR-0300,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9300,Active,Valid
+KL-TSR-0301,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9301,Active,Valid
+KL-TSR-0302,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9302,Active,Valid
+KL-TSR-0303,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9303,Active,Valid
+KL-TSR-0304,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9304,Active,Valid
+KL-TSR-0305,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9305,Active,Valid
+KL-TSR-0306,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9306,Active,Valid
+KL-TSR-0307,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9307,Active,Valid
+KL-TSR-0308,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9308,Active,Valid
+KL-TSR-0309,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9309,Active,Valid
+KL-TSR-0310,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9310,Active,Valid
+KL-TSR-0311,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9311,Active,Valid
+KL-TSR-0312,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9312,Active,Valid
+KL-TSR-0313,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9313,Active,Valid
+KL-TSR-0314,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9314,Active,Valid
+KL-TSR-0315,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9315,Active,Valid
+KL-TSR-0316,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9316,Active,Valid
+KL-TSR-0317,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9317,Active,Valid
+KL-TSR-0318,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9318,Active,Valid
+KL-TSR-0319,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9319,Active,Valid
+KL-TSR-0320,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9320,Active,Valid
+KL-TSR-0321,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9321,Active,Valid
+KL-TSR-0322,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9322,Active,Valid
+KL-TSR-0323,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9323,Active,Valid
+KL-TSR-0324,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9324,Active,Valid
+KL-TSR-0325,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9325,Active,Valid
+KL-TSR-0326,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9326,Active,Valid
+KL-TSR-0327,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9327,Active,Valid
+KL-TSR-0328,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9328,Active,Valid
+KL-TSR-0329,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9329,Active,Valid
+KL-TSR-0330,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9330,Active,Valid
+KL-TSR-0331,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9331,Active,Valid
+KL-TSR-0332,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9332,Active,Valid
+KL-TSR-0333,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9333,Active,Valid
+KL-TSR-0334,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9334,Active,Valid
+KL-TSR-0335,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9335,Active,Valid
+KL-TSR-0336,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9336,Active,Valid
+KL-TSR-0337,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9337,Active,Valid
+KL-TSR-0338,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9338,Active,Valid
+KL-TSR-0339,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9339,Active,Valid
+KL-TSR-0340,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9340,Active,Valid
+KL-TSR-0341,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9341,Active,Valid
+KL-TSR-0342,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9342,Active,Valid
+KL-TSR-0343,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9343,Active,Valid
+KL-TSR-0344,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9344,Active,Valid
+KL-TSR-0345,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9345,Active,Valid
+KL-TSR-0346,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9346,Active,Valid
+KL-TSR-0347,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9347,Active,Valid
+KL-TSR-0348,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9348,Active,Valid
+KL-TSR-0349,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9349,Active,Valid
+KL-TSR-0350,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9350,Active,Valid
+KL-TSR-0351,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9351,Active,Valid
+KL-TSR-0352,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9352,Active,Valid
+KL-TSR-0353,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9353,Active,Valid
+KL-TSR-0354,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9354,Active,Valid
+KL-TSR-0355,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9355,Active,Valid
+KL-TSR-0356,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9356,Active,Valid
+KL-TSR-0357,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9357,Active,Valid
+KL-TSR-0358,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9358,Active,Valid
+KL-TSR-0359,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9359,Active,Valid
+KL-TSR-0360,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9360,Active,Valid
+KL-TSR-0361,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9361,Active,Valid
+KL-TSR-0362,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9362,Active,Valid
+KL-TSR-0363,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9363,Active,Valid
+KL-TSR-0364,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9364,Active,Valid
+KL-TSR-0365,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9365,Active,Valid
+KL-TSR-0366,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9366,Active,Valid
+KL-TSR-0367,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9367,Active,Valid
+KL-TSR-0368,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9368,Active,Valid
+KL-TSR-0369,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9369,Active,Valid
+KL-TSR-0370,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9370,Active,Valid
+KL-TSR-0371,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9371,Active,Valid
+KL-TSR-0372,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9372,Active,Valid
+KL-TSR-0373,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9373,Active,Valid
+KL-TSR-0374,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9374,Active,Valid
+KL-TSR-0375,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9375,Active,Valid
+KL-TSR-0376,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9376,Active,Valid
+KL-TSR-0377,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9377,Active,Valid
+KL-TSR-0378,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9378,Active,Valid
+KL-TSR-0379,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9379,Active,Valid
+KL-TSR-0380,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9380,Active,Valid
+KL-TSR-0381,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9381,Active,Valid
+KL-TSR-0382,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9382,Active,Valid
+KL-TSR-0383,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9383,Active,Valid
+KL-TSR-0384,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9384,Active,Valid
+KL-TSR-0385,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9385,Active,Valid
+KL-TSR-0386,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9386,Active,Valid
+KL-TSR-0387,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9387,Active,Valid
+KL-TSR-0388,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9388,Active,Valid
+KL-TSR-0389,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9389,Active,Valid
+KL-TSR-0390,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9390,Active,Valid
+KL-TSR-0391,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9391,Active,Valid
+KL-TSR-0392,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9392,Active,Valid
+KL-TSR-0393,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9393,Active,Valid
+KL-TSR-0394,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9394,Active,Valid
+KL-TSR-0395,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9395,Active,Valid
+KL-TSR-0396,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9396,Active,Valid
+KL-TSR-0397,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9397,Active,Valid
+KL-TSR-0398,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9398,Active,Valid
+KL-TSR-0399,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9399,Active,Valid
+KL-TSR-0400,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9400,Active,Valid
+KL-TSR-0401,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9401,Active,Valid
+KL-TSR-0402,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9402,Active,Valid
+KL-TSR-0403,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9403,Active,Valid
+KL-TSR-0404,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9404,Active,Valid
+KL-TSR-0405,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9405,Active,Valid
+KL-TSR-0406,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9406,Active,Valid
+KL-TSR-0407,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9407,Active,Valid
+KL-TSR-0408,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9408,Active,Valid
+KL-TSR-0409,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9409,Active,Valid
+KL-TSR-0410,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9410,Active,Valid
+KL-TSR-0411,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9411,Active,Valid
+KL-TSR-0412,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9412,Active,Valid
+KL-TSR-0413,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9413,Active,Valid
+KL-TSR-0414,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9414,Active,Valid
+KL-TSR-0415,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9415,Active,Valid
+KL-TSR-0416,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9416,Active,Valid
+KL-TSR-0417,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9417,Active,Valid
+KL-TSR-0418,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9418,Active,Valid
+KL-TSR-0419,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9419,Active,Valid
+KL-TSR-0420,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9420,Active,Valid
+KL-TSR-0421,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9421,Active,Valid
+KL-TSR-0422,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9422,Active,Valid
+KL-TSR-0423,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9423,Active,Valid
+KL-TSR-0424,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9424,Active,Valid
+KL-TSR-0425,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9425,Active,Valid
+KL-TSR-0426,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9426,Active,Valid
+KL-TSR-0427,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9427,Active,Valid
+KL-TSR-0428,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9428,Active,Valid
+KL-TSR-0429,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9429,Active,Valid
+KL-TSR-0430,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9430,Active,Valid
+KL-TSR-0431,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9431,Active,Valid
+KL-TSR-0432,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9432,Active,Valid
+KL-TSR-0433,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9433,Active,Valid
+KL-TSR-0434,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9434,Active,Valid
+KL-TSR-0435,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9435,Active,Valid
+KL-TSR-0436,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9436,Active,Valid
+KL-TSR-0437,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9437,Active,Valid
+KL-TSR-0438,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9438,Active,Valid
+KL-TSR-0439,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9439,Active,Valid
+KL-TSR-0440,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9440,Active,Valid
+KL-TSR-0441,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9441,Active,Valid
+KL-TSR-0442,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9442,Active,Valid
+KL-TSR-0443,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9443,Active,Valid
+KL-TSR-0444,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9444,Active,Valid
+KL-TSR-0445,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9445,Active,Valid
+KL-TSR-0446,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9446,Active,Valid
+KL-TSR-0447,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9447,Active,Valid
+KL-TSR-0448,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9448,Active,Valid
+KL-TSR-0449,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9449,Active,Valid
+KL-TSR-0450,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9450,Active,Valid
+KL-TSR-0451,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9451,Active,Valid
+KL-TSR-0452,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9452,Active,Valid
+KL-TSR-0453,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9453,Active,Valid
+KL-TSR-0454,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9454,Active,Valid
+KL-TSR-0455,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9455,Active,Valid
+KL-TSR-0456,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9456,Active,Valid
+KL-TSR-0457,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9457,Active,Valid
+KL-TSR-0458,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9458,Active,Valid
+KL-TSR-0459,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9459,Active,Valid
+KL-TSR-0460,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9460,Active,Valid
+KL-TSR-0461,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9461,Active,Valid
+KL-TSR-0462,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9462,Active,Valid
+KL-TSR-0463,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9463,Active,Valid
+KL-TSR-0464,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9464,Active,Valid
+KL-TSR-0465,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9465,Active,Valid
+KL-TSR-0466,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9466,Active,Valid
+KL-TSR-0467,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9467,Active,Valid
+KL-TSR-0468,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9468,Active,Valid
+KL-TSR-0469,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9469,Active,Valid
+KL-TSR-0470,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9470,Active,Valid
+KL-TSR-0471,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9471,Active,Valid
+KL-TSR-0472,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9472,Active,Valid
+KL-TSR-0473,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9473,Active,Valid
+KL-TSR-0474,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9474,Active,Valid
+KL-TSR-0475,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9475,Active,Valid
+KL-TSR-0476,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9476,Active,Valid
+KL-TSR-0477,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9477,Active,Valid
+KL-TSR-0478,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9478,Active,Valid
+KL-TSR-0479,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9479,Active,Valid
+KL-TSR-0480,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9480,Active,Valid
+KL-TSR-0481,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9481,Active,Valid
+KL-TSR-0482,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9482,Active,Valid
+KL-TSR-0483,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9483,Active,Valid
+KL-TSR-0484,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9484,Active,Valid
+KL-TSR-0485,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9485,Active,Valid
+KL-TSR-0486,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9486,Active,Valid
+KL-TSR-0487,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9487,Active,Valid
+KL-TSR-0488,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9488,Active,Valid
+KL-TSR-0489,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9489,Active,Valid
+KL-TSR-0490,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9490,Active,Valid
+KL-TSR-0491,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9491,Active,Valid
+KL-TSR-0492,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9492,Active,Valid
+KL-TSR-0493,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9493,Active,Valid
+KL-TSR-0494,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9494,Active,Valid
+KL-TSR-0495,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9495,Active,Valid
+KL-TSR-0496,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9496,Active,Valid
+KL-TSR-0497,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9497,Active,Valid
+KL-TSR-0498,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9498,Active,Valid
+KL-TSR-0499,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9499,Active,Valid
+KL-TSR-0500,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9500,Active,Valid
+KL-TSR-0501,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9501,Active,Valid
+KL-TSR-0502,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9502,Active,Valid
+KL-TSR-0503,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9503,Active,Valid
+KL-TSR-0504,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9504,Active,Valid
+KL-TSR-0505,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9505,Active,Valid
+KL-TSR-0506,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9506,Active,Valid
+KL-TSR-0507,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9507,Active,Valid
+KL-TSR-0508,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9508,Active,Valid
+KL-TSR-0509,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9509,Active,Valid
+KL-TSR-0510,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9510,Active,Valid
+KL-TSR-0511,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9511,Active,Valid
+KL-TSR-0512,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9512,Active,Valid
+KL-TSR-0513,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9513,Active,Valid
+KL-TSR-0514,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9514,Active,Valid
+KL-TSR-0515,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9515,Active,Valid
+KL-TSR-0516,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9516,Active,Valid
+KL-TSR-0517,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9517,Active,Valid
+KL-TSR-0518,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9518,Active,Valid
+KL-TSR-0519,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9519,Active,Valid
+KL-TSR-0520,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9520,Active,Valid
+KL-TSR-0521,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9521,Active,Valid
+KL-TSR-0522,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9522,Active,Valid
+KL-TSR-0523,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9523,Active,Valid
+KL-TSR-0524,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9524,Active,Valid
+KL-TSR-0525,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9525,Active,Valid
+KL-TSR-0526,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9526,Active,Valid
+KL-TSR-0527,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9527,Active,Valid
+KL-TSR-0528,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9528,Active,Valid
+KL-TSR-0529,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9529,Active,Valid
+KL-TSR-0530,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9530,Active,Valid
+KL-TSR-0531,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9531,Active,Valid
+KL-TSR-0532,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9532,Active,Valid
+KL-TSR-0533,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9533,Active,Valid
+KL-TSR-0534,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9534,Active,Valid
+KL-TSR-0535,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9535,Active,Valid
+KL-TSR-0536,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9536,Active,Valid
+KL-TSR-0537,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9537,Active,Valid
+KL-TSR-0538,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9538,Active,Valid
+KL-TSR-0539,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9539,Active,Valid
+KL-TSR-0540,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9540,Active,Valid
+KL-TSR-0541,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9541,Active,Valid
+KL-TSR-0542,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9542,Active,Valid
+KL-TSR-0543,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9543,Active,Valid
+KL-TSR-0544,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9544,Active,Valid
+KL-TSR-0545,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9545,Active,Valid
+KL-TSR-0546,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9546,Active,Valid
+KL-TSR-0547,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9547,Active,Valid
+KL-TSR-0548,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9548,Active,Valid
+KL-TSR-0549,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9549,Active,Valid
+KL-TSR-0550,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9550,Active,Valid
+KL-TSR-0551,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9551,Active,Valid
+KL-TSR-0552,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9552,Active,Valid
+KL-TSR-0553,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9553,Active,Valid
+KL-TSR-0554,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9554,Active,Valid
+KL-TSR-0555,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9555,Active,Valid
+KL-TSR-0556,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9556,Active,Valid
+KL-TSR-0557,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9557,Active,Valid
+KL-TSR-0558,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9558,Active,Valid
+KL-TSR-0559,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9559,Active,Valid
+KL-TSR-0560,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9560,Active,Valid
+KL-TSR-0561,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9561,Active,Valid
+KL-TSR-0562,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9562,Active,Valid
+KL-TSR-0563,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9563,Active,Valid
+KL-TSR-0564,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9564,Active,Valid
+KL-TSR-0565,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9565,Active,Valid
+KL-TSR-0566,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9566,Active,Valid
+KL-TSR-0567,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9567,Active,Valid
+KL-TSR-0568,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9568,Active,Valid
+KL-TSR-0569,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9569,Active,Valid
+KL-TSR-0570,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9570,Active,Valid
+KL-TSR-0571,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9571,Active,Valid
+KL-TSR-0572,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9572,Active,Valid
+KL-TSR-0573,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9573,Active,Valid
+KL-TSR-0574,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9574,Active,Valid
+KL-TSR-0575,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9575,Active,Valid
+KL-TSR-0576,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9576,Active,Valid
+KL-TSR-0577,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9577,Active,Valid
+KL-TSR-0578,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9578,Active,Valid
+KL-TSR-0579,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9579,Active,Valid
+KL-TSR-0580,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9580,Active,Valid
+KL-TSR-0581,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9581,Active,Valid
+KL-TSR-0582,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9582,Active,Valid
+KL-TSR-0583,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9583,Active,Valid
+KL-TSR-0584,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9584,Active,Valid
+KL-TSR-0585,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9585,Active,Valid
+KL-TSR-0586,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9586,Active,Valid
+KL-TSR-0587,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9587,Active,Valid
+KL-TSR-0588,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9588,Active,Valid
+KL-TSR-0589,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9589,Active,Valid
+KL-TSR-0590,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9590,Active,Valid
+KL-TSR-0591,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9591,Active,Valid
+KL-TSR-0592,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9592,Active,Valid
+KL-TSR-0593,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9593,Active,Valid
+KL-TSR-0594,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9594,Active,Valid
+KL-TSR-0595,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9595,Active,Valid
+KL-TSR-0596,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9596,Active,Valid
+KL-TSR-0597,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9597,Active,Valid
+KL-TSR-0598,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9598,Active,Valid
+KL-TSR-0599,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9599,Active,Valid
+KL-TSR-0600,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9600,Active,Valid
+KL-TSR-0601,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9601,Active,Valid
+KL-TSR-0602,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9602,Active,Valid
+KL-TSR-0603,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9603,Active,Valid
+KL-TSR-0604,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9604,Active,Valid
+KL-TSR-0605,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9605,Active,Valid
+KL-TSR-0606,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9606,Active,Valid
+KL-TSR-0607,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9607,Active,Valid
+KL-TSR-0608,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9608,Active,Valid
+KL-TSR-0609,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9609,Active,Valid
+KL-TSR-0610,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9610,Active,Valid
+KL-TSR-0611,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9611,Active,Valid
+KL-TSR-0612,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9612,Active,Valid
+KL-TSR-0613,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9613,Active,Valid
+KL-TSR-0614,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9614,Active,Valid
+KL-TSR-0615,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9615,Active,Valid
+KL-TSR-0616,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9616,Active,Valid
+KL-TSR-0617,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9617,Active,Valid
+KL-TSR-0618,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9618,Active,Valid
+KL-TSR-0619,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9619,Active,Valid
+KL-TSR-0620,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9620,Active,Valid
+KL-TSR-0621,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9621,Active,Valid
+KL-TSR-0622,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9622,Active,Valid
+KL-TSR-0623,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9623,Active,Valid
+KL-TSR-0624,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9624,Active,Valid
+KL-TSR-0625,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9625,Active,Valid
+KL-TSR-0626,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9626,Active,Valid
+KL-TSR-0627,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9627,Active,Valid
+KL-TSR-0628,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9628,Active,Valid
+KL-TSR-0629,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9629,Active,Valid
+KL-TSR-0630,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9630,Active,Valid
+KL-TSR-0631,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9631,Active,Valid
+KL-TSR-0632,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9632,Active,Valid
+KL-TSR-0633,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9633,Active,Valid
+KL-TSR-0634,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9634,Active,Valid
+KL-TSR-0635,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9635,Active,Valid
+KL-TSR-0636,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9636,Active,Valid
+KL-TSR-0637,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9637,Active,Valid
+KL-TSR-0638,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9638,Active,Valid
+KL-TSR-0639,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9639,Active,Valid
+KL-TSR-0640,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9640,Active,Valid
+KL-TSR-0641,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9641,Active,Valid
+KL-TSR-0642,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9642,Active,Valid
+KL-TSR-0643,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9643,Active,Valid
+KL-TSR-0644,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9644,Active,Valid
+KL-TSR-0645,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9645,Active,Valid
+KL-TSR-0646,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9646,Active,Valid
+KL-TSR-0647,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9647,Active,Valid
+KL-TSR-0648,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9648,Active,Valid
+KL-TSR-0649,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9649,Active,Valid
+KL-TSR-0650,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9650,Active,Valid
+KL-TSR-0651,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9651,Active,Valid
+KL-TSR-0652,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9652,Active,Valid
+KL-TSR-0653,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9653,Active,Valid
+KL-TSR-0654,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9654,Active,Valid
+KL-TSR-0655,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9655,Active,Valid
+KL-TSR-0656,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9656,Active,Valid
+KL-TSR-0657,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9657,Active,Valid
+KL-TSR-0658,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9658,Active,Valid
+KL-TSR-0659,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9659,Active,Valid
+KL-TSR-0660,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9660,Active,Valid
+KL-TSR-0661,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9661,Active,Valid
+KL-TSR-0662,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9662,Active,Valid
+KL-TSR-0663,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9663,Active,Valid
+KL-TSR-0664,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9664,Active,Valid
+KL-TSR-0665,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9665,Active,Valid
+KL-TSR-0666,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9666,Active,Valid
+KL-TSR-0667,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9667,Active,Valid
+KL-TSR-0668,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9668,Active,Valid
+KL-TSR-0669,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9669,Active,Valid
+KL-TSR-0670,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9670,Active,Valid
+KL-TSR-0671,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9671,Active,Valid
+KL-TSR-0672,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9672,Active,Valid
+KL-TSR-0673,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9673,Active,Valid
+KL-TSR-0674,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9674,Active,Valid
+KL-TSR-0675,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9675,Active,Valid
+KL-TSR-0676,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9676,Active,Valid
+KL-TSR-0677,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9677,Active,Valid
+KL-TSR-0678,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9678,Active,Valid
+KL-TSR-0679,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9679,Active,Valid
+KL-TSR-0680,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9680,Active,Valid
+KL-TSR-0681,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9681,Active,Valid
+KL-TSR-0682,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9682,Active,Valid
+KL-TSR-0683,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9683,Active,Valid
+KL-TSR-0684,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9684,Active,Valid
+KL-TSR-0685,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9685,Active,Valid
+KL-TSR-0686,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9686,Active,Valid
+KL-TSR-0687,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9687,Active,Valid
+KL-TSR-0688,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9688,Active,Valid
+KL-TSR-0689,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9689,Active,Valid
+KL-TSR-0690,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9690,Active,Valid
+KL-TSR-0691,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9691,Active,Valid
+KL-TSR-0692,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9692,Active,Valid
+KL-TSR-0693,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9693,Active,Valid
+KL-TSR-0694,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9694,Active,Valid
+KL-TSR-0695,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9695,Active,Valid
+KL-TSR-0696,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9696,Active,Valid
+KL-TSR-0697,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9697,Active,Valid
+KL-TSR-0698,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9698,Active,Valid
+KL-TSR-0699,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9699,Active,Valid
+KL-TSR-0700,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9700,Active,Valid
+KL-TSR-0701,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9701,Active,Valid
+KL-TSR-0702,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9702,Active,Valid
+KL-TSR-0703,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9703,Active,Valid
+KL-TSR-0704,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9704,Active,Valid
+KL-TSR-0705,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9705,Active,Valid
+KL-TSR-0706,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9706,Active,Valid
+KL-TSR-0707,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9707,Active,Valid
+KL-TSR-0708,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9708,Active,Valid
+KL-TSR-0709,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9709,Active,Valid
+KL-TSR-0710,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9710,Active,Valid
+KL-TSR-0711,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9711,Active,Valid
+KL-TSR-0712,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9712,Active,Valid
+KL-TSR-0713,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9713,Active,Valid
+KL-TSR-0714,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9714,Active,Valid
+KL-TSR-0715,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9715,Active,Valid
+KL-TSR-0716,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9716,Active,Valid
+KL-TSR-0717,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9717,Active,Valid
+KL-TSR-0718,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9718,Active,Valid
+KL-TSR-0719,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9719,Active,Valid
+KL-TSR-0720,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9720,Active,Valid
+KL-TSR-0721,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9721,Active,Valid
+KL-TSR-0722,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9722,Active,Valid
+KL-TSR-0723,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9723,Active,Valid
+KL-TSR-0724,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9724,Active,Valid
+KL-TSR-0725,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9725,Active,Valid
+KL-TSR-0726,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9726,Active,Valid
+KL-TSR-0727,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9727,Active,Valid
+KL-TSR-0728,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9728,Active,Valid
+KL-TSR-0729,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9729,Active,Valid
+KL-TSR-0730,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9730,Active,Valid
+KL-TSR-0731,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9731,Active,Valid
+KL-TSR-0732,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9732,Active,Valid
+KL-TSR-0733,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9733,Active,Valid
+KL-TSR-0734,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9734,Active,Valid
+KL-TSR-0735,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9735,Active,Valid
+KL-TSR-0736,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9736,Active,Valid
+KL-TSR-0737,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9737,Active,Valid
+KL-TSR-0738,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9738,Active,Valid
+KL-TSR-0739,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9739,Active,Valid
+KL-TSR-0740,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9740,Active,Valid
+KL-TSR-0741,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9741,Active,Valid
+KL-TSR-0742,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9742,Active,Valid
+KL-TSR-0743,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9743,Active,Valid
+KL-TSR-0744,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9744,Active,Valid
+KL-TSR-0745,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9745,Active,Valid
+KL-TSR-0746,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9746,Active,Valid
+KL-TSR-0747,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9747,Active,Valid
+KL-TSR-0748,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9748,Active,Valid
+KL-TSR-0749,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9749,Active,Valid
+KL-TSR-0750,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9750,Active,Valid
+KL-TSR-0751,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9751,Active,Valid
+KL-TSR-0752,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9752,Active,Valid
+KL-TSR-0753,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9753,Active,Valid
+KL-TSR-0754,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9754,Active,Valid
+KL-TSR-0755,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9755,Active,Valid
+KL-TSR-0756,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9756,Active,Valid
+KL-TSR-0757,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9757,Active,Valid
+KL-TSR-0758,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9758,Active,Valid
+KL-TSR-0759,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9759,Active,Valid
+KL-TSR-0760,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9760,Active,Valid
+KL-TSR-0761,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9761,Active,Valid
+KL-TSR-0762,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9762,Active,Valid
+KL-TSR-0763,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9763,Active,Valid
+KL-TSR-0764,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9764,Active,Valid
+KL-TSR-0765,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9765,Active,Valid
+KL-TSR-0766,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9766,Active,Valid
+KL-TSR-0767,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9767,Active,Valid
+KL-TSR-0768,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9768,Active,Valid
+KL-TSR-0769,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9769,Active,Valid
+KL-TSR-0770,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9770,Active,Valid
+KL-TSR-0771,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9771,Active,Valid
+KL-TSR-0772,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9772,Active,Valid
+KL-TSR-0773,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9773,Active,Valid
+KL-TSR-0774,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9774,Active,Valid
+KL-TSR-0775,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9775,Active,Valid
+KL-TSR-0776,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9776,Active,Valid
+KL-TSR-0777,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9777,Active,Valid
+KL-TSR-0778,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9778,Active,Valid
+KL-TSR-0779,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9779,Active,Valid
+KL-TSR-0780,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9780,Active,Valid
+KL-TSR-0781,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9781,Active,Valid
+KL-TSR-0782,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9782,Active,Valid
+KL-TSR-0783,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9783,Active,Valid
+KL-TSR-0784,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9784,Active,Valid
+KL-TSR-0785,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9785,Active,Valid
+KL-TSR-0786,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9786,Active,Valid
+KL-TSR-0787,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9787,Active,Valid
+KL-TSR-0788,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9788,Active,Valid
+KL-TSR-0789,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9789,Active,Valid
+KL-TSR-0790,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9790,Active,Valid
+KL-TSR-0791,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9791,Active,Valid
+KL-TSR-0792,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9792,Active,Valid
+KL-TSR-0793,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9793,Active,Valid
+KL-TSR-0794,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9794,Active,Valid
+KL-TSR-0795,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9795,Active,Valid
+KL-TSR-0796,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9796,Active,Valid
+KL-TSR-0797,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9797,Active,Valid
+KL-TSR-0798,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9798,Active,Valid
+KL-TSR-0799,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9799,Active,Valid
+KL-TSR-0800,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9800,Active,Valid
+KL-TSR-0801,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9801,Active,Valid
+KL-TSR-0802,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9802,Active,Valid
+KL-TSR-0803,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9803,Active,Valid
+KL-TSR-0804,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9804,Active,Valid
+KL-TSR-0805,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9805,Active,Valid
+KL-TSR-0806,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9806,Active,Valid
+KL-TSR-0807,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9807,Active,Valid
+KL-TSR-0808,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9808,Active,Valid
+KL-TSR-0809,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9809,Active,Valid
+KL-TSR-0810,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9810,Active,Valid
+KL-TSR-0811,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9811,Active,Valid
+KL-TSR-0812,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9812,Active,Valid
+KL-TSR-0813,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9813,Active,Valid
+KL-TSR-0814,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9814,Active,Valid
+KL-TSR-0815,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9815,Active,Valid
+KL-TSR-0816,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9816,Active,Valid
+KL-TSR-0817,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9817,Active,Valid
+KL-TSR-0818,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9818,Active,Valid
+KL-TSR-0819,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9819,Active,Valid
+KL-TSR-0820,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9820,Active,Valid
+KL-TSR-0821,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9821,Active,Valid
+KL-TSR-0822,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9822,Active,Valid
+KL-TSR-0823,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9823,Active,Valid
+KL-TSR-0824,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9824,Active,Valid
+KL-TSR-0825,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9825,Active,Valid
+KL-TSR-0826,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9826,Active,Valid
+KL-TSR-0827,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9827,Active,Valid
+KL-TSR-0828,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9828,Active,Valid
+KL-TSR-0829,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9829,Active,Valid
+KL-TSR-0830,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9830,Active,Valid
+KL-TSR-0831,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9831,Active,Valid
+KL-TSR-0832,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9832,Active,Valid
+KL-TSR-0833,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9833,Active,Valid
+KL-TSR-0834,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9834,Active,Valid
+KL-TSR-0835,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9835,Active,Valid
+KL-TSR-0836,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9836,Active,Valid
+KL-TSR-0837,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9837,Active,Valid
+KL-TSR-0838,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9838,Active,Valid
+KL-TSR-0839,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9839,Active,Valid
+KL-TSR-0840,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9840,Active,Valid
+KL-TSR-0841,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9841,Active,Valid
+KL-TSR-0842,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9842,Active,Valid
+KL-TSR-0843,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9843,Active,Valid
+KL-TSR-0844,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9844,Active,Valid
+KL-TSR-0845,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9845,Active,Valid
+KL-TSR-0846,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9846,Active,Valid
+KL-TSR-0847,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9847,Active,Valid
+KL-TSR-0848,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9848,Active,Valid
+KL-TSR-0849,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9849,Active,Valid
+KL-TSR-0850,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9850,Active,Valid
+KL-TSR-0851,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9851,Active,Valid
+KL-TSR-0852,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9852,Active,Valid
+KL-TSR-0853,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9853,Active,Valid
+KL-TSR-0854,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9854,Active,Valid
+KL-TSR-0855,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9855,Active,Valid
+KL-TSR-0856,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9856,Active,Valid
+KL-TSR-0857,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9857,Active,Valid
+KL-TSR-0858,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9858,Active,Valid
+KL-TSR-0859,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9859,Active,Valid
+KL-TSR-0860,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9860,Active,Valid
+KL-TSR-0861,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9861,Active,Valid
+KL-TSR-0862,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9862,Active,Valid
+KL-TSR-0863,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9863,Active,Valid
+KL-TSR-0864,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9864,Active,Valid
+KL-TSR-0865,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9865,Active,Valid
+KL-TSR-0866,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9866,Active,Valid
+KL-TSR-0867,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9867,Active,Valid
+KL-TSR-0868,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9868,Active,Valid
+KL-TSR-0869,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9869,Active,Valid
+KL-TSR-0870,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9870,Active,Valid
+KL-TSR-0871,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9871,Active,Valid
+KL-TSR-0872,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9872,Active,Valid
+KL-TSR-0873,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9873,Active,Valid
+KL-TSR-0874,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9874,Active,Valid
+KL-TSR-0875,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9875,Active,Valid
+KL-TSR-0876,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9876,Active,Valid
+KL-TSR-0877,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9877,Active,Valid
+KL-TSR-0878,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9878,Active,Valid
+KL-TSR-0879,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9879,Active,Valid
+KL-TSR-0880,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9880,Active,Valid
+KL-TSR-0881,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9881,Active,Valid
+KL-TSR-0882,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9882,Active,Valid
+KL-TSR-0883,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9883,Active,Valid
+KL-TSR-0884,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9884,Active,Valid
+KL-TSR-0885,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9885,Active,Valid
+KL-TSR-0886,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9886,Active,Valid
+KL-TSR-0887,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9887,Active,Valid
+KL-TSR-0888,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9888,Active,Valid
+KL-TSR-0889,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9889,Active,Valid
+KL-TSR-0890,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9890,Active,Valid
+KL-TSR-0891,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9891,Active,Valid
+KL-TSR-0892,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9892,Active,Valid
+KL-TSR-0893,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9893,Active,Valid
+KL-TSR-0894,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9894,Active,Valid
+KL-TSR-0895,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9895,Active,Valid
+KL-TSR-0896,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9896,Active,Valid
+KL-TSR-0897,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9897,Active,Valid
+KL-TSR-0898,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9898,Active,Valid
+KL-TSR-0899,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9899,Active,Valid
+KL-TSR-0900,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9900,Active,Valid
+KL-TSR-0901,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9901,Active,Valid
+KL-TSR-0902,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9902,Active,Valid
+KL-TSR-0903,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9903,Active,Valid
+KL-TSR-0904,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9904,Active,Valid
+KL-TSR-0905,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9905,Active,Valid
+KL-TSR-0906,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9906,Active,Valid
+KL-TSR-0907,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9907,Active,Valid
+KL-TSR-0908,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9908,Active,Valid
+KL-TSR-0909,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9909,Active,Valid
+KL-TSR-0910,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9910,Active,Valid
+KL-TSR-0911,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9911,Active,Valid
+KL-TSR-0912,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9912,Active,Valid
+KL-TSR-0913,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9913,Active,Valid
+KL-TSR-0914,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9914,Active,Valid
+KL-TSR-0915,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9915,Active,Valid
+KL-TSR-0916,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9916,Active,Valid
+KL-TSR-0917,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9917,Active,Valid
+KL-TSR-0918,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9918,Active,Valid
+KL-TSR-0919,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9919,Active,Valid
+KL-TSR-0920,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9920,Active,Valid
+KL-TSR-0921,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9921,Active,Valid
+KL-TSR-0922,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9922,Active,Valid
+KL-TSR-0923,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9923,Active,Valid
+KL-TSR-0924,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9924,Active,Valid
+KL-TSR-0925,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9925,Active,Valid
+KL-TSR-0926,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9926,Active,Valid
+KL-TSR-0927,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9927,Active,Valid
+KL-TSR-0928,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9928,Active,Valid
+KL-TSR-0929,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9929,Active,Valid
+KL-TSR-0930,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9930,Active,Valid
+KL-TSR-0931,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9931,Active,Valid
+KL-TSR-0932,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9932,Active,Valid
+KL-TSR-0933,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9933,Active,Valid
+KL-TSR-0934,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9934,Active,Valid
+KL-TSR-0935,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9935,Active,Valid
+KL-TSR-0936,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9936,Active,Valid
+KL-TSR-0937,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9937,Active,Valid
+KL-TSR-0938,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9938,Active,Valid
+KL-TSR-0939,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9939,Active,Valid
+KL-TSR-0940,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9940,Active,Valid
+KL-TSR-0941,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9941,Active,Valid
+KL-TSR-0942,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9942,Active,Valid
+KL-TSR-0943,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9943,Active,Valid
+KL-TSR-0944,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9944,Active,Valid
+KL-TSR-0945,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9945,Active,Valid
+KL-TSR-0946,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9946,Active,Valid
+KL-TSR-0947,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9947,Active,Valid
+KL-TSR-0948,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9948,Active,Valid
+KL-TSR-0949,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9949,Active,Valid
+KL-TSR-0950,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9950,Active,Valid
+KL-TSR-0951,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9951,Active,Valid
+KL-TSR-0952,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9952,Active,Valid
+KL-TSR-0953,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9953,Active,Valid
+KL-TSR-0954,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9954,Active,Valid
+KL-TSR-0955,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9955,Active,Valid
+KL-TSR-0956,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9956,Active,Valid
+KL-TSR-0957,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9957,Active,Valid
+KL-TSR-0958,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9958,Active,Valid
+KL-TSR-0959,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9959,Active,Valid
+KL-TSR-0960,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9960,Active,Valid
+KL-TSR-0961,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9961,Active,Valid
+KL-TSR-0962,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9962,Active,Valid
+KL-TSR-0963,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9963,Active,Valid
+KL-TSR-0964,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9964,Active,Valid
+KL-TSR-0965,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9965,Active,Valid
+KL-TSR-0966,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9966,Active,Valid
+KL-TSR-0967,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9967,Active,Valid
+KL-TSR-0968,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9968,Active,Valid
+KL-TSR-0969,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9969,Active,Valid
+KL-TSR-0970,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9970,Active,Valid
+KL-TSR-0971,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9971,Active,Valid
+KL-TSR-0972,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9972,Active,Valid
+KL-TSR-0973,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9973,Active,Valid
+KL-TSR-0974,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9974,Active,Valid
+KL-TSR-0975,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9975,Active,Valid
+KL-TSR-0976,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9976,Active,Valid
+KL-TSR-0977,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9977,Active,Valid
+KL-TSR-0978,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9978,Active,Valid
+KL-TSR-0979,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9979,Active,Valid
+KL-TSR-0980,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9980,Active,Valid
+KL-TSR-0981,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9981,Active,Valid
+KL-TSR-0982,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9982,Active,Valid
+KL-TSR-0983,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9983,Active,Valid
+KL-TSR-0984,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9984,Active,Valid
+KL-TSR-0985,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9985,Active,Valid
+KL-TSR-0986,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9986,Active,Valid
+KL-TSR-0987,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9987,Active,Valid
+KL-TSR-0988,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9988,Active,Valid
+KL-TSR-0989,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9989,Active,Valid
+KL-TSR-0990,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9990,Active,Valid
+KL-TSR-0991,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9991,Active,Valid
+KL-TSR-0992,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9992,Active,Valid
+KL-TSR-0993,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9993,Active,Valid
+KL-TSR-0994,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9994,Active,Valid
+KL-TSR-0995,Kerala Gramin Bank,KGB Kattoor,KLGB0040182,XXXXXXXX9995,Active,Valid
+KL-TSR-0996,Punjab National Bank,PNB Kodakara,PUNB0184000,XXXXXXXX9996,Active,Valid
+KL-TSR-0997,State Bank of India,SBI Irinjalakuda Main,SBIN0008618,XXXXXXXX9997,Active,Valid
+KL-TSR-0998,State Bank of India,SBI Irinjalakuda Town,SBIN0070162,XXXXXXXX9998,Active,Valid
+KL-TSR-0999,Canara Bank,Canara Bank Aloor,CNRB0001245,XXXXXXXX9000,Active,Valid
+KL-TSR-1000,Federal Bank,Federal Bank Muriyad,FDRL0001089,XXXXXXXX9001,Active,Valid

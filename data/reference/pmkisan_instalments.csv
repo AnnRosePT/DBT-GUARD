@@ -1,0 +1,5 @@
+instalment_no,period,disbursement_date,amount,state_status,thrissur_coverage,summary
+21,Aug-Nov 2025,2025-11-19,2000,Credited,99.4%,Reconciled with 99.4% success across Thrissur District. Residual 0.6% resolved via Akshaya special camp.
+22,Dec-Mar 2025-26,2026-03-13,2000,Cleared,98.9%,State treasury PFMS clearinghouse batch clearance. Over 22.8 lakh beneficiary accounts credited statewide.
+23,Apr-Jul 2026,2026-06-20,2000,Disbursed,97.5%,1000 pilot cohort tracked under DBT-GUARD beta. Identified initial 250 failure anomalies.
+24,Aug-Nov 2026,2026-10-15,2000,In Remediation,Active Target,Remediation window open for 250 stalled cases. Automated IVR Malayalam calls and bank camp coordination underway.
