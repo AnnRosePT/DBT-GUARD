@@ -5,6 +5,8 @@ import { smsGateway, type SMSDispatchResult } from '../lib/smsGateway';
 import { SmsGatewaySettingsModal } from './SmsGatewaySettingsModal';
 import { NicSmsSimulatorModal } from './NicSmsSimulatorModal';
 
+import { geminiAI } from '../lib/gemini';
+
 interface NotificationModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -25,15 +27,53 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
   const [selectedOutcome, setSelectedOutcome] = useState<CallStatus>('Answered');
   const [outcomeNote, setOutcomeNote] = useState('');
   const [isSendingSms, setIsSendingSms] = useState(false);
+  const [isGeneratingAi, setIsGeneratingAi] = useState(false);
   const [smsDispatchResult, setSmsDispatchResult] = useState<SMSDispatchResult | null>(null);
   const [voiceCallSimulated, setVoiceCallSimulated] = useState(false);
   const [showGatewayConfig, setShowGatewayConfig] = useState(false);
   const [showNicSimulator, setShowNicSimulator] = useState(false);
 
-  // Synthesized bilingual notification content
-  const smsMalayalam = `ബഹുമാനപ്പെട്ട കർഷകൻ ${caseItem.farmer_name_ml}, അങ്ങയുടെ പി.എം-കിസാൻ അക്കൗണ്ടിൽ (${caseItem.bank_name || 'ബാങ്ക്'}) ആധാർ സീഡിംഗ് അടിയന്തരമായി പൂർത്തിയാക്കേണ്ടതുണ്ട്. ആധാർ കാർഡും ബാങ്ക് പാസ്ബുക്കുമായി ${caseItem.owner_office_name || 'ബാങ്ക് ശാഖ'} സന്ദർശിക്കുക. സഹായത്തിന് കൃഷി ഭവനുമായി ബന്ധപ്പെടുക. കൃഷി വകുപ്പ്, തൃശ്ശൂർ. (ഡെമോ സന്ദേശം)`;
+  // Synthesized bilingual notification content (with AI override support)
+  const defaultSmsMl = `ബഹുമാനപ്പെട്ട കർഷകൻ ${caseItem.farmer_name_ml}, അങ്ങയുടെ പി.എം-കിസാൻ അക്കൗണ്ടിൽ (${caseItem.bank_name || 'ബാങ്ക്'}) ആധാർ സീഡിംഗ് അടിയന്തരമായി പൂർത്തിയാക്കേണ്ടതുണ്ട്. ആധാർ കാർഡും ബാങ്ക് പാസ്ബുക്കുമായി ${caseItem.owner_office_name || 'ബാങ്ക് ശാഖ'} സന്ദർശിക്കുക. സഹായത്തിന് കൃഷി ഭവനുമായി ബന്ധപ്പെടുക. കൃഷി വകുപ്പ്, തൃശ്ശൂർ. (ഡെമോ സന്ദേശം)`;
+  const defaultSmsEn = `Respected Beneficiary ${caseItem.farmer_name_en}, Aadhaar seeding is pending for your PM-KISAN account at ${caseItem.bank_name || 'Bank'}. Please visit ${caseItem.owner_office_name || 'branch'} with your Aadhaar and Passbook. Contact Krishi Bhavan for assistance. Dept of Agriculture, Thrissur. [Demo Simulation]`;
 
-  const smsEnglish = `Respected Beneficiary ${caseItem.farmer_name_en}, Aadhaar seeding is pending for your PM-KISAN account at ${caseItem.bank_name || 'Bank'}. Please visit ${caseItem.owner_office_name || 'branch'} with your Aadhaar and Passbook. Contact Krishi Bhavan for assistance. Dept of Agriculture, Thrissur. [Demo Simulation]`;
+  const [customSmsMl, setCustomSmsMl] = useState(defaultSmsMl);
+  const [customSmsEn, setCustomSmsEn] = useState(defaultSmsEn);
+
+  const handleGenerateAiSms = async () => {
+    setIsGeneratingAi(true);
+    try {
+      const mlResult = await geminiAI.generateFarmerSms(
+        caseItem.farmer_name_en,
+        caseItem.farmer_name_ml,
+        caseItem.bank_name,
+        caseItem.rule_code,
+        caseItem.problem_statement || caseItem.issue_description,
+        caseItem.immediate_next_action || caseItem.farmer_action_text,
+        'ml'
+      );
+      if (mlResult.success && mlResult.text) {
+        setCustomSmsMl(mlResult.text);
+      }
+
+      const enResult = await geminiAI.generateFarmerSms(
+        caseItem.farmer_name_en,
+        caseItem.farmer_name_ml,
+        caseItem.bank_name,
+        caseItem.rule_code,
+        caseItem.problem_statement || caseItem.issue_description,
+        caseItem.immediate_next_action || caseItem.farmer_action_text,
+        'en'
+      );
+      if (enResult.success && enResult.text) {
+        setCustomSmsEn(enResult.text);
+      }
+    } catch {
+      // ignore
+    } finally {
+      setIsGeneratingAi(false);
+    }
+  };
 
   const voiceScriptMalayalam = `നമസ്കാരം, തൃശ്ശൂർ കൃഷി ഭവനിൽ നിന്നുള്ള അറിയിപ്പാണ്. പി.എം-കിസാൻ ഗുണഭോക്താവായ ശ്രീ ${caseItem.farmer_name_ml}-ന്റെ ബാങ്ക് അക്കൗണ്ടിൽ ആധാർ മാപ്പിംഗ് പുതുക്കേണ്ടതുണ്ട്. അടുത്തുള്ള ബാങ്ക് ശാഖയിൽ നേരിട്ടെത്തി നിർദ്ദിഷ്ട ഫോറം പൂരിപ്പിച്ചു നൽകുക. നന്ദി.`;
 
@@ -56,7 +96,7 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
     setSmsDispatchResult(null);
     try {
       const recipientPhone = caseItem.mobile_masked || '+91 9846012345';
-      const result = await smsGateway.sendSMS(recipientPhone, smsMalayalam);
+      const result = await smsGateway.sendSMS(recipientPhone, customSmsMl);
       setSmsDispatchResult(result);
     } catch (err: any) {
       setSmsDispatchResult({
@@ -211,10 +251,33 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                   <label className="font-bold text-primary text-xs uppercase tracking-wider">
                     Malayalam SMS Notification Script:
                   </label>
-                  <span className="text-[11px] text-on-surface-variant font-mono">160 chars · Unicode UTF-8</span>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      disabled={isGeneratingAi}
+                      onClick={handleGenerateAiSms}
+                      className="px-2.5 py-1 rounded-md bg-secondary/10 hover:bg-secondary/20 text-secondary border border-secondary/30 text-[11px] font-bold flex items-center gap-1 transition-colors disabled:opacity-50"
+                      title="Use Google Gemini 2.5 Flash to generate a custom Malayalam SMS for this farmer's specific error"
+                    >
+                      {isGeneratingAi ? (
+                        <>
+                          <span className="animate-spin material-symbols-outlined text-[13px]">progress_activity</span>
+                          <span>Gemini Drafting...</span>
+                        </>
+                      ) : (
+                        <>
+                          <span className="material-symbols-outlined text-[13px] text-accent-saffron">auto_awesome</span>
+                          <span>AI Tailor with Gemini</span>
+                        </>
+                      )}
+                    </button>
+                    <span className="text-[11px] text-on-surface-variant font-mono">
+                      {customSmsMl.length} chars · Unicode UTF-8
+                    </span>
+                  </div>
                 </div>
                 <div className="p-3 bg-surface-container rounded-lg font-['Noto_Sans_Malayalam'] text-xs sm:text-sm leading-relaxed border border-border-subtle">
-                  {smsMalayalam}
+                  {customSmsMl}
                 </div>
               </div>
 
@@ -223,7 +286,7 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                   English Reference Translation:
                 </label>
                 <div className="p-2.5 bg-surface-container-low rounded-lg text-xs text-on-surface-variant leading-relaxed">
-                  {smsEnglish}
+                  {customSmsEn}
                 </div>
               </div>
 
@@ -417,7 +480,7 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
         onClose={() => setShowNicSimulator(false)}
         initialPhone={caseItem.mobile_masked}
         initialFarmerName={`${caseItem.farmer_name_en} (${caseItem.farmer_name_ml})`}
-        initialMessage={smsMalayalam}
+        initialMessage={customSmsMl}
       />
     </div>
   );

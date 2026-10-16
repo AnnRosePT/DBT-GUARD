@@ -4,6 +4,7 @@ import { useAppStore } from '../store/useAppStore';
 import { useAuthStore } from '../store/useAuthStore';
 import { useUIStore } from '../store/useUIStore';
 import { playMalayalamSpeech, stopSpeech } from '../lib/speech';
+import { geminiAI } from '../lib/gemini';
 
 export const VoiceAssist: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -41,6 +42,32 @@ export const VoiceAssist: React.FC = () => {
 
   const enTranslation = `Greetings ${farmer?.name_en || 'Farmer'}. Your PM-KISAN benefit disbursement requires Aadhaar-bank account seeding verification. To receive your 23rd instalment, your ${farmer?.bank_name || 'bank'} account must be actively mapped to the NPCI Aadhaar payment bridge. Please visit your bank branch with your Aadhaar card, passbook, and submit the DBT mandate consent form. Retain the stamped acknowledgement receipt. Note: Official staff will NEVER ask for your OTP or PIN.`;
 
+  const [activeMlScript, setActiveMlScript] = useState(mlScript);
+  const [isAiGenerating, setIsAiGenerating] = useState(false);
+
+  const handleAiRegenerateScript = async () => {
+    if (!farmer) return;
+    setIsAiGenerating(true);
+    try {
+      const res = await geminiAI.generateVoiceScript(
+        farmer.name_ml || farmer.name_en,
+        farmer.bank_name || 'ബാങ്ക്',
+        diag?.title_en || 'ആധാർ മാപ്പിംഗ് പൊരുത്തക്കേട്',
+        farmer.local_body_name || 'കൃഷി ഭവൻ'
+      );
+      if (res.success && res.text) {
+        setActiveMlScript(res.text);
+        addToast('Voice script regenerated with Google Gemini AI!', 'success');
+      } else {
+        addToast('Could not regenerate script via Gemini: ' + (res.error || 'Unknown error'), 'error');
+      }
+    } catch (err: any) {
+      addToast('Error generating AI script: ' + err.message, 'error');
+    } finally {
+      setIsAiGenerating(false);
+    }
+  };
+
   // Telephony outcome state
   const [selectedOutcome, setSelectedOutcome] = useState<'ANSWERED' | 'REPLAYED' | 'HELP_REQUESTED' | 'NOT_REACHED' | 'OPTED_OUT'>('ANSWERED');
   const [officerRemarks, setOfficerRemarks] = useState('Beneficiary confirmed understanding DBT bank visit instructions and will visit branch with Aadhaar.');
@@ -69,7 +96,7 @@ export const VoiceAssist: React.FC = () => {
       setIsPlaying(false);
     } else {
       setIsPlaying(true);
-      playMalayalamSpeech(mlScript, playbackSpeed, () => {
+      playMalayalamSpeech(activeMlScript, playbackSpeed, () => {
         setIsPlaying(false);
         setCurrentSeconds(0);
       });
@@ -339,22 +366,43 @@ export const VoiceAssist: React.FC = () => {
               {/* Malayalam Script */}
               <div className="bg-surface-card rounded-lg border border-border-subtle p-space-md flex flex-col justify-between">
                 <div>
-                  <div className="flex items-center justify-between pb-space-xs border-b border-border-subtle mb-space-sm">
+                  <div className="flex items-center justify-between pb-space-xs border-b border-border-subtle mb-space-sm flex-wrap gap-2">
                     <div className="flex items-center gap-1.5">
                       <span className="material-symbols-outlined text-secondary text-[18px]">record_voice_over</span>
                       <h3 className="font-title-md text-title-md text-primary font-bold font-['Noto_Sans_Malayalam']">മലയാളം സന്ദേശം (IVR Script)</h3>
                     </div>
-                    <button
-                      onClick={togglePlayAudio}
-                      className="text-secondary hover:text-primary transition-colors flex items-center gap-0.5 text-xs font-bold"
-                      type="button"
-                    >
-                      <span className="material-symbols-outlined text-[15px]">volume_up</span>
-                      <span>Listen</span>
-                    </button>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        disabled={isAiGenerating}
+                        onClick={handleAiRegenerateScript}
+                        className="px-2.5 py-1 rounded bg-secondary/10 hover:bg-secondary/20 text-secondary border border-secondary/30 text-[11px] font-bold flex items-center gap-1 transition-colors disabled:opacity-50"
+                        title="Regenerate voice script using Google Gemini 2.5 Flash"
+                      >
+                        {isAiGenerating ? (
+                          <>
+                            <span className="animate-spin material-symbols-outlined text-[13px]">progress_activity</span>
+                            <span>Gemini Drafting...</span>
+                          </>
+                        ) : (
+                          <>
+                            <span className="material-symbols-outlined text-[13px] text-accent-saffron">auto_awesome</span>
+                            <span>AI Regenerate (Gemini)</span>
+                          </>
+                        )}
+                      </button>
+                      <button
+                        onClick={togglePlayAudio}
+                        className="text-secondary hover:text-primary transition-colors flex items-center gap-0.5 text-xs font-bold"
+                        type="button"
+                      >
+                        <span className="material-symbols-outlined text-[15px]">volume_up</span>
+                        <span>Listen</span>
+                      </button>
+                    </div>
                   </div>
                   <p className="font-body-md text-body-md text-on-surface font-['Noto_Sans_Malayalam'] leading-relaxed">
-                    "{mlScript}"
+                    "{activeMlScript}"
                   </p>
                 </div>
                 <div className="mt-space-md pt-space-xs border-t border-border-subtle flex items-center justify-between text-xs text-on-surface-variant">
