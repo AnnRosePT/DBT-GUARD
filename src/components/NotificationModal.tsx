@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import type { CaseRecord, CallStatus } from '../types';
 import { MalayalamVoicePlayer } from '../lib/speech';
+import { smsGateway, type SMSDispatchResult } from '../lib/smsGateway';
+import { SmsGatewaySettingsModal } from './SmsGatewaySettingsModal';
 
 interface NotificationModalProps {
   isOpen: boolean;
@@ -21,8 +23,10 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [selectedOutcome, setSelectedOutcome] = useState<CallStatus>('Answered');
   const [outcomeNote, setOutcomeNote] = useState('');
-  const [smsSentSimulated, setSmsSentSimulated] = useState(false);
+  const [isSendingSms, setIsSendingSms] = useState(false);
+  const [smsDispatchResult, setSmsDispatchResult] = useState<SMSDispatchResult | null>(null);
   const [voiceCallSimulated, setVoiceCallSimulated] = useState(false);
+  const [showGatewayConfig, setShowGatewayConfig] = useState(false);
 
   // Synthesized bilingual notification content
   const smsMalayalam = `ബഹുമാനപ്പെട്ട കർഷകൻ ${caseItem.farmer_name_ml}, അങ്ങയുടെ പി.എം-കിസാൻ അക്കൗണ്ടിൽ (${caseItem.bank_name || 'ബാങ്ക്'}) ആധാർ സീഡിംഗ് അടിയന്തരമായി പൂർത്തിയാക്കേണ്ടതുണ്ട്. ആധാർ കാർഡും ബാങ്ക് പാസ്ബുക്കുമായി ${caseItem.owner_office_name || 'ബാങ്ക് ശാഖ'} സന്ദർശിക്കുക. സഹായത്തിന് കൃഷി ഭവനുമായി ബന്ധപ്പെടുക. കൃഷി വകുപ്പ്, തൃശ്ശൂർ. (ഡെമോ സന്ദേശം)`;
@@ -45,9 +49,31 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
     });
   };
 
+  const handleSendSms = async () => {
+    setIsSendingSms(true);
+    setSmsDispatchResult(null);
+    try {
+      const recipientPhone = caseItem.mobile_masked || '+91 9846012345';
+      const result = await smsGateway.sendSMS(recipientPhone, smsMalayalam);
+      setSmsDispatchResult(result);
+    } catch (err: any) {
+      setSmsDispatchResult({
+        success: false,
+        provider: 'simulation',
+        messageId: '',
+        recipient: caseItem.mobile_masked,
+        timestamp: new Date().toISOString(),
+        deliveryStatus: 'Failed',
+        error: err.message,
+        details: 'Exception during dispatch',
+      });
+    } finally {
+      setIsSendingSms(false);
+    }
+  };
+
   const handleSendSmsDemo = () => {
-    setSmsSentSimulated(true);
-    setTimeout(() => setSmsSentSimulated(false), 4000);
+    handleSendSms();
   };
 
   const handleTriggerVoiceCallDemo = () => {
@@ -154,12 +180,36 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
           {/* TAB 1: SMS Notification */}
           {activeTab === 'sms' && (
             <div className="space-y-3">
+              {/* Active Gateway Status Banner */}
+              <div className="flex items-center justify-between p-2.5 bg-surface-container-low rounded-lg border border-border-subtle text-xs">
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-[18px] text-accent-saffron">cell_tower</span>
+                  <div>
+                    <span className="text-[11px] text-on-surface-variant block">Outbound Gateway:</span>
+                    <span className="font-bold text-primary flex items-center gap-1.5">
+                      {smsGateway.getConfig().provider === 'textbee' ? 'TextBee.dev (Free Android)' :
+                       smsGateway.getConfig().provider === 'twilio' ? 'Twilio Cloud Sandbox' :
+                       smsGateway.getConfig().provider === 'sms_mobile_api' ? 'SMS Mobile API / Webhook' :
+                       'In-Browser Simulation'}
+                    </span>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setShowGatewayConfig(true)}
+                  className="px-2.5 py-1.5 rounded-lg border border-border-strong bg-surface-card hover:bg-surface-container text-secondary text-xs font-bold flex items-center gap-1 transition-colors shadow-xs"
+                >
+                  <span className="material-symbols-outlined text-[14px]">settings</span>
+                  <span>Configure Gateway</span>
+                </button>
+              </div>
+
               <div className="space-y-1">
                 <div className="flex items-center justify-between">
                   <label className="font-bold text-primary text-xs uppercase tracking-wider">
                     Malayalam SMS Notification Script:
                   </label>
-                  <span className="text-[11px] text-on-surface-variant font-mono">160 chars · Unicode</span>
+                  <span className="text-[11px] text-on-surface-variant font-mono">160 chars · Unicode UTF-8</span>
                 </div>
                 <div className="p-3 bg-surface-container rounded-lg font-['Noto_Sans_Malayalam'] text-xs sm:text-sm leading-relaxed border border-border-subtle">
                   {smsMalayalam}
@@ -175,24 +225,55 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                 </div>
               </div>
 
-              {smsSentSimulated && (
-                <div className="p-2.5 rounded-lg bg-status-ready-bg border border-status-ready/30 text-status-ready text-xs flex items-center gap-2 animate-in fade-in">
-                  <span className="material-symbols-outlined text-[18px]">done_all</span>
-                  <span><strong>Demo Simulation Dispatched:</strong> SMS queued to Mock SMS Gateway via NIC Bulk Messaging Service.</span>
+              {smsDispatchResult && (
+                <div
+                  className={`p-3 rounded-lg border text-xs flex items-start gap-2 animate-in fade-in ${
+                    smsDispatchResult.success
+                      ? 'bg-status-ready-bg border-status-ready/30 text-status-ready'
+                      : 'bg-status-error-bg border-status-error/30 text-status-error'
+                  }`}
+                >
+                  <span className="material-symbols-outlined text-[18px] flex-shrink-0 mt-0.5">
+                    {smsDispatchResult.success ? 'check_circle' : 'error'}
+                  </span>
+                  <div>
+                    <div className="font-bold flex items-center gap-2">
+                      <span>{smsDispatchResult.success ? 'Dispatch Success:' : 'Dispatch Failure:'}</span>
+                      <span className="text-[10px] font-mono uppercase px-1.5 py-0.2 rounded bg-black/5">
+                        {smsDispatchResult.deliveryStatus}
+                      </span>
+                    </div>
+                    <p className="mt-0.5">{smsDispatchResult.details}</p>
+                    {smsDispatchResult.messageId && (
+                      <span className="block mt-1 font-mono text-[11px] opacity-80">
+                        Tracking ID: {smsDispatchResult.messageId} · Destination: {smsDispatchResult.recipient}
+                      </span>
+                    )}
+                  </div>
                 </div>
               )}
 
               <div className="pt-2 flex items-center justify-between gap-2 border-t border-border-subtle">
                 <span className="text-[11px] text-on-surface-variant italic">
-                  * Live deployment uses NIC / CDAC e-Gov SMS Gateway.
+                  * Supports TextBee.dev Android Gateway (300 free SMS/mo) and Twilio.
                 </span>
                 <button
                   type="button"
-                  onClick={handleSendSmsDemo}
-                  className="px-4 py-2 rounded-lg bg-secondary hover:bg-secondary/90 text-on-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm transition-colors"
+                  disabled={isSendingSms}
+                  onClick={handleSendSms}
+                  className="px-4 py-2 rounded-lg bg-secondary hover:bg-secondary/90 text-on-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm transition-colors disabled:opacity-50"
                 >
-                  <span className="material-symbols-outlined text-[16px]">send</span>
-                  <span>Send SMS (Demo Simulation)</span>
+                  {isSendingSms ? (
+                    <>
+                      <span className="animate-spin material-symbols-outlined text-[16px]">progress_activity</span>
+                      <span>Dispatching SMS...</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="material-symbols-outlined text-[16px]">send</span>
+                      <span>Dispatch SMS Notification</span>
+                    </>
+                  )}
                 </button>
               </div>
             </div>
@@ -317,6 +398,11 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
           </div>
         </div>
       </div>
+
+      <SmsGatewaySettingsModal
+        isOpen={showGatewayConfig}
+        onClose={() => setShowGatewayConfig(false)}
+      />
     </div>
   );
 };

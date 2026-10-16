@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useUIStore } from '../store/useUIStore';
 import { useAuthStore } from '../store/useAuthStore';
+import { SmsGatewaySettingsModal } from './SmsGatewaySettingsModal';
 
 interface UtilityStripProps {
   onResetDemo?: () => void;
@@ -9,6 +10,7 @@ interface UtilityStripProps {
 export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
   const { lang, textSize, highContrast, setLanguage, setTextSize, toggleContrast, t } = useUIStore();
   const { currentUser } = useAuthStore();
+  const [showSmsModal, setShowSmsModal] = useState(false);
 
   return (
     <div className="bg-primary-container text-on-primary w-full border-b border-primary/20 flex-shrink-0 z-50">
@@ -130,6 +132,18 @@ export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
             {currentUser.badge}
           </span>
 
+          {currentUser.role !== 'farmer' && (
+            <button
+              type="button"
+              onClick={() => setShowSmsModal(true)}
+              className="text-on-primary/90 hover:text-white hover:bg-white/10 px-2 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider border border-white/20"
+              title="Configure Android SMS Gateway & Testing APIs"
+            >
+              <span className="material-symbols-outlined text-[13px] text-accent-saffron">cell_tower</span>
+              <span className="hidden sm:inline">SMS Gateway</span>
+            </button>
+          )}
+
           <button
             type="button"
             onClick={() => {
@@ -144,6 +158,11 @@ export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
           </button>
         </div>
       </div>
+
+      <SmsGatewaySettingsModal
+        isOpen={showSmsModal}
+        onClose={() => setShowSmsModal(false)}
+      />
     </div>
   );
 };
