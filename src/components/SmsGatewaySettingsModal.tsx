@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { smsGateway, type SMSProvider, type SMSGatewayConfig } from '../lib/smsGateway';
 import { useUIStore } from '../store/useUIStore';
+import { NicSmsSimulatorModal } from './NicSmsSimulatorModal';
 
 interface SmsGatewaySettingsModalProps {
   isOpen: boolean;
@@ -18,6 +19,7 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
   const [selectedProvider, setSelectedProvider] = useState<SMSProvider>(config.provider);
   const [testPhone, setTestPhone] = useState('+91 9846012345');
   const [isTesting, setIsTesting] = useState(false);
+  const [showNicSimulator, setShowNicSimulator] = useState(false);
   const [testResult, setTestResult] = useState<{
     success: boolean;
     details: string;
@@ -384,6 +386,31 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
             </div>
           )}
 
+          {selectedProvider === 'simulation' && (
+            <div className="bg-surface-container-low p-4 rounded-xl border border-border-subtle space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-primary text-xs flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-accent-saffron text-[18px]">sensors</span>
+                  In-Browser National Informatics Centre (NIC) Gateway Simulator
+                </span>
+                <span className="bg-status-ready/20 text-status-ready font-bold text-[10px] px-2 py-0.5 rounded-full border border-status-ready/30">
+                  TRAI DLT Ready
+                </span>
+              </div>
+              <p className="text-[11px] text-on-surface-variant leading-relaxed">
+                Experience the authentic end-to-end cellular dispatch pipeline from Kerala State Data Center (Thiruvananthapuram) through BSNL/Jio cellular towers to the farmer's smartphone mockup with live Unicode Malayalam rendering.
+              </p>
+              <button
+                type="button"
+                onClick={() => setShowNicSimulator(true)}
+                className="px-4 py-2 rounded-lg bg-accent-saffron hover:bg-accent-saffron/90 text-primary font-bold text-xs flex items-center gap-1.5 transition-colors shadow-xs"
+              >
+                <span className="material-symbols-outlined text-[16px]">sensors</span>
+                <span>Launch Interactive NIC SMS Simulator</span>
+              </button>
+            </div>
+          )}
+
           {/* Live Dispatch Test Section */}
           <div className="p-4 bg-status-info-bg border border-status-info/30 rounded-xl space-y-3">
             <div className="flex items-center justify-between">
@@ -472,6 +499,12 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
           </div>
         </form>
       </div>
+
+      <NicSmsSimulatorModal
+        isOpen={showNicSimulator}
+        onClose={() => setShowNicSimulator(false)}
+        initialPhone={testPhone}
+      />
     </div>
   );
 };

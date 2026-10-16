@@ -3,6 +3,7 @@ import type { CaseRecord, CallStatus } from '../types';
 import { MalayalamVoicePlayer } from '../lib/speech';
 import { smsGateway, type SMSDispatchResult } from '../lib/smsGateway';
 import { SmsGatewaySettingsModal } from './SmsGatewaySettingsModal';
+import { NicSmsSimulatorModal } from './NicSmsSimulatorModal';
 
 interface NotificationModalProps {
   isOpen: boolean;
@@ -27,6 +28,7 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
   const [smsDispatchResult, setSmsDispatchResult] = useState<SMSDispatchResult | null>(null);
   const [voiceCallSimulated, setVoiceCallSimulated] = useState(false);
   const [showGatewayConfig, setShowGatewayConfig] = useState(false);
+  const [showNicSimulator, setShowNicSimulator] = useState(false);
 
   // Synthesized bilingual notification content
   const smsMalayalam = `ബഹുമാനപ്പെട്ട കർഷകൻ ${caseItem.farmer_name_ml}, അങ്ങയുടെ പി.എം-കിസാൻ അക്കൗണ്ടിൽ (${caseItem.bank_name || 'ബാങ്ക്'}) ആധാർ സീഡിംഗ് അടിയന്തരമായി പൂർത്തിയാക്കേണ്ടതുണ്ട്. ആധാർ കാർഡും ബാങ്ക് പാസ്ബുക്കുമായി ${caseItem.owner_office_name || 'ബാങ്ക് ശാഖ'} സന്ദർശിക്കുക. സഹായത്തിന് കൃഷി ഭവനുമായി ബന്ധപ്പെടുക. കൃഷി വകുപ്പ്, തൃശ്ശൂർ. (ഡെമോ സന്ദേശം)`;
@@ -253,10 +255,16 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                 </div>
               )}
 
-              <div className="pt-2 flex items-center justify-between gap-2 border-t border-border-subtle">
-                <span className="text-[11px] text-on-surface-variant italic">
-                  * Supports TextBee.dev Android Gateway (300 free SMS/mo) and Twilio.
-                </span>
+              <div className="pt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border-subtle">
+                <button
+                  type="button"
+                  onClick={() => setShowNicSimulator(true)}
+                  className="px-3 py-1.5 rounded-lg border border-accent-saffron/40 bg-accent-saffron/10 hover:bg-accent-saffron/20 text-primary text-xs font-bold flex items-center gap-1.5 transition-colors"
+                >
+                  <span className="material-symbols-outlined text-[16px] text-accent-saffron">sensors</span>
+                  <span>Open NIC Live Simulator</span>
+                </button>
+
                 <button
                   type="button"
                   disabled={isSendingSms}
@@ -402,6 +410,14 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
       <SmsGatewaySettingsModal
         isOpen={showGatewayConfig}
         onClose={() => setShowGatewayConfig(false)}
+      />
+
+      <NicSmsSimulatorModal
+        isOpen={showNicSimulator}
+        onClose={() => setShowNicSimulator(false)}
+        initialPhone={caseItem.mobile_masked}
+        initialFarmerName={`${caseItem.farmer_name_en} (${caseItem.farmer_name_ml})`}
+        initialMessage={smsMalayalam}
       />
     </div>
   );
