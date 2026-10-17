@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useUIStore } from '../store/useUIStore';
+import { smsGateway, type SMSDispatchResult } from '../lib/smsGateway';
+import { SmsGatewaySettingsModal } from './SmsGatewaySettingsModal';
 
 interface NicSmsSimulatorModalProps {
   isOpen: boolean;
@@ -23,6 +25,11 @@ export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
   const [farmerName, setFarmerName] = useState(initialFarmerName);
   const [language, setLanguage] = useState<'ml' | 'en'>('ml');
   const [selectedTemplate, setSelectedTemplate] = useState<'npci' | 'ekyc' | 'land' | 'payment'>('npci');
+
+  // Real Mobile Dispatch State
+  const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const [realDispatchResult, setRealDispatchResult] = useState<SMSDispatchResult | null>(null);
+  const [isRealDispatching, setIsRealDispatching] = useState(false);
 
   // Transmission Pipeline State
   const [isTransmitting, setIsTransmitting] = useState(false);
@@ -138,6 +145,40 @@ export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
 
     setIsTransmitting(false);
     addToast(`NIC SMS Transmitted to ${recipientPhone} [ID: ${msgId}]`, 'success');
+
+    // Also auto-dispatch if external provider configured
+    const currentGateway = smsGateway.getConfig();
+    if (currentGateway.provider !== 'simulation') {
+      smsGateway.sendSMS(recipientPhone, activeMessageText).then((res) => {
+        setRealDispatchResult(res);
+        if (res.success) {
+          addToast(`Live SMS sent to ${recipientPhone} via ${res.provider}!`, 'success');
+        }
+      });
+    }
+  };
+
+  // Normalize phone for real cellular dispatch & WhatsApp
+  const cleanDigits = recipientPhone.replace(/\D/g, '');
+  const cleanPhone = cleanDigits.length === 10 ? `+91${cleanDigits}` : cleanDigits.startsWith('91') ? `+${cleanDigits}` : `+${cleanDigits}`;
+  const fullWaNumber = cleanDigits.length === 10 ? `91${cleanDigits}` : cleanDigits;
+
+  const handleRealSmsDispatch = async () => {
+    setIsRealDispatching(true);
+    setRealDispatchResult(null);
+    try {
+      const res = await smsGateway.sendSMS(recipientPhone, activeMessageText);
+      setRealDispatchResult(res);
+      if (res.success) {
+        addToast(`Real SMS dispatched to ${recipientPhone} via ${res.provider}!`, 'success');
+      } else {
+        addToast(`Gateway dispatch: ${res.details || res.error}`, 'error');
+      }
+    } catch (e: any) {
+      addToast(`Error: ${e.message}`, 'error');
+    } finally {
+      setIsRealDispatching(false);
+    }
   };
 
   return (
@@ -217,14 +258,16 @@ export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
                   />
                 </div>
                 <div>
-                  <label className="text-[11px] font-bold text-on-surface-variant block mb-1">
-                    Destination Mobile (+91):
+                  <label className="text-[11px] font-bold text-on-surface-variant flex items-center justify-between mb-1">
+                    <span>Destination Mobile:</span>
+                    <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold">Enter your actual mobile number</span>
                   </label>
                   <input
                     type="tel"
                     value={recipientPhone}
                     onChange={(e) => setRecipientPhone(e.target.value)}
-                    className="w-full px-3 py-1.5 rounded-lg bg-surface-card border border-border-strong text-xs font-mono text-on-surface focus:outline-none"
+                    placeholder="Enter your 10-digit mobile number"
+                    className="w-full px-3 py-1.5 rounded-lg bg-surface-card border-2 border-emerald-500/50 text-xs font-mono font-bold text-on-surface focus:outline-none focus:border-emerald-600"
                   />
                 </div>
               </div>
@@ -436,6 +479,82 @@ export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
                 </div>
               </div>
             )}
+
+            {/* REAL HANDSET DISPATCH ACCELERATOR */}
+            <div className="bg-emerald-950/10 border-2 border-emerald-500/40 rounded-xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-600 dark:text-emerald-400">
+                  <span className="material-symbols-outlined text-[18px]">send_to_mobile</span>
+                  <span>Deliver to Your Real Phone ({cleanPhone})</span>
+                </div>
+                <span className="text-[10px] font-mono text-emerald-700 dark:text-emerald-300 bg-emerald-500/20 px-2 py-0.5 rounded font-bold">
+                  REAL DISPATCH
+                </span>
+              </div>
+
+              <p className="text-[11px] text-on-surface-variant leading-relaxed">
+                To receive this exact Malayalam/English message on your actual smartphone right now, tap an option below:
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <a
+                  href={`sms:${cleanPhone}?body=${encodeURIComponent(activeMessageText)}`}
+                  className="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                  title="Open native SMS messaging app on your phone / PC"
+                >
+                  <span className="material-symbols-outlined text-[16px]">sms</span>
+                  <span>1. Open in Phone SMS App</span>
+                </a>
+
+                <a
+                  href={`https://wa.me/${fullWaNumber}?text=${encodeURIComponent(activeMessageText)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-2 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                  title="Deliver instantly via WhatsApp"
+                >
+                  <span className="material-symbols-outlined text-[16px]">chat</span>
+                  <span>2. Deliver via WhatsApp (+91)</span>
+                </a>
+              </div>
+
+              <div className="pt-1 flex items-center justify-between border-t border-border-subtle text-[11px]">
+                <button
+                  type="button"
+                  disabled={isRealDispatching}
+                  onClick={handleRealSmsDispatch}
+                  className="text-secondary hover:text-primary font-bold flex items-center gap-1 transition-colors disabled:opacity-50"
+                  title="Trigger background dispatch via Twilio / Vonage / TextBee"
+                >
+                  <span className="material-symbols-outlined text-[14px]">cloud_upload</span>
+                  <span>{isRealDispatching ? 'Dispatching via Gateway...' : '3. Trigger Cloud Gateway (Twilio/TextBee)'}</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setShowSettingsModal(true)}
+                  className="text-on-surface-variant hover:text-primary flex items-center gap-0.5 font-medium"
+                >
+                  <span className="material-symbols-outlined text-[13px]">settings</span>
+                  <span>Gateway Keys</span>
+                </button>
+              </div>
+
+              {realDispatchResult && (
+                <div
+                  className={`p-2.5 rounded-lg text-[11px] font-mono ${
+                    realDispatchResult.success
+                      ? 'bg-status-ready/20 text-status-ready border border-status-ready/40'
+                      : 'bg-status-error/20 text-status-error border border-status-error/40'
+                  }`}
+                >
+                  <div className="font-bold">
+                    {realDispatchResult.success ? '✓ Gateway Dispatch Queued' : '✕ Gateway Notice'}
+                  </div>
+                  <div>{realDispatchResult.details || realDispatchResult.error}</div>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* RIGHT COLUMN: Realistic Virtual Farmer Handset (5 Cols) */}
@@ -541,6 +660,11 @@ export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
           </button>
         </div>
       </div>
+
+      <SmsGatewaySettingsModal
+        isOpen={showSettingsModal}
+        onClose={() => setShowSettingsModal(false)}
+      />
     </div>
   );
 };
