@@ -230,7 +230,8 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                   <div>
                     <span className="text-[11px] text-on-surface-variant block">Outbound Gateway:</span>
                     <span className="font-bold text-primary flex items-center gap-1.5">
-                      {smsGateway.getConfig().provider === 'textbee' ? 'TextBee.dev (Free Android)' :
+                      {smsGateway.getConfig().provider === 'fast2sms' ? 'Fast2SMS Indian Telecom (Direct Gateway)' :
+                       smsGateway.getConfig().provider === 'textbee' ? 'TextBee.dev (Free Android)' :
                        smsGateway.getConfig().provider === 'twilio' ? 'Twilio Cloud Sandbox' :
                        smsGateway.getConfig().provider === 'sms_mobile_api' ? 'SMS Mobile API / Webhook' :
                        'In-Browser Simulation'}

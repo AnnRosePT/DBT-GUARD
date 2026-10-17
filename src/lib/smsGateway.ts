@@ -9,11 +9,14 @@
  * 5. Simulation Mode: In-browser realistic sandbox with delivery receipts
  */
 
-export type SMSProvider = 'textbee' | 'sms_mobile_api' | 'twilio' | 'vonage' | 'simulation';
+export type SMSProvider = 'fast2sms' | 'textbee' | 'sms_mobile_api' | 'twilio' | 'vonage' | 'simulation';
 
 export interface SMSGatewayConfig {
   provider: SMSProvider;
   enabled: boolean;
+  
+  // Fast2SMS configuration
+  fast2smsApiKey?: string;
   
   // TextBee.dev configuration
   textbeeApiKey?: string;
@@ -48,8 +51,9 @@ export interface SMSDispatchResult {
 const STORAGE_KEY = 'dbt_guard_sms_gateway_config';
 
 const DEFAULT_CONFIG: SMSGatewayConfig = {
-  provider: 'simulation',
+  provider: (import.meta.env.VITE_FAST2SMS_API_KEY ? 'fast2sms' : 'simulation') as SMSProvider,
   enabled: true,
+  fast2smsApiKey: import.meta.env.VITE_FAST2SMS_API_KEY || '',
   textbeeApiKey: '',
   textbeeDeviceId: '',
   twilioAccountSid: '',
@@ -119,6 +123,11 @@ class SMSGatewayService {
     const recipient = this.normalizePhoneNumber(rawPhone);
     const timestamp = new Date().toISOString();
 
+    // 0. Fast2SMS Indian Telecom Carrier Route
+    if (provider === 'fast2sms') {
+      return this.sendViaFast2SMS(recipient, message, timestamp);
+    }
+
     // 1. TextBee.dev Android Gateway
     if (provider === 'textbee') {
       return this.sendViaTextBee(recipient, message, timestamp);
@@ -141,6 +150,93 @@ class SMSGatewayService {
 
     // 5. Default Simulation Mode
     return this.sendViaSimulation(recipient, message, timestamp);
+  }
+
+  /**
+   * Fast2SMS.com Indian Carrier Bulk API Dispatch
+   */
+  private async sendViaFast2SMS(
+    recipient: string,
+    message: string,
+    timestamp: string
+  ): Promise<SMSDispatchResult> {
+    const apiKey = this.config.fast2smsApiKey || import.meta.env.VITE_FAST2SMS_API_KEY || '';
+    if (!apiKey) {
+      return {
+        success: false,
+        provider: 'fast2sms',
+        messageId: '',
+        recipient,
+        timestamp,
+        deliveryStatus: 'Failed',
+        error: 'Fast2SMS API Authorization Key is not configured.',
+        details: 'Missing Fast2SMS API key in .env.local or SMS Gateway settings.',
+      };
+    }
+
+    // Clean 10-digit number for Fast2SMS
+    const cleanTenDigit = recipient.replace(/^\+91/, '').replace(/\D/g, '').slice(-10);
+
+    try {
+      const endpoint = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+        ? '/api/fast2sms/bulkV2'
+        : 'https://www.fast2sms.com/dev/bulkV2';
+
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'authorization': apiKey,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          route: 'q',
+          message: message,
+          language: 'english',
+          flash: 0,
+          numbers: cleanTenDigit,
+        }),
+      });
+
+      const responseData = await response.json().catch(() => ({}));
+
+      if (responseData.return === true || responseData.status_code === 200) {
+        return {
+          success: true,
+          provider: 'fast2sms',
+          messageId: responseData.request_id || `f2s_${Date.now()}`,
+          recipient,
+          timestamp,
+          deliveryStatus: 'Delivered',
+          details: `Dispatched directly via Fast2SMS Indian Telecom route to ${recipient}. Request ID: ${responseData.request_id || 'OK'}`,
+        };
+      }
+
+      // Fast2SMS specific error codes (e.g. 999: 100 INR recharge required)
+      const errorMsg = responseData.message || `Fast2SMS error (Code: ${responseData.status_code})`;
+      return {
+        success: false,
+        provider: 'fast2sms',
+        messageId: '',
+        recipient,
+        timestamp,
+        deliveryStatus: 'Failed',
+        error: errorMsg,
+        details: responseData.status_code === 999
+          ? 'Fast2SMS Account Restriction: Fast2SMS requires a one-time ₹100 account top-up before third-party web apps can trigger external API routing to mobile numbers.'
+          : errorMsg,
+      };
+    } catch (err: any) {
+      return {
+        success: false,
+        provider: 'fast2sms',
+        messageId: '',
+        recipient,
+        timestamp,
+        deliveryStatus: 'Failed',
+        error: err.message || 'Fast2SMS network dispatch failed',
+        details: 'Unable to connect to Fast2SMS gateway. Please check network connection or use 1-click Phone SMS/WhatsApp.',
+      };
+    }
   }
 
   /**

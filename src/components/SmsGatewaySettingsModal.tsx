@@ -79,6 +79,8 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
 
   const getProviderLabel = (p: SMSProvider) => {
     switch (p) {
+      case 'fast2sms':
+        return 'Fast2SMS (Indian Telecom Gateway - ₹50 Credit)';
       case 'textbee':
         return 'TextBee.dev (Free Android Gateway)';
       case 'sms_mobile_api':
@@ -128,6 +130,31 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
               Select Outbound SMS Dispatch Engine:
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              {/* Option 0: Fast2SMS */}
+              <div
+                onClick={() => setSelectedProvider('fast2sms')}
+                className={`p-3.5 rounded-xl border cursor-pointer transition-all ${
+                  selectedProvider === 'fast2sms'
+                    ? 'border-secondary bg-secondary/5 ring-2 ring-secondary/20 shadow-xs'
+                    : 'border-border-subtle bg-surface-card hover:bg-surface-container-low'
+                }`}
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-2">
+                    <span className="material-symbols-outlined text-amber-500 text-[22px]">
+                      bolt
+                    </span>
+                    <span className="font-bold text-primary text-xs">Fast2SMS (India)</span>
+                  </div>
+                  <span className="bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold text-[10px] px-2 py-0.5 rounded-full border border-amber-500/20">
+                    ₹50 Balance
+                  </span>
+                </div>
+                <p className="text-[11px] text-on-surface-variant mt-1.5 leading-relaxed">
+                  Direct Indian DLT telecom routes with 200 free SMS credits. Supports automated dispatch to Kerala mobile numbers.
+                </p>
+              </div>
+
               {/* Option 1: TextBee.dev */}
               <div
                 onClick={() => setSelectedProvider('textbee')}
@@ -225,6 +252,48 @@ export const SmsGatewaySettingsModal: React.FC<SmsGatewaySettingsModalProps> = (
           </div>
 
           {/* Provider Specific Configuration Fields */}
+          {selectedProvider === 'fast2sms' && (
+            <div className="bg-surface-container-low p-4 rounded-xl border border-border-subtle space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-primary text-xs flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-amber-500 text-[18px]">bolt</span>
+                  Fast2SMS Developer API Key
+                </span>
+                <span className="bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold text-[10px] px-2 py-0.5 rounded-full border border-amber-500/20">
+                  ₹50 Wallet Verified
+                </span>
+              </div>
+
+              <div className="p-3 bg-surface-card rounded-lg border border-border-subtle text-[11px] text-on-surface-variant leading-relaxed space-y-1.5">
+                <div className="font-bold text-primary flex items-center gap-1">
+                  <span className="material-symbols-outlined text-[15px] text-emerald-600">verified</span>
+                  <span>API Key Configured in System (.env.local)</span>
+                </div>
+                <p>
+                  Your Fast2SMS account currently has <strong>₹50.00 wallet balance (200 SMS credits)</strong>. 
+                </p>
+                <div className="p-2 bg-amber-500/10 rounded border border-amber-500/30 text-amber-900 dark:text-amber-200">
+                  <strong>⚠️ Carrier Activation Note:</strong> Fast2SMS policy requires a one-time ₹100 recharge or instant Aadhaar OTP KYC in the Fast2SMS portal before automated API code calls are routed to mobile numbers.
+                </div>
+              </div>
+
+              <div>
+                <label className="text-xs font-bold text-primary block mb-1">
+                  Fast2SMS Authorization API Key:
+                </label>
+                <input
+                  type="password"
+                  placeholder="Paste Fast2SMS API Key"
+                  value={config.fast2smsApiKey || ''}
+                  onChange={(e) =>
+                    setConfig((prev) => ({ ...prev, fast2smsApiKey: e.target.value }))
+                  }
+                  className="w-full px-3 py-2 rounded-lg bg-surface-card border border-border-strong text-xs font-mono text-on-surface focus:outline-none focus:ring-1 focus:ring-secondary"
+                />
+              </div>
+            </div>
+          )}
+
           {selectedProvider === 'textbee' && (
             <div className="bg-surface-container-low p-4 rounded-xl border border-border-subtle space-y-3">
               <div className="flex items-center justify-between">

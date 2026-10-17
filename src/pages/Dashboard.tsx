@@ -438,16 +438,15 @@ export const Dashboard: React.FC = () => {
                             <span className="material-symbols-outlined text-[16px]">person_add</span>
                           </button>
 
-                          {item.farmer_notification_required && (
-                            <button
-                              type="button"
-                              onClick={() => setNotifyModalCase(item)}
-                              title="Notify Farmer"
-                              className="p-1.5 text-status-warning hover:bg-status-warning-bg rounded-lg transition-colors border border-status-warning/40"
-                            >
-                              <span className="material-symbols-outlined text-[16px]">call</span>
-                            </button>
-                          )}
+                          <button
+                            type="button"
+                            onClick={() => setNotifyModalCase(item)}
+                            title="Dispatch NIC SMS Alert / Phone Call"
+                            className="inline-flex items-center gap-1 px-2.5 py-1.5 text-xs font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60 rounded-lg transition-colors border border-amber-300 dark:border-amber-700 shadow-xs"
+                          >
+                            <span className="material-symbols-outlined text-[15px]">sms</span>
+                            <span>Dispatch SMS</span>
+                          </button>
 
                           <Link
                             to={`/cases/${item.case_id}`}

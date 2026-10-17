@@ -12,6 +12,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/textbee/, ''),
       },
+      '/api/fast2sms': {
+        target: 'https://www.fast2sms.com/dev',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/fast2sms/, ''),
+      },
     },
   },
   test: {

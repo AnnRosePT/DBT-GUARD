@@ -148,11 +148,11 @@ export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
               <button
                 type="button"
                 onClick={() => setShowNicSimulator(true)}
-                className="bg-accent-saffron text-primary hover:bg-accent-saffron/90 px-2 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider shadow-xs"
-                title="Launch National Informatics Centre (NIC) SMS Gateway Simulator"
+                className="bg-accent-saffron text-primary hover:bg-accent-saffron/90 px-2.5 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider shadow-xs animate-pulse hover:animate-none"
+                title="Launch National Informatics Centre (NIC) SMS Dispatch Gateway"
               >
-                <span className="material-symbols-outlined text-[13px]">sensors</span>
-                <span className="hidden sm:inline">NIC Simulator</span>
+                <span className="material-symbols-outlined text-[14px]">sms</span>
+                <span className="font-extrabold">📲 Dispatch NIC SMS</span>
               </button>
 
               <button

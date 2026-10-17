@@ -155,9 +155,60 @@ export default async function handler(req, res) {
       });
     }
 
+    // ------------------------------------------------------------------------
+    // 3. FAST2SMS (INDIAN TELECOM GATEWAY)
+    // ------------------------------------------------------------------------
+    if (provider === 'fast2sms') {
+      const apiKey = process.env.FAST2SMS_API_KEY || process.env.VITE_FAST2SMS_API_KEY;
+      if (!apiKey) {
+        return res.status(503).json({
+          success: false,
+          provider: 'fast2sms',
+          error: 'Fast2SMS API key not configured on server.',
+        });
+      }
+
+      const cleanTenDigit = recipient.replace(/^\+91/, '').replace(/\D/g, '').slice(-10);
+
+      const f2sRes = await fetch('https://www.fast2sms.com/dev/bulkV2', {
+        method: 'POST',
+        headers: {
+          'authorization': apiKey,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          route: 'q',
+          message: message,
+          language: 'english',
+          flash: 0,
+          numbers: cleanTenDigit,
+        }),
+      });
+
+      const data = await f2sRes.json().catch(() => ({}));
+
+      if (data.return === true || data.status_code === 200) {
+        return res.status(200).json({
+          success: true,
+          provider: 'fast2sms',
+          messageId: data.request_id || `f2s_${Date.now()}`,
+          recipient,
+          timestamp: new Date().toISOString(),
+          details: `Fast2SMS message queued successfully. Request ID: ${data.request_id || 'OK'}`,
+        });
+      }
+
+      return res.status(400).json({
+        success: false,
+        provider: 'fast2sms',
+        error: data.message || `Fast2SMS error (Code: ${data.status_code})`,
+        statusCode: data.status_code,
+      });
+    }
+
     return res.status(400).json({
       success: false,
-      error: `Unsupported provider: ${provider}. Supported providers: "twilio", "vonage".`,
+      error: `Unsupported provider: ${provider}. Supported providers: "fast2sms", "twilio", "vonage".`,
     });
   } catch (error) {
     return res.status(500).json({

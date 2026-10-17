@@ -147,14 +147,14 @@ export const ActionCard: React.FC<ActionCardProps> = ({
               </button>
             )}
 
-            {onNotify && activeItem.farmer_notification_required && (
+            {onNotify && (
               <button
                 type="button"
                 onClick={() => onNotify(activeItem)}
-                className="px-2.5 py-1.5 text-xs font-bold text-status-warning bg-status-warning-bg border border-status-warning/40 hover:bg-status-warning/20 rounded-lg transition-colors flex items-center gap-1"
+                className="px-2.5 py-1.5 text-xs font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60 border border-amber-300 dark:border-amber-700 rounded-lg transition-colors flex items-center gap-1 shadow-xs"
               >
-                <span className="material-symbols-outlined text-[14px]">call</span>
-                <span>Notify Farmer</span>
+                <span className="material-symbols-outlined text-[15px]">sms</span>
+                <span>Dispatch SMS Alert</span>
               </button>
             )}
 

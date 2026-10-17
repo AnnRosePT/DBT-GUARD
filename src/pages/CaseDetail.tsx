@@ -737,10 +737,10 @@ export const CaseDetail: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => setIsNotifyOpen(true)}
-                    className="px-3 py-2 bg-secondary hover:bg-secondary/90 text-on-secondary font-bold text-xs rounded-lg shadow-xs flex items-center gap-1.5 transition-colors"
+                    className="px-3 py-2 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs rounded-lg shadow-xs flex items-center gap-1.5 transition-colors"
                   >
                     <span className="material-symbols-outlined text-[16px]">sms</span>
-                    <span>Preview & Send Malayalam SMS (Demo)</span>
+                    <span>📲 Dispatch NIC SMS Alert</span>
                   </button>
 
                   <button
