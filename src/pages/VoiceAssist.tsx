@@ -5,6 +5,7 @@ import { useAuthStore } from '../store/useAuthStore';
 import { useUIStore } from '../store/useUIStore';
 import { playMalayalamSpeech, stopSpeech } from '../lib/speech';
 import { geminiAI } from '../lib/gemini';
+import { WiFiCallModal } from '../components/WiFiCallModal';
 
 export const VoiceAssist: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -30,6 +31,9 @@ export const VoiceAssist: React.FC = () => {
 
   const diag = diagnostics[farmer?.farmer_id || ''];
   const caseCode = farmer?.farmer_id === 'KL-TSR-0001' ? 'K104' : `K${100 + parseInt(farmer?.farmer_id.replace(/\D/g, '') || '1')}`;
+
+  // Wi-Fi Calling Modal State
+  const [showWifiModal, setShowWifiModal] = useState(false);
 
   // Audio Playback state
   const [isPlaying, setIsPlaying] = useState(false);
@@ -256,6 +260,16 @@ export const VoiceAssist: React.FC = () => {
                       {isPlaying ? 'pause' : 'play_arrow'}
                     </span>
                     <span>{isPlaying ? 'Pause Call (താൽക്കാലികം)' : 'Play Call (വോയ്സ് കേൾക്കുക)'}</span>
+                  </button>
+
+                  <button
+                    onClick={() => setShowWifiModal(true)}
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3 py-2.5 rounded shadow-sm flex items-center gap-1.5 transition active:scale-95"
+                    type="button"
+                    title="Call your phone over Wi-Fi so your actual mobile rings and speaks the Malayalam advisory"
+                  >
+                    <span className="material-symbols-outlined text-[18px]">phone_iphone</span>
+                    <span>Call My Phone via Wi-Fi</span>
                   </button>
 
                   <button
@@ -659,6 +673,16 @@ export const VoiceAssist: React.FC = () => {
           </section>
         </div>
       </div>
+
+      <WiFiCallModal
+        isOpen={showWifiModal}
+        onClose={() => setShowWifiModal(false)}
+        caseCode={caseCode}
+        farmerNameEn={farmer?.name_en || 'Beneficiary'}
+        farmerNameMl={farmer?.name_ml || 'ഗുണഭോക്താവ്'}
+        defaultPhone={farmer?.mobile_masked || '+91 9846012345'}
+        problemSummary={diag?.title_en || diag?.diagnostic_summary}
+      />
     </div>
   );
 };

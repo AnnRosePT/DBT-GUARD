@@ -16,6 +16,7 @@ import { ImportSync } from './pages/ImportSync';
 import { Reports } from './pages/Reports';
 import { QABenchmark } from './pages/QABenchmark';
 import { Presentation } from './pages/Presentation';
+import { IncomingCall } from './pages/IncomingCall';
 import { useAuthStore } from './store/useAuthStore';
 
 // Role-aware intelligent root redirection
@@ -46,6 +47,10 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Public Wi-Fi Calling Receiver Route */}
+        <Route path="/call" element={<IncomingCall />} />
+        <Route path="/call/:id" element={<IncomingCall />} />
+
         {/* Public Presentation & Pitch Deck Mode */}
         <Route path="/presentation" element={<Presentation />} />
 

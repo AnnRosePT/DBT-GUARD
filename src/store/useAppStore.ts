@@ -925,10 +925,44 @@ export const useAppStore = create<AppState>()(
       },
     }),
     {
-      name: 'dbtguard-storage-v3',
-      partialize: (state) => ({
-        cases: state.cases,
-        auditLogs: state.auditLogs.slice(0, 50),
+      name: 'dbtguard-storage-v4',
+      storage: {
+        getItem: (name) => {
+          try {
+            const str = localStorage.getItem(name);
+            return str ? JSON.parse(str) : null;
+          } catch {
+            return null;
+          }
+        },
+        setItem: (name, value) => {
+          try {
+            localStorage.setItem(name, JSON.stringify(value));
+          } catch (e) {
+            // Quota exceeded: prune to prevent crashes
+            try {
+              localStorage.removeItem('dbtguard-storage-v3');
+              const pruned = {
+                state: {
+                  auditLogs: (value as any)?.state?.auditLogs?.slice(0, 10) || [],
+                },
+              };
+              localStorage.setItem(name, JSON.stringify(pruned));
+            } catch {
+              // ignore
+            }
+          }
+        },
+        removeItem: (name) => {
+          try {
+            localStorage.removeItem(name);
+          } catch {
+            // ignore
+          }
+        },
+      },
+      partialize: (state: AppState): any => ({
+        auditLogs: state.auditLogs.slice(0, 30),
       }),
     }
   )
