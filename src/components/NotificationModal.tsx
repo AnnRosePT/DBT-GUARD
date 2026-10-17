@@ -291,6 +291,37 @@ export const NotificationModal: React.FC<NotificationModalProps> = ({
                 </div>
               </div>
 
+              {/* Direct Real Phone Dispatch */}
+              <div className="p-3 bg-emerald-950/10 border border-emerald-500/40 rounded-xl space-y-2">
+                <div className="flex items-center justify-between text-xs font-bold text-emerald-700 dark:text-emerald-400">
+                  <span className="flex items-center gap-1">
+                    <span className="material-symbols-outlined text-[16px]">send_to_mobile</span>
+                    <span>Send directly to Mobile +91 9746515417:</span>
+                  </span>
+                  <span className="text-[10px] bg-emerald-500/20 px-2 py-0.5 rounded uppercase">Real Handset</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <a
+                    href={`sms:+919746515417?body=${encodeURIComponent(customSmsMl)}`}
+                    className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                    title="Opens native SMS messaging app with text pre-filled"
+                  >
+                    <span className="material-symbols-outlined text-[15px]">sms</span>
+                    <span>1. Send via Phone SMS App</span>
+                  </a>
+                  <a
+                    href={`https://wa.me/919746515417?text=${encodeURIComponent(customSmsMl)}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-3 py-1.5 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition"
+                    title="Delivers instantly via WhatsApp"
+                  >
+                    <span className="material-symbols-outlined text-[15px]">chat</span>
+                    <span>2. Deliver via WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+
               {smsDispatchResult && (
                 <div
                   className={`p-3 rounded-lg border text-xs flex items-start gap-2 animate-in fade-in ${

@@ -18,7 +18,7 @@ export const WiFiCallModal: React.FC<WiFiCallModalProps> = ({
   caseCode,
   farmerNameEn,
   farmerNameMl,
-  defaultPhone = '+91 9846012345',
+  defaultPhone = '+91 9746515417',
   problemSummary,
 }) => {
   if (!isOpen) return null;

@@ -14,7 +14,7 @@ interface NicSmsSimulatorModalProps {
 export const NicSmsSimulatorModal: React.FC<NicSmsSimulatorModalProps> = ({
   isOpen,
   onClose,
-  initialPhone = '+91 9846078412',
+  initialPhone = '+91 9746515417',
   initialMessage,
   initialFarmerName = 'Ravi K (രവി കെ)',
 }) => {
