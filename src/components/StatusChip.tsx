@@ -11,53 +11,49 @@ export const StatusChip: React.FC<StatusChipProps> = ({ status, className = '', 
   let bgClass = 'bg-status-pending-bg text-status-pending border-status-pending/30';
   let dotClass = 'bg-status-pending';
 
+  const green = 'bg-status-ready-bg text-status-ready border-status-ready/30';
+  const amber = 'bg-status-warning-bg text-status-warning border-status-warning/40';
+  const red = 'bg-status-error-bg text-status-error border-status-error/40';
+  const blue = 'bg-status-info-bg text-status-info border-status-info/30';
+
   switch (status) {
+    // Green: verified completion only
     case 'Payment Confirmed':
-    case 'Resolved':
-    case 'Ready':
     case 'Credited':
+    case 'Ready':
     case 'Validation passed':
-      bgClass = 'bg-status-ready-bg text-status-ready border-status-ready/30';
+    case 'Resolved':
+      bgClass = green;
       dotClass = 'bg-status-ready';
       break;
+    // Amber: action required
+    case 'Action Required':
+    case 'Issue identified':
     case 'Verification Required':
     case 'Needs verification':
     case 'Awaiting Farmer':
     case 'Correction requested':
-    case 'Awaiting verification':
-      bgClass = 'bg-status-warning-bg text-status-warning border-status-warning/40';
+      bgClass = amber;
       dotClass = 'bg-status-warning';
       break;
-    case 'Action Required':
-    case 'Issue identified':
+    // Red: urgent failures
+    case 'Escalated':
     case 'Failed again':
-      bgClass = 'bg-status-error-bg text-status-error border-status-error/40';
+      bgClass = red;
       dotClass = 'bg-status-error';
       break;
-    case 'Escalated':
-      bgClass = 'bg-status-error text-white border-status-error';
-      dotClass = 'bg-white';
-      break;
-    case 'Awaiting Department':
-    case 'Correction in Progress':
-    case 'Payment pending':
-    case 'Retry pending':
-    case 'New':
-      bgClass = 'bg-status-pending-bg text-status-pending border-status-pending/30';
-      dotClass = 'bg-status-pending';
-      break;
-    case 'Ready for Revalidation':
-    case 'Correction reported':
-      bgClass = 'bg-secondary-container text-on-secondary-container border-secondary/40';
-      dotClass = 'bg-secondary';
-      break;
+    // Blue: information / in progress
     default:
+      bgClass = blue;
+      dotClass = 'bg-status-info';
       break;
   }
 
+  if (status === 'Resolved') text = 'Issue resolved';
+
   return (
     <span
-      className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full font-label-sm text-[11px] font-bold uppercase tracking-wider border shadow-xs ${bgClass} ${className}`}
+      className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full font-label-sm text-[11px] font-bold border ${bgClass} ${className}`}
     >
       <span className={`w-1.5 h-1.5 rounded-full ${dotClass} ${pulse ? 'animate-ping' : ''}`} />
       <span>{text}</span>
