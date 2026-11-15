@@ -4,6 +4,7 @@ import { useAppStore } from '../store/useAppStore';
 import { useAuthStore } from '../store/useAuthStore';
 import { useUIStore } from '../store/useUIStore';
 import { StatusChip } from '../components/StatusChip';
+import { LifecycleStepper } from '../components/LifecycleStepper';
 import { AssignmentModal } from '../components/AssignmentModal';
 import { NotificationModal } from '../components/NotificationModal';
 import { EscalationModal } from '../components/EscalationModal';
@@ -338,6 +339,8 @@ export const CaseDetail: React.FC = () => {
         </div>
       </section>
 
+      <LifecycleStepper currentStatus={targetCase.status} />
+
       {/* 2. STRUCTURED RESOLUTION PANEL (IN EXACT REQUIRED ORDER) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
         {/* MAIN COLUMN (8 COLS): Section A, B, C, D */}
@@ -349,7 +352,7 @@ export const CaseDetail: React.FC = () => {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-accent-saffron">info</span>
                 <h2 className="font-title-md text-base font-bold text-primary">
-                  Section A: Issue Summary & Diagnostic State
+                  1. Issue summary
                 </h2>
               </div>
               <span className="text-xs text-on-surface-variant font-mono">
@@ -443,7 +446,7 @@ export const CaseDetail: React.FC = () => {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-secondary">badge</span>
                 <h2 className="font-title-md text-base font-bold text-primary">
-                  Section B: Role Responsibility & Task Ownership
+                  2. Responsibility
                 </h2>
               </div>
               <button
@@ -528,7 +531,7 @@ export const CaseDetail: React.FC = () => {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-primary">format_list_numbered</span>
                 <h2 className="font-title-md text-base font-bold text-primary">
-                  Section C: Step-by-Step Resolution Instructions
+                  3. Resolution steps
                 </h2>
               </div>
               <span className="text-xs bg-primary/10 text-primary font-bold px-2.5 py-0.5 rounded">
@@ -536,16 +539,15 @@ export const CaseDetail: React.FC = () => {
               </span>
             </div>
 
-            <p className="text-xs text-on-surface-variant mt-2 mb-4">
-              Numbered, actionable protocol steps tailored specifically for this issue. Each step requires designated role execution, verified evidence, and an expected outcome.
-            </p>
+            <div className="mt-4" />
 
             <div className="space-y-4">
               {(targetCase.workflow_steps || []).map((step, idx) => {
                 const isStepCompleted = step.is_completed;
+                // Only the responsible role can complete a step; Krishi Bhavan records farmer-side steps.
                 const isMyRoleOwner =
                   currentPersona?.role === step.responsible_role ||
-                  (currentPersona?.role === 'krishi_bhavan' && step.responsible_role === 'krishi_bhavan');
+                  (currentPersona?.role === 'krishi_bhavan' && step.responsible_role === 'farmer');
 
                 return (
                   <div
@@ -615,6 +617,10 @@ export const CaseDetail: React.FC = () => {
                             <span className="material-symbols-outlined text-[16px]">check_circle</span>
                             <span>Recorded</span>
                           </div>
+                        ) : !isMyRoleOwner ? (
+                          <span className="text-xs text-on-surface-variant bg-surface-container-low px-2.5 py-1 rounded border border-border-subtle">
+                            Owner: {step.responsible_role_label}
+                          </span>
                         ) : (
                           <button
                             type="button"
@@ -629,7 +635,7 @@ export const CaseDetail: React.FC = () => {
                     </div>
 
                     {/* Step Notes & Evidence Input (when incomplete) */}
-                    {!isStepCompleted && (
+                    {!isStepCompleted && isMyRoleOwner && (
                       <div className="mt-3 pt-2.5 border-t border-border-subtle flex flex-col sm:flex-row gap-2">
                         <input
                           type="text"
@@ -658,6 +664,7 @@ export const CaseDetail: React.FC = () => {
           </section>
 
           {/* SECTION D: PROMINENT FARMER NOTIFICATION PANEL (SECTION 4) */}
+          {targetCase.farmer_notification_required && (
           <section
             className={`rounded-xl border p-5 shadow-xs transition-all ${
               targetCase.farmer_notification_required
@@ -676,7 +683,7 @@ export const CaseDetail: React.FC = () => {
                 </span>
                 <div>
                   <h2 className="font-title-md text-base font-bold text-primary">
-                    Section D: Farmer Notification & Telephony Panel
+                    4. Farmer notification
                   </h2>
                   <span className="text-xs text-on-surface-variant font-medium">
                     {targetCase.farmer_notification_required
@@ -721,16 +728,18 @@ export const CaseDetail: React.FC = () => {
                 {/* Delivery & Compliance Status */}
                 <div className="flex items-center justify-between text-xs text-on-surface-variant bg-surface-card p-2.5 rounded-lg border border-border-subtle flex-wrap gap-2">
                   <div className="flex items-center gap-3">
-                    <span>Consent: <strong className="text-status-ready">Verified (Y)</strong></span>
+                    <span>Consent: <strong className={targetCase.consent_call ? 'text-status-ready' : 'text-status-error'}>{targetCase.consent_call ? 'Yes' : 'No (SMS only)'}</strong></span>
                     <span>·</span>
-                    <span>Last Attempt: <strong>{targetCase.last_call_timestamp || '15 Oct 2026, 11:24'}</strong></span>
+                    <span>Last Attempt: <strong>{targetCase.last_call_timestamp || '—'}</strong></span>
                     <span>·</span>
-                    <span>Next Follow-up: <strong>17 Oct 2026</strong></span>
+                    <span>Next follow-up: <strong>{targetCase.next_permitted_followup || '—'}</strong></span>
                   </div>
                   <span className="font-bold text-primary bg-primary/10 px-2 py-0.5 rounded text-[11px]">
-                    Delivery: {targetCase.notification_delivery_status || 'Delivered'}
+                    Delivery: {targetCase.notification_delivery_status || 'Not sent'}
                   </span>
                 </div>
+
+                <p className="text-[11px] font-bold text-status-warning uppercase tracking-wide">Demo simulation: no real call or SMS is shown as delivered unless it actually occurred. We never ask for OTP, PIN or full account numbers.</p>
 
                 {/* Notification Action Buttons */}
                 <div className="flex items-center gap-2 flex-wrap pt-1">
@@ -740,7 +749,7 @@ export const CaseDetail: React.FC = () => {
                     className="px-3 py-2 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs rounded-lg shadow-xs flex items-center gap-1.5 transition-colors"
                   >
                     <span className="material-symbols-outlined text-[16px]">sms</span>
-                    <span>📲 Dispatch NIC SMS Alert</span>
+                    <span>Trigger SMS</span>
                   </button>
 
                   <button
@@ -749,7 +758,7 @@ export const CaseDetail: React.FC = () => {
                     className="px-3 py-2 bg-primary hover:bg-primary-container text-on-primary font-bold text-xs rounded-lg shadow-xs flex items-center gap-1.5 transition-colors"
                   >
                     <span className="material-symbols-outlined text-[16px]">phone_in_talk</span>
-                    <span>Trigger Voice Assist Call (Demo)</span>
+                    <span>Trigger voice call</span>
                   </button>
 
                   <Link
@@ -757,18 +766,13 @@ export const CaseDetail: React.FC = () => {
                     className="px-3 py-2 bg-surface-card hover:bg-surface-container text-primary border border-border-strong font-bold text-xs rounded-lg shadow-xs flex items-center gap-1.5 transition-colors"
                   >
                     <span className="material-symbols-outlined text-[16px]">headphones</span>
-                    <span>Dedicated Malayalam IVR Console</span>
+                    <span>Open Voice & Follow-up</span>
                   </Link>
                 </div>
               </div>
-            ) : (
-              <div className="mt-3 p-3 bg-surface-container-low rounded-lg border border-border-subtle text-xs text-on-surface-variant">
-                <p>
-                  <strong>Internal Resolution in Progress:</strong> This issue (e.g. land survey cross-matching or clearinghouse batch synchronization) does not require beneficiary physical attendance. Krishi Bhavan and Village Revenue Office are resolving this via inter-departmental data reconciliation.
-                </p>
-              </div>
-            )}
+            ) : null}
           </section>
+          )}
 
           {/* SECTION E: ROLE-SPECIFIC INSTRUCTIONS (SECTION 5) */}
           <section className="bg-surface-card rounded-xl border border-border-subtle p-5 shadow-xs">
@@ -776,7 +780,7 @@ export const CaseDetail: React.FC = () => {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-primary">manage_accounts</span>
                 <h2 className="font-title-md text-base font-bold text-primary">
-                  Section E: Role-Specific Action Panel
+                  Your role: what to do
                 </h2>
               </div>
               <span className="text-xs bg-secondary/10 text-primary font-bold px-2.5 py-0.5 rounded border border-secondary/20">
