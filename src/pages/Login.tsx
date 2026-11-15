@@ -292,17 +292,17 @@ export const Login: React.FC = () => {
 
         <div className="flex items-center gap-2 text-white/90 font-label-md text-label-md tracking-wider uppercase font-semibold">
           <span className="material-symbols-outlined text-accent-saffron text-[18px]">verified</span>
-          <span>Government of Kerala • Department of Agriculture & Farmers' Welfare</span>
+          <span>Student prototype • Not an official government website</span>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-2 pt-0.5 text-xs text-white/70">
           <span className="bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
-            NIC Jan Samarth • MeriPehchaan Single Sign-On
+            Demo mode: no real authentication
           </span>
           <span className="hidden sm:inline text-white/40">•</span>
           <span className="bg-status-ready/20 text-status-ready px-2.5 py-0.5 rounded-full font-bold border border-status-ready/30 flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-status-ready animate-pulse" />
-            K-SWAN Secure Node 04: Active
+            Real deployment would use secure government login
           </span>
         </div>
       </header>
@@ -344,9 +344,9 @@ export const Login: React.FC = () => {
           <div className="hidden sm:flex flex-col items-end text-right">
             <span className="text-[11px] font-label-sm uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-1">
               <span className="material-symbols-outlined text-[14px] text-status-ready">lock</span>
-              TLS 1.3
+              Demo personas
             </span>
-            <span className="text-[10px] text-on-surface-variant font-mono">NIC-AES-256</span>
+            <span className="text-[10px] text-on-surface-variant font-mono">Synthetic data only</span>
           </div>
         </div>
 
@@ -606,7 +606,7 @@ export const Login: React.FC = () => {
                 <div className="flex items-center gap-2 mb-2">
                   <div className="flex-1 h-px bg-border-subtle" />
                   <span className="text-[11px] font-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">
-                    Or Quick 1-Click Persona Login
+                    Choose a demo persona
                   </span>
                   <div className="flex-1 h-px bg-border-subtle" />
                 </div>
