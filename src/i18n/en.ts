@@ -3,7 +3,7 @@ export const en = {
   pilotBadge: "Thrissur Pilot v3.2",
   tagline: "DETECT • EXPLAIN • CONTACT • RESOLVE • PM-KISAN DBT PLATFORM",
   subtagline: "PM-KISAN DBT Beneficiary Payment Resolution Platform — Krishi Bhavan Thrissur",
-  govtTitle: "Govt. of Kerala • Dept. of Agriculture & Farmers' Welfare",
+  govtTitle: "Student prototype • Not an official government website",
   jurisdiction: "Krishi Bhavan, Thrissur Dist.",
   tollFree: "Toll Free: 1800-425-1661",
   skipToContent: "Skip to main content",
@@ -12,7 +12,7 @@ export const en = {
   contrast: "Contrast",
   resetDemo: "Reset Demo",
   prototypeDisclaimer: "SIMULATED DATA — ACADEMIC / STUDENT PROTOTYPE. Not an official Government of India or Govt. of Kerala website. All farmer and financial records are synthetic.",
-  gigwCompliance: "Compliance Mode: GIGW 3.0 Accessible",
+  gigwCompliance: "Accessibility features on",
   
   // Navigation
   navDashboard: "Dashboard",
