@@ -3,24 +3,27 @@ import { Link } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
 import { useUIStore } from '../store/useUIStore';
 
-export const Home: React.FC = () => {
-  const { farmers, diagnostics, auditLog } = useAppStore();
+export const Home: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
+  const { farmers, diagnostics, auditLog, cases } = useAppStore();
+  const callsLogged = cases.filter((c) => (c.call_attempts || 0) > 0).length;
+  const callsAnswered = cases.filter((c) => c.call_status === 'Answered').length;
   const { language } = useUIStore();
   const isMl = language === 'ml';
 
   // Metrics calculation
   const stats = useMemo(() => {
-    const total = farmers.length;
+    const total = cases.length || farmers.length;
     let ready = 0;
     let issues = 0;
     let verify = 0;
     let pending = 0;
 
-    farmers.forEach(f => {
-      if (f.status === 'READY') ready++;
-      else if (f.status === 'ISSUE_IDENTIFIED') issues++;
-      else if (f.status === 'NEEDS_VERIFICATION') verify++;
-      else if (f.status === 'PAYMENT_PENDING') pending++;
+    // Status counts come from the live case list (severity set by the rules engine)
+    cases.forEach(c => {
+      if (c.severity === 'Green') ready++;
+      else if (c.severity === 'Red') issues++;
+      else if (c.severity === 'Amber') verify++;
+      else pending++;
     });
 
     const issueDistribution: { [key: string]: number } = {};
@@ -48,7 +51,7 @@ export const Home: React.FC = () => {
       issueDistribution,
       localBodyDistribution
     };
-  }, [farmers, diagnostics]);
+  }, [farmers, diagnostics, cases]);
 
   // Circumference for Donut Chart (r=38 => C = 2 * PI * 38 ≈ 238.76)
   const C = 238.76;
@@ -86,6 +89,7 @@ export const Home: React.FC = () => {
 
   return (
     <div className="flex flex-col w-full gap-space-lg">
+      {!embedded && (<>
       {/* BREADCRUMB & ADMINISTRATIVE DASHBOARD HEADER */}
       <div className="flex flex-col gap-space-xs bg-surface-card p-space-md rounded-lg shadow-sm border border-border-subtle">
         <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant flex-wrap">
@@ -117,7 +121,7 @@ export const Home: React.FC = () => {
               </span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
-              Live analytical dashboard for Agricultural Extension Officers across Thrissur block panchayats · Krishi Bhavan West Circle
+              Analytics on synthetic data · Krishi Bhavan, Thrissur
             </p>
           </div>
 
@@ -164,7 +168,7 @@ export const Home: React.FC = () => {
           </div>
           <div className="mt-space-sm pt-2 border-t border-border-subtle flex items-center justify-between text-label-sm">
             <span className="text-status-ready font-bold flex items-center gap-0.5">
-              <span className="material-symbols-outlined text-[14px]">check_circle</span> 100% Batched
+              <span className="material-symbols-outlined text-[14px]">info</span> Synthetic records
             </span>
             <span className="text-on-surface-variant font-mono">Thrissur West</span>
           </div>
@@ -188,7 +192,7 @@ export const Home: React.FC = () => {
           </div>
           <div className="mt-space-sm pt-2 border-t border-border-subtle flex items-center justify-between text-label-sm">
             <span className="text-status-error font-bold flex items-center gap-0.5">
-              <span className="material-symbols-outlined text-[14px]">warning</span> {stats.issuesPct}% Rejection Rate
+              <span className="material-symbols-outlined text-[14px]">warning</span> {stats.issuesPct}% of records
             </span>
             <Link to="/cases?status=ISSUE_IDENTIFIED" className="text-secondary hover:underline font-bold">
               Triage →
@@ -256,13 +260,13 @@ export const Home: React.FC = () => {
           </div>
           <div className="mt-space-sm">
             <div className="font-display-lg text-display-lg text-status-ready font-black tracking-tight leading-none">
-              48
+              {callsLogged}
             </div>
-            <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">Dialed today via Voice Assist</p>
+            <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">Cases with a logged call (demo)</p>
           </div>
           <div className="mt-space-sm pt-2 border-t border-border-subtle flex items-center justify-between text-label-sm">
             <span className="text-status-ready font-bold flex items-center gap-0.5">
-              <span className="material-symbols-outlined text-[14px]">phone_in_talk</span> 89% Connected
+              <span className="material-symbols-outlined text-[14px]">phone_in_talk</span> {callsAnswered} answered
             </span>
             <Link to="/voice/KL-TSR-0001" className="text-secondary hover:underline font-bold">
               Voice →
@@ -271,6 +275,10 @@ export const Home: React.FC = () => {
         </div>
       </div>
 
+      </>)}
+      {embedded && (
+        <h2 className="font-title-lg text-title-lg text-primary font-bold">Status and issue charts (demo data)</h2>
+      )}
       {/* 3-COLUMN ANALYTICS CARD GRID (EQUAL HEIGHT) */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-space-lg items-stretch">
         {/* COL 1: Status Distribution (Donut Chart) */}
@@ -473,7 +481,7 @@ export const Home: React.FC = () => {
           </div>
 
           <div className="pt-space-sm mt-space-xs border-t border-border-subtle flex justify-between items-center text-label-sm">
-            <span className="text-on-surface-variant">Top Fault: NPCI Mapper (44% total)</span>
+            <span className="text-on-surface-variant">Top issue: Aadhaar not mapped (synthetic data)</span>
             <Link to="/voice/KL-TSR-0001" className="text-secondary font-bold hover:underline flex items-center gap-0.5">
               Automate IVR Alert →
             </Link>
@@ -561,7 +569,7 @@ export const Home: React.FC = () => {
               <span className="material-symbols-outlined text-[14px]">calendar_today</span> 19 Nov 2025
             </p>
             <p className="font-body-sm text-body-sm text-on-surface-variant mt-2">
-              Reconciled with 99.4% success across Thrissur District. Residual 0.6% resolved via Akshaya special camp.
+              Release date from PIB. District-level success figures are not part of this demo.
             </p>
           </div>
 
@@ -578,7 +586,7 @@ export const Home: React.FC = () => {
               <span className="material-symbols-outlined text-[14px]">calendar_today</span> 13 Mar 2026
             </p>
             <p className="font-body-sm text-body-sm text-on-surface-variant mt-2">
-              State treasury PFMS clearinghouse batch clearance. Over 22.8 lakh beneficiary accounts credited statewide.
+              Release date from PIB. District-level figures are not part of this demo.
             </p>
           </div>
 
@@ -654,15 +662,15 @@ export const Home: React.FC = () => {
                     <div className="flex items-baseline justify-between gap-2">
                       <span className="font-label-md text-label-md text-primary font-bold">{entry.action}</span>
                       <span className="font-mono text-label-sm text-on-surface-variant">
-                        {new Date(entry.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                        {entry.timestamp}
                       </span>
                     </div>
-                    <p className="font-body-sm text-body-sm text-on-surface mt-0.5">{entry.details}</p>
+                    <p className="font-body-sm text-body-sm text-on-surface mt-0.5">{entry.details || entry.reason}</p>
                     <div className="flex items-center gap-2 mt-1.5 font-label-sm text-[11px] text-on-surface-variant">
                       <span className="bg-surface-container-high px-1.5 py-0.2 rounded font-mono">
-                        {entry.farmer_id}
+                        {entry.farmer_id || entry.case_id}
                       </span>
-                      <span>By: {entry.officer_name}</span>
+                      <span>By: {entry.officer_name || entry.user_name}</span>
                     </div>
                   </div>
                 </div>
@@ -706,8 +714,8 @@ export const Home: React.FC = () => {
                     </span>
                   </div>
                 </div>
-                <span className="bg-status-ready-bg text-status-ready font-label-sm px-2 py-0.5 rounded font-bold">
-                  Target: 95%
+                <span className="bg-status-warning-bg text-status-warning font-label-sm px-2 py-0.5 rounded font-bold">
+                  Demo data
                 </span>
               </div>
 
@@ -729,7 +737,7 @@ export const Home: React.FC = () => {
                     <span className="font-mono font-bold text-status-error">₹5,00,000</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-on-surface-variant">Resolved via Desk Triage</span>
+                    <span className="text-on-surface-variant">Records passing checks × ₹2,000 (not money recovered)</span>
                     <span className="font-mono font-bold text-status-ready">
                       ₹{(stats.ready * 2000).toLocaleString('en-IN')}
                     </span>
@@ -742,7 +750,7 @@ export const Home: React.FC = () => {
                     Key Takeaway for Agriculture Officers:
                   </h4>
                   <p className="text-xs text-on-surface mt-1">
-                    44% of payment stops in Thrissur South are attributable to bank Aadhaar unmapping or account dormancy. Directing farmers with pre-filled NPCI mandate slips cuts resolution time from 42 days to 72 hours.
+                    In this synthetic dataset, Aadhaar–NPCI mapping problems (not mapped + de-seeded) are the largest group: 90 of 250 issue cases. Routing them straight to the bank with a clear checklist is the shortest path to a fix.
                   </p>
                 </div>
               </div>
