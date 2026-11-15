@@ -69,6 +69,8 @@ export default {
         "status-error-bg": "#FEE2E2",
         "status-pending": "#6B7280",
         "status-pending-bg": "#F3F4F6",
+        "status-info": "#2563EB",
+        "status-info-bg": "#DBEAFE",
         "disclaimer-banner-bg": "#FEF3C7",
         "disclaimer-banner-border": "#F59E0B",
         "disclaimer-banner-text": "#92400E",

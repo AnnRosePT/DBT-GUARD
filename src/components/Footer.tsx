@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
               {t('footerPrivacy')}
             </h4>
             <p className="font-body-sm text-body-sm text-white/70 leading-relaxed">
-              Complies with UIDAI Aadhaar Act 2016 regulations. Synthetic Aadhaar instances formatted as{' '}
+              Aadhaar and bank account numbers are always masked, e.g.{' '}
               <strong className="text-white font-mono">XXXX-XXXX-7841</strong> and Bank Accounts as{' '}
               <strong className="text-white font-mono">XXXXXXXX9761</strong>.
             </p>
@@ -83,19 +83,19 @@ export const Footer: React.FC = () => {
             <div className="space-y-2 font-body-sm text-body-sm text-white/70">
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[18px] text-status-ready">call</span>
-                <span>Toll Free Krishi Helpdesk: <strong>1800-425-1661</strong></span>
+                <span>Student prototype by Team NPS</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[18px] text-secondary-fixed">mail</span>
-                <span>dbt-support.thrissur@kerala.gov.in</span>
+                <span>Not an official helpline</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[18px] text-accent-saffron">schedule</span>
-                <span>Hours: 10:00 AM – 05:00 PM (IST)</span>
+                <span>Demo use only</span>
               </div>
             </div>
             <div className="pt-2 text-white/50 text-[11px] font-mono">
-              System Node: KB-TCR-CL04 · Server Time: 2026-10-16 IST
+              Synthetic data · simulated integrations
             </div>
           </div>
         </div>
