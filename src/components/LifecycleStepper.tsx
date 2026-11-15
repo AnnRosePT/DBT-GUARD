@@ -5,93 +5,80 @@ interface LifecycleStepperProps {
   date?: string;
 }
 
-const STAGES: { id: number; name: string; statusMatch: CaseStatus[]; note: string }[] = [
-  { id: 1, name: '1. Issue Identified', statusMatch: ['Issue identified'], note: 'R01 Error' },
-  { id: 2, name: '2. Correction Requested', statusMatch: ['Correction requested'], note: 'Liaison Assigned' },
-  { id: 3, name: '3. Correction Reported', statusMatch: ['Correction reported'], note: 'Proof Submitted' },
-  { id: 4, name: '4. Awaiting Verify', statusMatch: ['Awaiting verification'], note: 'Clearinghouse Pull' },
-  { id: 5, name: '5. Validation Passed', statusMatch: ['Validation passed'], note: 'Automated NPCI Check' },
-  { id: 6, name: '6. Retry Pending', statusMatch: ['Retry pending', 'Payment pending'], note: 'Supplementary Cycle' },
-  { id: 7, name: '7. Credited (Closed)', statusMatch: ['Credited', 'Ready'], note: '₹2,000 Disbursement' },
-];
+// Five-stage progress tracker: Detect → Assign → Correct → Revalidate → Confirm payment
+const STAGES = ['Detect', 'Assign', 'Correct', 'Revalidate', 'Confirm payment'];
+
+function stageIndex(status: CaseStatus): number {
+  switch (status) {
+    case 'New':
+    case 'Issue identified':
+    case 'Action Required':
+    case 'Needs verification':
+      return 1;
+    case 'Verification Required':
+    case 'Correction requested':
+    case 'Awaiting Farmer':
+      return 2;
+    case 'Correction in Progress':
+    case 'Awaiting Department':
+    case 'Correction reported':
+    case 'Escalated':
+      return 3;
+    case 'Ready for Revalidation':
+    case 'Awaiting verification':
+    case 'Validation passed':
+    case 'Resolved':
+    case 'Retry pending':
+    case 'Payment pending':
+      return 4;
+    case 'Payment Confirmed':
+    case 'Credited':
+    case 'Ready':
+      return 6; // all five complete
+    default:
+      return 1;
+  }
+}
 
 export const LifecycleStepper: React.FC<LifecycleStepperProps> = ({ currentStatus }) => {
-  // Determine current active index (1-based)
-  let activeIndex = 1;
-  if (currentStatus === 'New' || currentStatus === 'Action Required' || currentStatus === 'Issue identified') activeIndex = 1;
-  else if (currentStatus === 'Verification Required' || currentStatus === 'Needs verification' || currentStatus === 'Awaiting Farmer' || currentStatus === 'Correction requested') activeIndex = 2;
-  else if (currentStatus === 'Correction in Progress' || currentStatus === 'Correction reported' || currentStatus === 'Ready for Revalidation') activeIndex = 3;
-  else if (currentStatus === 'Awaiting Department' || currentStatus === 'Awaiting verification') activeIndex = 4;
-  else if (currentStatus === 'Resolved' || currentStatus === 'Validation passed') activeIndex = 5;
-  else if (currentStatus === 'Retry pending' || currentStatus === 'Payment pending') activeIndex = 6;
-  else if (currentStatus === 'Payment Confirmed' || currentStatus === 'Credited' || currentStatus === 'Ready') activeIndex = 7;
-  else if (currentStatus === 'Escalated') activeIndex = 4;
+  const active = stageIndex(currentStatus);
+  const blocked = currentStatus === 'Escalated';
 
   return (
-    <div className="w-full bg-surface-card rounded-lg border border-border-subtle p-space-md shadow-sm">
-      <div className="flex items-center justify-between pb-3 border-b border-border-subtle mb-space-md">
-        <div className="flex items-center gap-2">
-          <span className="material-symbols-outlined text-secondary text-[20px]">alt_route</span>
-          <h3 className="font-title-md text-title-md text-primary font-bold">
-            Case Progression Lifecycle
-          </h3>
-        </div>
-        <span className="font-label-sm text-label-sm text-on-surface-variant font-medium">
-          Stage {activeIndex} of 7 Complete
-        </span>
-      </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2.5">
-        {STAGES.map((stage) => {
-          const isCurrent = stage.id === activeIndex;
-          const isPassed = stage.id < activeIndex;
-
+    <div className="w-full bg-surface-card rounded-xl border border-border-subtle px-4 py-3 shadow-xs" aria-label="Case progress">
+      <ol className="flex items-center gap-2 flex-wrap">
+        {STAGES.map((name, i) => {
+          const n = i + 1;
+          const done = n < active;
+          const current = n === active;
+          const circle = done
+            ? 'bg-status-ready text-white'
+            : current && blocked
+            ? 'bg-status-error text-white'
+            : current
+            ? 'bg-primary text-on-primary'
+            : 'bg-surface-container-high text-on-surface-variant';
+          const label = done
+            ? 'text-status-ready'
+            : current && blocked
+            ? 'text-status-error font-bold'
+            : current
+            ? 'text-primary font-bold'
+            : 'text-on-surface-variant';
           return (
-            <div
-              key={stage.id}
-              className={`rounded-lg p-2.5 border transition-all text-center flex flex-col justify-between min-h-[90px] ${
-                isCurrent
-                  ? 'bg-status-error-bg/60 border-status-error ring-1 ring-status-error shadow-xs'
-                  : isPassed
-                  ? 'bg-status-ready-bg/50 border-status-ready/40 text-on-surface'
-                  : 'bg-surface-container-low/60 border-border-subtle text-on-surface-variant'
-              }`}
-            >
-              <div className="flex items-center justify-center mb-1">
-                <span
-                  className={`w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs ${
-                    isCurrent
-                      ? 'bg-status-error text-white'
-                      : isPassed
-                      ? 'bg-status-ready text-white'
-                      : 'bg-surface-container-high text-on-surface-variant'
-                  }`}
-                >
-                  {isPassed ? (
-                    <span className="material-symbols-outlined text-[14px]">check</span>
-                  ) : (
-                    stage.id
-                  )}
-                </span>
-              </div>
-
-              <div className="font-label-sm text-[11px] font-bold leading-tight">
-                {stage.name}
-              </div>
-
-              <div className="text-[10px] text-on-surface-variant mt-1 font-mono">
-                {stage.note}
-              </div>
-
-              {isCurrent && (
-                <span className="mt-1 bg-status-error text-white text-[9px] font-bold uppercase py-0.5 rounded px-1 self-center">
-                  Active Stage
-                </span>
-              )}
-            </div>
+            <li key={name} className="flex items-center gap-2">
+              <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${circle}`}>
+                {done ? <span className="material-symbols-outlined text-[14px]">check</span> : n}
+              </span>
+              <span className={`text-sm ${label}`}>
+                {name}
+                {current && blocked ? ' (blocked)' : ''}
+              </span>
+              {n < STAGES.length && <span className="w-6 sm:w-10 h-px bg-border-strong" aria-hidden="true" />}
+            </li>
           );
         })}
-      </div>
+      </ol>
     </div>
   );
 };
