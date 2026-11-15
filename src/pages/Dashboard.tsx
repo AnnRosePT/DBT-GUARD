@@ -43,8 +43,8 @@ export const Dashboard: React.FC = () => {
   }, [cases]);
 
   const overdueCount = useMemo(() => {
-    return cases.filter((c) => c.days_open > 7 || c.is_overdue || c.status === 'Escalated').length;
-  }, [cases]);
+    return activeCases.filter((c) => c.days_open > 7 || c.is_overdue || c.status === 'Escalated').length;
+  }, [activeCases]);
 
   // Filtered Priority Action Queue
   const filteredQueue = useMemo(() => {
@@ -117,14 +117,14 @@ export const Dashboard: React.FC = () => {
           </nav>
           <div className="flex items-center gap-2 mt-0.5">
             <h1 className="font-headline-md text-headline-md text-primary font-bold tracking-tight">
-              Action-Oriented DBT Issue Resolution Console
+              Dashboard
             </h1>
-            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-ready-bg text-status-ready border border-status-ready/30">
-              <span className="w-1.5 h-1.5 rounded-full bg-status-ready animate-pulse" /> Live Operational
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full font-label-sm text-label-sm font-bold bg-status-warning-bg text-status-warning border border-status-warning/30">
+              Demo data
             </span>
           </div>
           <p className="text-xs text-on-surface-variant">
-            Do not merely describe problems. Direct each responsible officer to the immediate next action required.
+            What is wrong, who owns it, and what to do next.
           </p>
         </div>
 
@@ -137,121 +137,41 @@ export const Dashboard: React.FC = () => {
             <span className="material-symbols-outlined text-[18px]">format_list_bulleted</span>
             <span>View All Cases ({cases.length})</span>
           </Link>
-          <button
-            type="button"
-            onClick={() =>
-              addToast({
-                type: 'success',
-                title: 'PFMS Feed Synchronized',
-                message: 'Pulled latest morning batch. 0 new anomalies detected.',
-              })
-            }
-            className="inline-flex items-center gap-1.5 px-3 py-2 bg-surface-card border border-border-strong text-primary hover:bg-surface-container-low font-label-md text-label-md rounded-lg shadow-xs transition-colors"
-          >
-            <span className="material-symbols-outlined text-[18px] text-secondary">sync</span>
-            <span>Sync PFMS Feed (08:30 AM)</span>
-          </button>
         </div>
       </section>
 
       {/* SECTION 6: 4 CORE KPI CARDS */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-sm" aria-label="Key Action Metrics">
         <StatCounter
-          title="Total Active Cases"
+          title="Active Cases"
           value={activeCases.length}
           subtitle="Open DBT remediation dockets"
           color="primary"
           icon="assignment"
-          badge="Actionable"
-          badgeColor="bg-primary/10 text-primary"
         />
         <StatCounter
           title="Action Required"
           value={actionRequiredCount}
-          subtitle="Immediate officer step pending"
-          color="error"
+          subtitle="Officer step pending"
+          color="warning"
           icon="error"
-          badge="Immediate"
-          badgeColor="bg-status-error-bg text-status-error"
         />
         <StatCounter
           title="Awaiting Verification"
           value={awaitingExternalCount}
           subtitle="Bank / Akshaya / Village Office"
-          color="warning"
+          valueColor="text-status-info"
+          iconBg="bg-status-info-bg"
+          iconColor="text-status-info"
           icon="pending_actions"
-          badge="In Progress"
-          badgeColor="bg-status-warning-bg text-status-warning"
         />
         <StatCounter
           title="Overdue Follow-ups"
           value={overdueCount}
           subtitle="SLA > 7 days or escalated"
-          color="warning"
+          color="error"
           icon="warning"
-          badge="SLA Breach"
-          badgeColor="bg-status-error-bg text-status-error"
         />
-      </section>
-
-      {/* SECTION 6: FOLLOW-UP ALERTS SECTION */}
-      <section className="grid grid-cols-1 md:grid-cols-4 gap-3 bg-surface-card rounded-xl p-4 border border-border-subtle shadow-xs">
-        <div
-          onClick={() => setActiveCategory('Overdue')}
-          className="p-3 rounded-lg bg-status-error-bg/70 border border-status-error/30 hover:border-status-error cursor-pointer transition-colors"
-        >
-          <div className="flex items-center justify-between text-status-error">
-            <span className="text-xs font-bold uppercase tracking-wider">Overdue Officer Tasks</span>
-            <span className="material-symbols-outlined text-[18px]">alarm_off</span>
-          </div>
-          <div className="text-xl font-bold text-status-error mt-1">{overdueCount} cases</div>
-          <span className="text-[11px] text-on-surface-variant block mt-0.5">Exceeded 7-day SLA window</span>
-        </div>
-
-        <div
-          onClick={() => {
-            setActiveCategory('All');
-            setSearchQuery('');
-          }}
-          className="p-3 rounded-lg bg-status-warning-bg/70 border border-status-warning/30 hover:border-status-warning cursor-pointer transition-colors"
-        >
-          <div className="flex items-center justify-between text-status-warning">
-            <span className="text-xs font-bold uppercase tracking-wider">Farmer Contact Required</span>
-            <span className="material-symbols-outlined text-[18px]">contact_phone</span>
-          </div>
-          <div className="text-xl font-bold text-status-warning mt-1">
-            {cases.filter((c) => c.farmer_notification_required && c.status !== 'Resolved').length} cases
-          </div>
-          <span className="text-[11px] text-on-surface-variant block mt-0.5">Beneficiary action needed</span>
-        </div>
-
-        <div
-          onClick={() => setActiveCategory('NPCI')}
-          className="p-3 rounded-lg bg-surface-container-low border border-border-strong hover:border-secondary cursor-pointer transition-colors"
-        >
-          <div className="flex items-center justify-between text-primary">
-            <span className="text-xs font-bold uppercase tracking-wider">Waiting for Bank Response</span>
-            <span className="material-symbols-outlined text-[18px]">account_balance</span>
-          </div>
-          <div className="text-xl font-bold text-primary mt-1">
-            {cases.filter((c) => c.owner_office_type === 'bank_branch' && c.status !== 'Resolved').length} cases
-          </div>
-          <span className="text-[11px] text-on-surface-variant block mt-0.5">NPCI / CBS mandate verification</span>
-        </div>
-
-        <div
-          onClick={() => navigate('/revalidate')}
-          className="p-3 rounded-lg bg-status-ready-bg/70 border border-status-ready/30 hover:border-status-ready cursor-pointer transition-colors"
-        >
-          <div className="flex items-center justify-between text-status-ready">
-            <span className="text-xs font-bold uppercase tracking-wider">Revalidation Ready</span>
-            <span className="material-symbols-outlined text-[18px]">published_with_changes</span>
-          </div>
-          <div className="text-xl font-bold text-status-ready mt-1">
-            {cases.filter((c) => c.status === 'Ready for Revalidation' || c.status === 'Correction reported').length} cases
-          </div>
-          <span className="text-[11px] text-on-surface-variant block mt-0.5">Proof submitted; ready to poll</span>
-        </div>
       </section>
 
       {/* SECTION 6: PRIORITY ACTION QUEUE (TOP 5 URGENT CASES) */}
@@ -262,11 +182,11 @@ export const Dashboard: React.FC = () => {
             <div className="flex items-center gap-2">
               <span className="material-symbols-outlined text-[22px] text-accent-saffron">bolt</span>
               <h2 className="font-title-lg text-title-lg font-bold text-primary">
-                Priority Action Queue (Top Urgent Cases)
+                Priority queue: 5 most urgent cases
               </h2>
             </div>
             <p className="text-xs text-on-surface-variant mt-0.5">
-              Showing top actionable cases sorted by priority and urgency. Each entry tells you what is wrong, who owns it, and the immediate next action.
+              Sorted by priority and days open.
             </p>
           </div>
 
@@ -338,12 +258,12 @@ export const Dashboard: React.FC = () => {
               <thead>
                 <tr className="bg-surface-container-low/70 border-b border-border-subtle text-xs font-bold text-on-surface-variant uppercase tracking-wider">
                   <th className="py-3 px-3.5">Case & Beneficiary</th>
-                  <th className="py-3 px-3">Issue & Problem Statement</th>
-                  <th className="py-3 px-3">Responsible Owner</th>
-                  <th className="py-3 px-3">Next Action Required</th>
+                  <th className="py-3 px-3">Issue</th>
+                  <th className="py-3 px-3">Owner</th>
+                  <th className="py-3 px-3">Next action</th>
                   <th className="py-3 px-3 text-center">Farmer Contact</th>
                   <th className="py-3 px-3">Deadline</th>
-                  <th className="py-3 px-3 text-right">Primary Action</th>
+                  <th className="py-3 px-3 text-right"><span className="sr-only">Actions</span></th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border-subtle/70 text-xs sm:text-sm">
@@ -378,9 +298,6 @@ export const Dashboard: React.FC = () => {
                         <span className="font-bold text-primary block text-xs">
                           {item.issue_title}
                         </span>
-                        <span className="text-xs text-on-surface-variant line-clamp-2 mt-0.5 leading-snug">
-                          {item.problem_statement || item.issue_description}
-                        </span>
                       </td>
 
                       {/* Owner */}
@@ -396,8 +313,8 @@ export const Dashboard: React.FC = () => {
 
                       {/* Next Action */}
                       <td className="py-3 px-3 align-top max-w-[240px]">
-                        <span className="font-medium text-secondary text-xs block leading-snug">
-                          👉 {item.immediate_next_action || item.next_step_text}
+                        <span className="font-medium text-on-surface text-xs leading-snug line-clamp-2">
+                          {item.immediate_next_action || item.next_step_text}
                         </span>
                       </td>
 
@@ -411,7 +328,7 @@ export const Dashboard: React.FC = () => {
                         ) : (
                           <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-status-ready-bg text-status-ready font-semibold text-[11px]">
                             <span className="material-symbols-outlined text-[13px]">check</span>
-                            Not Req.
+                            Not required
                           </span>
                         )}
                       </td>
@@ -422,22 +339,14 @@ export const Dashboard: React.FC = () => {
                           {item.deadline_date || '23 Oct 2026'}
                         </span>
                         <span className={`text-[11px] block mt-0.5 ${isOverdue ? 'text-status-error font-bold' : 'text-on-surface-variant'}`}>
-                          {isOverdue ? `⚠️ Overdue (${item.days_open}d)` : `Open ${item.days_open}d`}
+                          {isOverdue ? `Overdue ${item.days_open - 7}d` : `Open ${item.days_open}d`}
                         </span>
                       </td>
 
                       {/* Actions */}
                       <td className="py-3 px-3 align-top text-right whitespace-nowrap">
                         <div className="flex items-center justify-end gap-1.5">
-                          <button
-                            type="button"
-                            onClick={() => setAssignModalCase(item)}
-                            title="Assign / Reassign Officer"
-                            className="p-1.5 text-primary hover:bg-surface-container rounded-lg transition-colors border border-border-strong"
-                          >
-                            <span className="material-symbols-outlined text-[16px]">person_add</span>
-                          </button>
-
+                          {item.farmer_notification_required && (
                           <button
                             type="button"
                             onClick={() => setNotifyModalCase(item)}
@@ -445,8 +354,9 @@ export const Dashboard: React.FC = () => {
                             className="inline-flex items-center gap-1 px-2.5 py-1.5 text-xs font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60 rounded-lg transition-colors border border-amber-300 dark:border-amber-700 shadow-xs"
                           >
                             <span className="material-symbols-outlined text-[15px]">sms</span>
-                            <span>Dispatch SMS</span>
+                            <span>Contact farmer</span>
                           </button>
+                          )}
 
                           <Link
                             to={`/cases/${item.case_id}`}
@@ -512,7 +422,7 @@ export const Dashboard: React.FC = () => {
               to="/cases"
               className="px-4 py-1.5 bg-surface-card hover:bg-surface-container text-primary font-bold text-xs rounded-lg border border-border-strong shadow-xs flex items-center gap-1 transition-colors"
             >
-              <span>Explore Master Case Queue (1,000)</span>
+              <span>View all cases</span>
               <span className="material-symbols-outlined text-[14px]">chevron_right</span>
             </Link>
           </div>
