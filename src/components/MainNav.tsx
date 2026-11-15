@@ -15,90 +15,39 @@ export const MainNav: React.FC<MainNavProps> = ({ taskCount = 14 }) => {
 
   // Role-relevant navigation items
   // Core requirement: "Every role need not have same access. they only need to access their relevent info, actions tehy need ot do . make status of payment processing status common for all roles."
-  const navItems = [
-    // Farmer Personal Record
-    {
-      to: '/cases',
-      label: 'My PM-KISAN Record (എൻ്റെ വിവരങ്ങൾ)',
-      visible: role === 'farmer',
-    },
+  const isOfficer = role === 'krishi_bhavan' || role === 'district_nodal';
+  const isPartner = role === 'bank_branch' || role === 'akshaya' || role === 'village_office';
+  const [moreOpen, setMoreOpen] = React.useState(false);
 
-    // Krishi Bhavan & District Nodal Desks
-    {
-      to: '/dashboard',
-      label: t('navDashboard'),
-      visible: role === 'krishi_bhavan' || role === 'district_nodal',
-    },
-    {
-      to: '/escalations',
-      label: role === 'district_nodal' ? 'District Escalation Board' : t('navEscalations'),
-      visible: role === 'district_nodal' || role === 'krishi_bhavan',
-    },
-
-    // Partner Agency Tasks (Bank, Akshaya, Village Office)
+  // Main navigation kept to 4 items for officers; partner desks and farmers see only their own tools.
+  const navItems: { to: string; label: string; visible: boolean; badge?: number; highlight?: boolean }[] = [
+    { to: '/dashboard', label: t('navDashboard'), visible: isOfficer },
     {
       to: '/tasks',
-      label:
-        role === 'bank_branch'
-          ? 'Banking & NPCI Tasks Desk'
-          : role === 'akshaya'
-          ? 'Akshaya e-KYC Desk'
-          : role === 'village_office'
-          ? 'Village Land RoR Desk'
-          : t('navTasks'),
+      label: 'My Tasks',
       badge: taskCount > 0 ? taskCount : undefined,
-      visible: role === 'bank_branch' || role === 'akshaya' || role === 'village_office',
+      visible: isPartner,
     },
-
-    // Officer Cases Queue
-    {
-      to: '/cases',
-      label:
-        role === 'bank_branch'
-          ? 'Bank Linked Cases'
-          : role === 'akshaya'
-          ? 'e-KYC Tokens'
-          : role === 'village_office'
-          ? 'Cadastre Disputes'
-          : t('navCases'),
-      visible: role !== 'farmer',
-    },
-
-    // COMMON TO ALL ROLES: Payment Processing Status
-    {
-      to: '/payment-status',
-      label: role === 'farmer' ? 'Payment Status (പേയ്മെന്റ് സ്ഥിതി)' : 'Payment Processing Status (വിതരണ സ്ഥിതി)',
-      visible: true, // Visible to all roles!
-      highlight: true,
-    },
-
-    // Voice Assist
+    { to: '/cases', label: role === 'farmer' ? 'My PM-KISAN Record (എൻ്റെ വിവരങ്ങൾ)' : 'Cases', visible: true },
     {
       to: '/voice/K104',
-      label: role === 'farmer' ? 'Malayalam Audio Advice (ശബ്ദ സന്ദേശം)' : t('navVoice'),
-      visible: role === 'krishi_bhavan' || role === 'district_nodal' || role === 'farmer',
+      label: role === 'farmer' ? 'Malayalam Audio Advice (ശബ്ദ സന്ദേശം)' : 'Voice & Follow-up',
+      visible: isOfficer || role === 'farmer',
     },
-
-    // Revalidate Engine
+    { to: '/reports', label: 'Reports', visible: isOfficer },
     {
-      to: '/revalidate',
-      label: t('navRevalidate'),
-      visible: role === 'krishi_bhavan' || role === 'bank_branch' || role === 'district_nodal',
+      to: '/payment-status',
+      label: role === 'farmer' ? 'Payment Status (പേയ്മെന്റ് സ്ഥിതി)' : 'Payment Status',
+      visible: !isOfficer,
     },
+  ];
 
-    // Reports & Analytics
-    {
-      to: '/reports',
-      label: t('navReports'),
-      visible: role === 'krishi_bhavan' || role === 'district_nodal',
-    },
-
-    // System Import / Sync
-    {
-      to: '/import',
-      label: t('navImport'),
-      visible: role === 'district_nodal',
-    },
+  // Restricted tools, reachable from a single "More tools" menu (officers only)
+  const moreItems = [
+    { to: '/escalations', label: role === 'district_nodal' ? 'Escalation Board' : 'Escalations' },
+    { to: '/revalidate', label: 'Revalidate' },
+    { to: '/payment-status', label: 'Payment Status' },
+    ...(role === 'district_nodal' ? [{ to: '/import', label: 'Import Data' }] : []),
   ];
 
   return (
@@ -106,7 +55,7 @@ export const MainNav: React.FC<MainNavProps> = ({ taskCount = 14 }) => {
       aria-label="Primary Administrative Navigation"
       className="bg-primary-container text-on-primary shadow-sm flex-shrink-0"
     >
-      <div className="max-w-7xl mx-auto px-gutter flex items-center justify-between overflow-x-auto">
+      <div className="max-w-7xl mx-auto px-gutter flex items-center justify-between flex-wrap">
         <div className="flex items-center">
           {navItems
             .filter((item) => item.visible)
@@ -135,12 +84,41 @@ export const MainNav: React.FC<MainNavProps> = ({ taskCount = 14 }) => {
                 )}
               </NavLink>
             ))}
+          {isOfficer && (
+            <div className="relative">
+              <button
+                type="button"
+                aria-haspopup="menu"
+                aria-expanded={moreOpen}
+                onClick={() => setMoreOpen((o) => !o)}
+                onBlur={() => setTimeout(() => setMoreOpen(false), 150)}
+                className="px-space-md py-3.5 whitespace-nowrap font-label-md text-label-md flex items-center gap-1 text-on-primary/90 hover:text-on-primary hover:bg-primary/50 border-b-2 border-transparent"
+              >
+                <span>More tools</span>
+                <span className="material-symbols-outlined text-[16px]">expand_more</span>
+              </button>
+              {moreOpen && (
+                <div role="menu" className="absolute left-0 top-full z-50 mt-0.5 w-48 rounded-lg bg-surface-card text-on-surface shadow-lg border border-border-subtle py-1">
+                  {moreItems.map((m) => (
+                    <NavLink
+                      key={m.to}
+                      to={m.to}
+                      role="menuitem"
+                      className="block px-3 py-2 text-sm hover:bg-surface-container-low"
+                    >
+                      {m.label}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Status Indicator */}
         <div className="hidden md:flex items-center gap-space-xs text-on-primary/80 font-body-sm text-body-sm whitespace-nowrap pl-4">
-          <span className="inline-block w-2 h-2 rounded-full bg-status-ready animate-pulse" />
-          <span>PFMS & NPCI Gateway: Operational</span>
+          <span className="inline-block w-2 h-2 rounded-full bg-accent-saffron" />
+          <span>Demo mode · simulated PFMS / NPCI data</span>
         </div>
       </div>
     </nav>

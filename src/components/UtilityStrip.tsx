@@ -147,16 +147,6 @@ export const UtilityStrip: React.FC<UtilityStripProps> = ({ onResetDemo }) => {
             <>
               <button
                 type="button"
-                onClick={() => setShowNicSimulator(true)}
-                className="bg-accent-saffron text-primary hover:bg-accent-saffron/90 px-2.5 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider shadow-xs animate-pulse hover:animate-none"
-                title="Launch National Informatics Centre (NIC) SMS Dispatch Gateway"
-              >
-                <span className="material-symbols-outlined text-[14px]">sms</span>
-                <span className="font-extrabold">📲 Dispatch NIC SMS</span>
-              </button>
-
-              <button
-                type="button"
                 onClick={() => setShowSmsModal(true)}
                 className="text-on-primary/90 hover:text-white hover:bg-white/10 px-2 py-0.5 rounded transition-colors flex items-center gap-1 font-bold text-[11px] uppercase tracking-wider border border-white/20"
                 title="Configure Android SMS Gateway & Testing APIs"
